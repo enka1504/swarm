@@ -1,0 +1,652 @@
+[06:57:25] === FULL EVALUATION BENCHMARK ===
+[06:57:25] Model: /tmp/my_agent_submission.zip
+[06:57:25] UID: 0 (default fallback)
+[06:57:25] Workers requested: 12
+[06:57:25] Workers effective:  12
+[06:57:25] Profile: debug
+[06:57:25] RPC verbosity: mid
+[06:57:25] Host parallelism: process
+[06:57:25] Container mode: single-seed
+[06:57:25] Map types selected: type1_city, type2_open, type3_mountain, type4_village, type5_warehouse, type6_forest
+[06:57:25] Log file: /root/swarm/tuning_runs/bench_r54321_tuned_v3_18.log
+
+[06:57:25] Loading seeds from /root/swarm/tuning_runs/complete1_splits_r54321/complete1_r54321_18.json...
+  type1_city: [414518074, 3467621001, 2960088080]
+  type2_open: [3366584449, 1871954199, 253647362]
+  type3_mountain: [818260060, 671668121, 2433593901]
+  type4_village: [3216651070, 3892085651, 2917594737]
+  type5_warehouse: [1204407027, 2073101257, 2890245683]
+  type6_forest: [931686137, 1024745464, 3719621908]
+  Total: 18
+
+pybullet build time: Apr  6 2026 02:08:22
+[06:57:25] Initializing DockerSecureEvaluator...
+Seed progress:   0%|          | 0/18 [00:00<?, ?seed/s][06:57:25] RPC trace enabled (logging ping/reset plus every 250 act() steps; phase heartbeat every 120.0s)
+[06:57:25] Worker batch timeout hard cap: 300.0s
+[06:57:25] Progress timeout extension: +30.0s (stale<=3.0s, min_sim_advance=0.020s, max_total=1800.0s)
+[06:57:25] Running evaluation (12 workers, 18 seeds, container_mode=single-seed, host_parallelism=process, batches=18)...
+[06:57:25] Dispatch policy: heavy-aware scheduling enabled (heavy_groups=mountain,warehouse,forest; mountain<=1, warehouse<=1, max_heavy=4)
+[06:57:25] Adaptive backoff: enabled (fallback cap=2, cooldown=6 seeds, calibration spike>=250ms or cpu_factor>=1.50x)
+[06:57:25] Parent worker stall watchdog: 90.0s without worker heartbeat -> discard seed and replace worker
+[06:57:26] Dispatch batch 7/18 | worker=queued | group=type3_mountain | seeds=1 | first_seed=818260060 | last_seed=818260060 | active_limit=12
+[06:57:26] Dispatch batch 13/18 | worker=queued | group=type5_warehouse | seeds=1 | first_seed=1204407027 | last_seed=1204407027 | active_limit=12
+[06:57:26] Dispatch batch 10/18 | worker=queued | group=type4_village | seeds=1 | first_seed=3216651070 | last_seed=3216651070 | active_limit=12
+[06:57:26] Dispatch batch 11/18 | worker=queued | group=type4_village | seeds=1 | first_seed=3892085651 | last_seed=3892085651 | active_limit=12
+[06:57:26] Dispatch batch 12/18 | worker=queued | group=type4_village | seeds=1 | first_seed=2917594737 | last_seed=2917594737 | active_limit=12
+[06:57:26] Dispatch batch 16/18 | worker=queued | group=type6_forest | seeds=1 | first_seed=931686137 | last_seed=931686137 | active_limit=12
+[06:57:26] Dispatch batch 17/18 | worker=queued | group=type6_forest | seeds=1 | first_seed=1024745464 | last_seed=1024745464 | active_limit=12
+[06:57:26] Dispatch batch 1/18 | worker=queued | group=type1_city | seeds=1 | first_seed=414518074 | last_seed=414518074 | active_limit=12
+[06:57:26] Dispatch batch 2/18 | worker=queued | group=type1_city | seeds=1 | first_seed=3467621001 | last_seed=3467621001 | active_limit=12
+[06:57:26] Dispatch batch 3/18 | worker=queued | group=type1_city | seeds=1 | first_seed=2960088080 | last_seed=2960088080 | active_limit=12
+[06:57:26] Dispatch batch 4/18 | worker=queued | group=type2_open | seeds=1 | first_seed=3366584449 | last_seed=3366584449 | active_limit=12
+[06:57:26] Dispatch batch 5/18 | worker=queued | group=type2_open | seeds=1 | first_seed=1871954199 | last_seed=1871954199 | active_limit=12
+[06:57:26] [RPC TRACE][Worker 0][UID 0] prepare container=swarm_eval_0_w0_1775545046020 host_port=47537 seeds=1
+[06:57:26] [RPC TRACE][Worker 2][UID 0] prepare container=swarm_eval_0_w2_1775545046021 host_port=45951 seeds=1[06:57:26] [RPC TRACE][Worker 1][UID 0] prepare container=swarm_eval_0_w1_1775545046021 host_port=45845 seeds=1
+
+[06:57:26] [RPC TRACE][Worker 4][UID 0] prepare container=swarm_eval_0_w4_1775545046021 host_port=60793 seeds=1
+[06:57:26] [RPC TRACE][Worker 5][UID 0] prepare container=swarm_eval_0_w5_1775545046021 host_port=48231 seeds=1
+[06:57:26] [RPC TRACE][Worker 6][UID 0] prepare container=swarm_eval_0_w6_1775545046021 host_port=34713 seeds=1
+[06:57:26] [RPC TRACE][Worker 3][UID 0] prepare container=swarm_eval_0_w3_1775545046021 host_port=45053 seeds=1[06:57:26] [RPC TRACE][Worker 9][UID 0] prepare container=swarm_eval_0_w9_1775545046021 host_port=48001 seeds=1
+
+[06:57:26] [RPC TRACE][Worker 10][UID 0] prepare container=swarm_eval_0_w10_1775545046022 host_port=39127 seeds=1
+[06:57:26] [RPC TRACE][Worker 7][UID 0] prepare container=swarm_eval_0_w7_1775545046022 host_port=34555 seeds=1
+[06:57:26] [RPC TRACE][Worker 8][UID 0] prepare container=swarm_eval_0_w8_1775545046026 host_port=42633 seeds=1[06:57:26] [RPC TRACE][Worker 11][UID 0] prepare container=swarm_eval_0_w11_1775545046026 host_port=50201 seeds=1
+
+[06:57:26] [RPC TRACE][Worker 7][UID 0] container started successfully
+[06:57:26] [RPC TRACE][Worker 7][UID 0] no pip install required
+[06:57:26] [RPC TRACE][Worker 7][UID 0] applying network lockdown pid=2724553 validator_ip=172.17.0.1
+[06:57:26] [RPC TRACE][Worker 7][UID 0] network lockdown applied
+[06:57:26] [RPC TRACE][Worker 1][UID 0] container started successfully
+[06:57:26] [RPC TRACE][Worker 1][UID 0] no pip install required
+[06:57:26] [RPC TRACE][Worker 1][UID 0] applying network lockdown pid=2724593 validator_ip=172.17.0.1
+[06:57:26] [RPC TRACE][Worker 1][UID 0] network lockdown applied
+[06:57:26] [RPC TRACE][Worker 7][UID 0] submission main.py launched
+[06:57:26] [RPC TRACE][Worker 7][UID 0] waiting for rpc readiness (max_wait=30s)
+[06:57:26] [RPC TRACE][Worker 9][UID 0] container started successfully
+[06:57:26] [RPC TRACE][Worker 9][UID 0] no pip install required
+[06:57:26] [RPC TRACE][Worker 9][UID 0] applying network lockdown pid=2724894 validator_ip=172.17.0.1
+[06:57:26] [RPC TRACE][Worker 0][UID 0] container started successfully
+[06:57:26] [RPC TRACE][Worker 0][UID 0] no pip install required
+[06:57:26] [RPC TRACE][Worker 1][UID 0] submission main.py launched
+[06:57:26] [RPC TRACE][Worker 1][UID 0] waiting for rpc readiness (max_wait=30s)
+[06:57:26] [RPC TRACE][Worker 9][UID 0] network lockdown applied
+[06:57:26] [RPC TRACE][Worker 0][UID 0] applying network lockdown pid=2724940 validator_ip=172.17.0.1
+[06:57:26] [RPC TRACE][Worker 0][UID 0] network lockdown applied
+[06:57:26] [RPC TRACE][Worker 6][UID 0] container started successfully
+[06:57:26] [RPC TRACE][Worker 6][UID 0] no pip install required
+[06:57:26] [RPC TRACE][Worker 6][UID 0] applying network lockdown pid=2724962 validator_ip=172.17.0.1
+[06:57:26] [RPC TRACE][Worker 9][UID 0] submission main.py launched
+[06:57:26] [RPC TRACE][Worker 9][UID 0] waiting for rpc readiness (max_wait=30s)
+[06:57:26] [RPC TRACE][Worker 6][UID 0] network lockdown applied
+[06:57:26] [RPC TRACE][Worker 5][UID 0] container started successfully
+[06:57:26] [RPC TRACE][Worker 5][UID 0] no pip install required
+[06:57:26] [RPC TRACE][Worker 0][UID 0] submission main.py launched
+[06:57:26] [RPC TRACE][Worker 0][UID 0] waiting for rpc readiness (max_wait=30s)
+[06:57:26] [RPC TRACE][Worker 5][UID 0] applying network lockdown pid=2724892 validator_ip=172.17.0.1
+[06:57:26] [RPC TRACE][Worker 5][UID 0] network lockdown applied
+[06:57:26] [RPC TRACE][Worker 6][UID 0] submission main.py launched
+[06:57:26] [RPC TRACE][Worker 6][UID 0] waiting for rpc readiness (max_wait=30s)
+[06:57:26] [RPC TRACE][Worker 4][UID 0] container started successfully
+[06:57:26] [RPC TRACE][Worker 4][UID 0] no pip install required
+[06:57:26] [RPC TRACE][Worker 4][UID 0] applying network lockdown pid=2724890 validator_ip=172.17.0.1
+[06:57:26] [RPC TRACE][Worker 5][UID 0] submission main.py launched
+[06:57:26] [RPC TRACE][Worker 5][UID 0] waiting for rpc readiness (max_wait=30s)
+[06:57:26] [RPC TRACE][Worker 4][UID 0] network lockdown applied
+[06:57:26] [RPC TRACE][Worker 2][UID 0] container started successfully
+[06:57:26] [RPC TRACE][Worker 2][UID 0] no pip install required
+[06:57:26] [RPC TRACE][Worker 2][UID 0] applying network lockdown pid=2725010 validator_ip=172.17.0.1
+[06:57:26] [RPC TRACE][Worker 2][UID 0] network lockdown applied
+[06:57:26] [RPC TRACE][Worker 4][UID 0] submission main.py launched
+[06:57:26] [RPC TRACE][Worker 4][UID 0] waiting for rpc readiness (max_wait=30s)
+[06:57:26] [RPC TRACE][Worker 10][UID 0] container started successfully
+[06:57:26] [RPC TRACE][Worker 10][UID 0] no pip install required
+[06:57:26] [RPC TRACE][Worker 2][UID 0] submission main.py launched
+[06:57:26] [RPC TRACE][Worker 2][UID 0] waiting for rpc readiness (max_wait=30s)
+[06:57:26] [RPC TRACE][Worker 10][UID 0] applying network lockdown pid=2724976 validator_ip=172.17.0.1
+[06:57:26] [RPC TRACE][Worker 10][UID 0] network lockdown applied
+[06:57:26] [RPC TRACE][Worker 3][UID 0] container started successfully
+[06:57:26] [RPC TRACE][Worker 3][UID 0] no pip install required
+[06:57:26] [RPC TRACE][Worker 3][UID 0] applying network lockdown pid=2725019 validator_ip=172.17.0.1
+[06:57:26] [RPC TRACE][Worker 3][UID 0] network lockdown applied
+[06:57:27] [RPC TRACE][Worker 10][UID 0] submission main.py launched
+[06:57:27] [RPC TRACE][Worker 10][UID 0] waiting for rpc readiness (max_wait=30s)
+[06:57:27] [RPC TRACE][Worker 11][UID 0] container started successfully
+[06:57:27] [RPC TRACE][Worker 11][UID 0] no pip install required
+[06:57:27] [RPC TRACE][Worker 11][UID 0] applying network lockdown pid=2725017 validator_ip=172.17.0.1
+[06:57:27] [RPC TRACE][Worker 3][UID 0] submission main.py launched
+[06:57:27] [RPC TRACE][Worker 3][UID 0] waiting for rpc readiness (max_wait=30s)
+[06:57:27] [RPC TRACE][Worker 11][UID 0] network lockdown applied
+[06:57:27] [RPC TRACE][Worker 8][UID 0] container started successfully
+[06:57:27] [RPC TRACE][Worker 8][UID 0] no pip install required
+[06:57:27] [RPC TRACE][Worker 8][UID 0] applying network lockdown pid=2725018 validator_ip=172.17.0.1
+[06:57:27] [RPC TRACE][Worker 8][UID 0] network lockdown applied
+[06:57:27] [RPC TRACE][Worker 11][UID 0] submission main.py launched
+[06:57:27] [RPC TRACE][Worker 11][UID 0] waiting for rpc readiness (max_wait=30s)
+[06:57:27] [RPC TRACE][Worker 8][UID 0] submission main.py launched
+[06:57:27] [RPC TRACE][Worker 8][UID 0] waiting for rpc readiness (max_wait=30s)
+[06:57:30] [RPC TRACE][Worker 7][UID 0] rpc ready after 4.0s
+[06:57:30] [RPC TRACE][Worker 7][UID 0] starting rpc batch with timeout=240.0s (base=240.0s x 1.00 hard_cap=300.0s)
+[06:57:30] [RPC TRACE][Worker 7][UID 0] progress timeout extension enabled: +30.0s when stale<=3.0s and sim advances>=0.020s (max_total=1800.0s)
+[06:57:30] [RPC TRACE][UID 0][port 34555] rpc phase heartbeat enabled every 120.0s
+[06:57:30] [RPC TRACE][UID 0][port 34555] connect attempt 1/6
+[06:57:30] [RPC TRACE][UID 0][port 34555] ping ok (attempt 1) response=pong
+[06:57:30] [RPC TRACE][UID 0][port 34555] seed 1/18 map_seed=414518074 type=1 start horizon=60.0s
+[06:57:30] [RPC TRACE][UID 0][port 34555] seed 1/18 map_seed=414518074 type=1 building env
+[06:57:30] [RPC TRACE][Worker 1][UID 0] rpc ready after 4.0s
+[06:57:30] [RPC TRACE][Worker 1][UID 0] starting rpc batch with timeout=240.0s (base=240.0s x 1.00 hard_cap=300.0s)
+[06:57:30] [RPC TRACE][Worker 1][UID 0] progress timeout extension enabled: +30.0s when stale<=3.0s and sim advances>=0.020s (max_total=1800.0s)
+[06:57:30] [RPC TRACE][UID 0][port 45845] rpc phase heartbeat enabled every 120.0s
+[06:57:30] [RPC TRACE][UID 0][port 45845] connect attempt 1/6
+[06:57:30] [RPC TRACE][UID 0][port 45845] ping ok (attempt 1) response=pong
+[06:57:30] [RPC TRACE][UID 0][port 45845] seed 13/18 map_seed=1204407027 type=5 start horizon=60.0s
+[06:57:30] [RPC TRACE][UID 0][port 45845] seed 13/18 map_seed=1204407027 type=5 building env
+[06:57:30] [RPC TRACE][Worker 9][UID 0] rpc ready after 4.0s
+[06:57:30] [RPC TRACE][Worker 9][UID 0] starting rpc batch with timeout=240.0s (base=240.0s x 1.00 hard_cap=300.0s)
+[06:57:30] [RPC TRACE][Worker 9][UID 0] progress timeout extension enabled: +30.0s when stale<=3.0s and sim advances>=0.020s (max_total=1800.0s)
+[06:57:30] [RPC TRACE][UID 0][port 48001] rpc phase heartbeat enabled every 120.0s
+[06:57:30] [RPC TRACE][UID 0][port 48001] connect attempt 1/6
+[06:57:30] [RPC TRACE][UID 0][port 48001] ping ok (attempt 1) response=pong
+[06:57:30] [RPC TRACE][UID 0][port 48001] seed 3/18 map_seed=2960088080 type=1 start horizon=60.0s
+[06:57:30] [RPC TRACE][UID 0][port 48001] seed 3/18 map_seed=2960088080 type=1 building env
+[06:57:30] [RPC TRACE][Worker 0][UID 0] rpc ready after 4.0s
+[06:57:30] [RPC TRACE][Worker 0][UID 0] starting rpc batch with timeout=240.0s (base=240.0s x 1.00 hard_cap=300.0s)
+[06:57:30] [RPC TRACE][Worker 0][UID 0] progress timeout extension enabled: +30.0s when stale<=3.0s and sim advances>=0.020s (max_total=1800.0s)
+[06:57:30] [RPC TRACE][UID 0][port 47537] rpc phase heartbeat enabled every 120.0s
+[06:57:30] [RPC TRACE][UID 0][port 47537] connect attempt 1/6
+[06:57:30] [RPC TRACE][UID 0][port 47537] ping ok (attempt 1) response=pong
+[06:57:30] [RPC TRACE][UID 0][port 47537] seed 7/18 map_seed=818260060 type=3 start horizon=60.0s
+[06:57:30] [RPC TRACE][UID 0][port 47537] seed 7/18 map_seed=818260060 type=3 building env
+[06:57:30] [RPC TRACE][Worker 6][UID 0] rpc ready after 4.0s
+[06:57:30] [RPC TRACE][Worker 6][UID 0] starting rpc batch with timeout=240.0s (base=240.0s x 1.00 hard_cap=300.0s)
+[06:57:30] [RPC TRACE][Worker 6][UID 0] progress timeout extension enabled: +30.0s when stale<=3.0s and sim advances>=0.020s (max_total=1800.0s)
+[06:57:30] [RPC TRACE][UID 0][port 34713] rpc phase heartbeat enabled every 120.0s
+[06:57:30] [RPC TRACE][UID 0][port 34713] connect attempt 1/6
+[06:57:30] [RPC TRACE][UID 0][port 34713] ping ok (attempt 1) response=pong
+[06:57:30] [RPC TRACE][UID 0][port 34713] seed 17/18 map_seed=1024745464 type=6 start horizon=60.0s
+[06:57:30] [RPC TRACE][UID 0][port 34713] seed 17/18 map_seed=1024745464 type=6 building env
+[06:57:30] [RPC TRACE][Worker 5][UID 0] rpc ready after 4.0s
+[06:57:30] [RPC TRACE][Worker 5][UID 0] starting rpc batch with timeout=240.0s (base=240.0s x 1.00 hard_cap=300.0s)
+[06:57:30] [RPC TRACE][Worker 5][UID 0] progress timeout extension enabled: +30.0s when stale<=3.0s and sim advances>=0.020s (max_total=1800.0s)
+[06:57:30] [RPC TRACE][UID 0][port 48231] rpc phase heartbeat enabled every 120.0s
+[06:57:30] [RPC TRACE][UID 0][port 48231] connect attempt 1/6
+[06:57:30] [RPC TRACE][UID 0][port 48231] ping ok (attempt 1) response=pong
+[06:57:30] [RPC TRACE][UID 0][port 48231] seed 16/18 map_seed=931686137 type=6 start horizon=60.0s
+[06:57:30] [RPC TRACE][UID 0][port 48231] seed 16/18 map_seed=931686137 type=6 building env
+[06:57:30] [RPC TRACE][Worker 4][UID 0] rpc ready after 4.0s
+[06:57:30] [RPC TRACE][Worker 4][UID 0] starting rpc batch with timeout=240.0s (base=240.0s x 1.00 hard_cap=300.0s)
+[06:57:30] [RPC TRACE][Worker 4][UID 0] progress timeout extension enabled: +30.0s when stale<=3.0s and sim advances>=0.020s (max_total=1800.0s)
+[06:57:30] [RPC TRACE][UID 0][port 60793] rpc phase heartbeat enabled every 120.0s
+[06:57:30] [RPC TRACE][UID 0][port 60793] connect attempt 1/6
+[06:57:30] [RPC TRACE][UID 0][port 60793] ping ok (attempt 1) response=pong
+[06:57:30] [RPC TRACE][UID 0][port 60793] seed 12/18 map_seed=2917594737 type=4 start horizon=60.0s
+[06:57:30] [RPC TRACE][UID 0][port 60793] seed 12/18 map_seed=2917594737 type=4 building env
+[06:57:30] [RPC TRACE][Worker 2][UID 0] rpc ready after 4.1s
+[06:57:30] [RPC TRACE][Worker 2][UID 0] starting rpc batch with timeout=240.0s (base=240.0s x 1.00 hard_cap=300.0s)
+[06:57:30] [RPC TRACE][Worker 2][UID 0] progress timeout extension enabled: +30.0s when stale<=3.0s and sim advances>=0.020s (max_total=1800.0s)
+[06:57:30] [RPC TRACE][UID 0][port 45951] rpc phase heartbeat enabled every 120.0s
+[06:57:30] [RPC TRACE][UID 0][port 45951] connect attempt 1/6
+[06:57:30] [RPC TRACE][UID 0][port 45951] ping ok (attempt 1) response=pong
+[06:57:30] [RPC TRACE][UID 0][port 45951] seed 10/18 map_seed=3216651070 type=4 start horizon=60.0s
+[06:57:30] [RPC TRACE][UID 0][port 45951] seed 10/18 map_seed=3216651070 type=4 building env
+[06:57:31] [RPC TRACE][Worker 10][UID 0] rpc ready after 4.0s
+[06:57:31] [RPC TRACE][Worker 10][UID 0] starting rpc batch with timeout=240.0s (base=240.0s x 1.00 hard_cap=300.0s)
+[06:57:31] [RPC TRACE][Worker 10][UID 0] progress timeout extension enabled: +30.0s when stale<=3.0s and sim advances>=0.020s (max_total=1800.0s)
+[06:57:31] [RPC TRACE][UID 0][port 39127] rpc phase heartbeat enabled every 120.0s
+[06:57:31] [RPC TRACE][UID 0][port 39127] connect attempt 1/6
+[06:57:31] [RPC TRACE][UID 0][port 39127] ping ok (attempt 1) response=pong
+[06:57:31] [RPC TRACE][UID 0][port 39127] seed 4/18 map_seed=3366584449 type=2 start horizon=60.0s
+[06:57:31] [RPC TRACE][UID 0][port 39127] seed 4/18 map_seed=3366584449 type=2 building env
+[06:57:31] [RPC TRACE][Worker 3][UID 0] rpc ready after 4.1s
+[06:57:31] [RPC TRACE][Worker 3][UID 0] starting rpc batch with timeout=240.0s (base=240.0s x 1.00 hard_cap=300.0s)
+[06:57:31] [RPC TRACE][Worker 3][UID 0] progress timeout extension enabled: +30.0s when stale<=3.0s and sim advances>=0.020s (max_total=1800.0s)
+[06:57:31] [RPC TRACE][UID 0][port 45053] rpc phase heartbeat enabled every 120.0s
+[06:57:31] [RPC TRACE][UID 0][port 45053] connect attempt 1/6
+[06:57:31] [RPC TRACE][UID 0][port 45053] ping ok (attempt 1) response=pong
+[06:57:31] [RPC TRACE][UID 0][port 45053] seed 11/18 map_seed=3892085651 type=4 start horizon=60.0s
+[06:57:31] [RPC TRACE][UID 0][port 45053] seed 11/18 map_seed=3892085651 type=4 building env
+[06:57:31] [RPC TRACE][Worker 11][UID 0] rpc ready after 4.1s
+[06:57:31] [RPC TRACE][Worker 11][UID 0] starting rpc batch with timeout=240.0s (base=240.0s x 1.00 hard_cap=300.0s)
+[06:57:31] [RPC TRACE][Worker 11][UID 0] progress timeout extension enabled: +30.0s when stale<=3.0s and sim advances>=0.020s (max_total=1800.0s)
+[06:57:31] [RPC TRACE][UID 0][port 50201] rpc phase heartbeat enabled every 120.0s
+[06:57:31] [RPC TRACE][UID 0][port 50201] connect attempt 1/6
+[06:57:31] [RPC TRACE][Worker 8][UID 0] rpc ready after 4.1s
+[06:57:31] [RPC TRACE][UID 0][port 50201] ping ok (attempt 1) response=pong
+[06:57:31] [RPC TRACE][UID 0][port 50201] seed 5/18 map_seed=1871954199 type=2 start horizon=60.0s
+[06:57:31] [RPC TRACE][UID 0][port 50201] seed 5/18 map_seed=1871954199 type=2 building env
+[06:57:31] [RPC TRACE][Worker 8][UID 0] starting rpc batch with timeout=240.0s (base=240.0s x 1.00 hard_cap=300.0s)
+[06:57:31] [RPC TRACE][Worker 8][UID 0] progress timeout extension enabled: +30.0s when stale<=3.0s and sim advances>=0.020s (max_total=1800.0s)
+[06:57:31] [RPC TRACE][UID 0][port 42633] rpc phase heartbeat enabled every 120.0s
+[06:57:31] [RPC TRACE][UID 0][port 42633] connect attempt 1/6
+[06:57:31] [RPC TRACE][UID 0][port 42633] ping ok (attempt 1) response=pong
+[06:57:31] [RPC TRACE][UID 0][port 42633] seed 2/18 map_seed=3467621001 type=1 start horizon=60.0s
+[06:57:31] [RPC TRACE][UID 0][port 42633] seed 2/18 map_seed=3467621001 type=1 building env
+[06:57:31] [RPC TRACE][UID 0][port 39127] seed 4/18 map_seed=3366584449 type=2 env built in 0.26s
+[06:57:31] [RPC TRACE][UID 0][port 39127] seed 4/18 map_seed=3366584449 type=2 env.reset() start
+[06:57:31] [RPC TRACE][UID 0][port 39127] seed 4/18 map_seed=3366584449 type=2 env.reset() done in 0.14s
+[06:57:31] [RPC TRACE][UID 0][port 39127] seed 4/18 map_seed=3366584449 type=2 reset ok in 2.5ms
+[06:57:31] [RPC TRACE][UID 0][port 50201] seed 5/18 map_seed=1871954199 type=2 env built in 0.30s
+[06:57:31] [RPC TRACE][UID 0][port 50201] seed 5/18 map_seed=1871954199 type=2 env.reset() start
+[06:57:31] [RPC TRACE][UID 0][port 34555] seed 1/18 map_seed=414518074 type=1 env built in 0.99s
+[06:57:31] [RPC TRACE][UID 0][port 34555] seed 1/18 map_seed=414518074 type=1 env.reset() start
+[06:57:31] [RPC TRACE][UID 0][port 48001] seed 3/18 map_seed=2960088080 type=1 env built in 0.95s
+[06:57:31] [RPC TRACE][UID 0][port 48001] seed 3/18 map_seed=2960088080 type=1 env.reset() start
+[06:57:31] [RPC TRACE][UID 0][port 50201] seed 5/18 map_seed=1871954199 type=2 env.reset() done in 0.14s
+[06:57:31] [RPC TRACE][UID 0][port 50201] seed 5/18 map_seed=1871954199 type=2 reset ok in 1.3ms
+[06:57:31] [RPC TRACE][UID 0][port 39127] rpc_calibration step timeout=535.7ms (overhead=20.7ms cpu_factor=1.00x)
+[06:57:31] [RPC TRACE][UID 0][port 39127] seed 4/18 map_seed=3366584449 type=2 step=1 t_sim=0.00s act_ok=5.3ms timeout=2000ms
+[06:57:32] [RPC TRACE][UID 0][port 50201] rpc_calibration step timeout=539.1ms (overhead=21.2ms cpu_factor=1.01x)
+[06:57:32] [RPC TRACE][UID 0][port 50201] seed 5/18 map_seed=1871954199 type=2 step=1 t_sim=0.00s act_ok=3.9ms timeout=2000ms
+[06:57:32] [RPC TRACE][UID 0][port 34555] seed 1/18 map_seed=414518074 type=1 env.reset() done in 0.74s
+[06:57:32] [RPC TRACE][UID 0][port 34555] seed 1/18 map_seed=414518074 type=1 reset ok in 1.3ms
+[06:57:32] [RPC TRACE][UID 0][port 48001] seed 3/18 map_seed=2960088080 type=1 env.reset() done in 0.70s
+[06:57:32] [RPC TRACE][UID 0][port 48001] seed 3/18 map_seed=2960088080 type=1 reset ok in 1.8ms
+[06:57:32] [RPC TRACE][UID 0][port 34713] seed 17/18 map_seed=1024745464 type=6 env built in 1.67s
+[06:57:32] [RPC TRACE][UID 0][port 34713] seed 17/18 map_seed=1024745464 type=6 env.reset() start
+[06:57:32] [RPC TRACE][UID 0][port 34555] rpc_calibration step timeout=540.6ms (overhead=20.0ms cpu_factor=1.01x)
+[06:57:32] [RPC TRACE][UID 0][port 34555] seed 1/18 map_seed=414518074 type=1 step=1 t_sim=0.00s act_ok=2.6ms timeout=2000ms
+[06:57:32] [RPC TRACE][UID 0][port 48001] rpc_calibration step timeout=535.4ms (overhead=20.4ms cpu_factor=1.00x)
+[06:57:32] [RPC TRACE][UID 0][port 48001] seed 3/18 map_seed=2960088080 type=1 step=1 t_sim=0.00s act_ok=3.5ms timeout=2000ms
+[06:57:32] [RPC TRACE][UID 0][port 42633] seed 2/18 map_seed=3467621001 type=1 env built in 1.56s
+[06:57:32] [RPC TRACE][UID 0][port 42633] seed 2/18 map_seed=3467621001 type=1 env.reset() start
+[06:57:33] [RPC TRACE][UID 0][port 48231] seed 16/18 map_seed=931686137 type=6 env built in 2.29s
+[06:57:33] [RPC TRACE][UID 0][port 48231] seed 16/18 map_seed=931686137 type=6 env.reset() start
+[06:57:33] [RPC TRACE][UID 0][port 34713] seed 17/18 map_seed=1024745464 type=6 env.reset() done in 0.74s
+[06:57:33] [RPC TRACE][UID 0][port 34713] seed 17/18 map_seed=1024745464 type=6 reset ok in 1.4ms
+[06:57:33] [RPC TRACE][UID 0][port 34713] rpc_calibration step timeout=535.7ms (overhead=20.7ms cpu_factor=1.00x)
+[06:57:33] [RPC TRACE][UID 0][port 34713] seed 17/18 map_seed=1024745464 type=6 step=1 t_sim=0.00s act_ok=17.7ms timeout=2000ms
+[06:57:33] [RPC TRACE][UID 0][port 42633] seed 2/18 map_seed=3467621001 type=1 env.reset() done in 0.94s
+[06:57:33] [RPC TRACE][UID 0][port 42633] seed 2/18 map_seed=3467621001 type=1 reset ok in 1.8ms
+[06:57:34] [RPC TRACE][UID 0][port 42633] rpc_calibration step timeout=534.3ms (overhead=19.3ms cpu_factor=1.00x)
+[06:57:34] [RPC TRACE][UID 0][port 42633] seed 2/18 map_seed=3467621001 type=1 step=1 t_sim=0.00s act_ok=2.2ms timeout=2000ms
+[06:57:34] [RPC TRACE][UID 0][port 60793] seed 12/18 map_seed=2917594737 type=4 env built in 3.29s
+[06:57:34] [RPC TRACE][UID 0][port 60793] seed 12/18 map_seed=2917594737 type=4 env.reset() start
+[06:57:34] [RPC TRACE][UID 0][port 45951] seed 10/18 map_seed=3216651070 type=4 env built in 3.31s
+[06:57:34] [RPC TRACE][UID 0][port 45951] seed 10/18 map_seed=3216651070 type=4 env.reset() start
+[06:57:34] [RPC TRACE][UID 0][port 48231] seed 16/18 map_seed=931686137 type=6 env.reset() done in 1.18s
+[06:57:34] [RPC TRACE][UID 0][port 48231] seed 16/18 map_seed=931686137 type=6 reset ok in 1.6ms
+[06:57:34] [RPC TRACE][UID 0][port 50201] seed 5/18 map_seed=1871954199 type=2 step=250 t_sim=4.98s act_ok=3.0ms timeout=539ms
+[06:57:34] [RPC TRACE][UID 0][port 39127] seed 4/18 map_seed=3366584449 type=2 step=250 t_sim=4.98s act_ok=3.1ms timeout=536ms
+[06:57:34] [RPC TRACE][UID 0][port 45053] seed 11/18 map_seed=3892085651 type=4 env built in 3.27s
+[06:57:34] [RPC TRACE][UID 0][port 45053] seed 11/18 map_seed=3892085651 type=4 env.reset() start
+[06:57:34] [RPC TRACE][UID 0][port 48231] rpc_calibration step timeout=542.3ms (overhead=19.8ms cpu_factor=1.02x)
+[06:57:34] [RPC TRACE][UID 0][port 48231] seed 16/18 map_seed=931686137 type=6 step=1 t_sim=0.00s act_ok=25.7ms timeout=2000ms
+[06:57:34] [RPC TRACE][UID 0][port 48001] seed 3/18 map_seed=2960088080 type=1 step=250 t_sim=4.98s act_ok=2.5ms timeout=535ms
+[06:57:35] [RPC TRACE][UID 0][port 34555] seed 1/18 map_seed=414518074 type=1 step=250 t_sim=4.98s act_ok=2.7ms timeout=541ms
+[06:57:36] [RPC TRACE][UID 0][port 47537] seed 7/18 map_seed=818260060 type=3 env built in 5.88s
+[06:57:36] [RPC TRACE][UID 0][port 47537] seed 7/18 map_seed=818260060 type=3 env.reset() start
+[06:57:36] [RPC TRACE][UID 0][port 45951] seed 10/18 map_seed=3216651070 type=4 env.reset() done in 2.35s
+[06:57:36] [RPC TRACE][UID 0][port 45951] seed 10/18 map_seed=3216651070 type=4 reset ok in 1.2ms
+[06:57:36] [RPC TRACE][UID 0][port 39127] seed 4/18 map_seed=3366584449 type=2 step=500 t_sim=9.98s act_ok=3.0ms timeout=536ms
+[06:57:36] [RPC TRACE][UID 0][port 48001] seed 3/18 map_seed=2960088080 type=1 step=500 t_sim=9.98s act_ok=3.1ms timeout=535ms
+[06:57:36] [RPC TRACE][UID 0][port 60793] seed 12/18 map_seed=2917594737 type=4 env.reset() done in 2.46s
+[06:57:36] [RPC TRACE][UID 0][port 60793] seed 12/18 map_seed=2917594737 type=4 reset ok in 1.3ms
+[06:57:36] [RPC TRACE][UID 0][port 50201] seed 5/18 map_seed=1871954199 type=2 terminated=True truncated=False success=True t_sim=8.60s strikes=0
+[06:57:36] [RPC TRACE][UID 0][port 50201] seed 5/18 map_seed=1871954199 type=2 result success=True score=0.8739 t_sim=8.60s
+[06:57:36] [RPC TRACE][Worker 11][UID 0] batch complete (1 result(s))
+[06:57:36] [RPC TRACE][UID 0][port 45053] seed 11/18 map_seed=3892085651 type=4 env.reset() done in 2.46s
+[06:57:36] [RPC TRACE][UID 0][port 45053] seed 11/18 map_seed=3892085651 type=4 reset ok in 0.8ms
+[06:57:36] [RPC TRACE][UID 0][port 45951] rpc_calibration step timeout=533.8ms (overhead=18.8ms cpu_factor=1.00x)
+[06:57:36] [RPC TRACE][UID 0][port 45951] seed 10/18 map_seed=3216651070 type=4 step=1 t_sim=0.00s act_ok=2.0ms timeout=2000ms
+Seed progress:   6%|▌         | 1/18 [00:10<03:06, 10.98s/seed][06:57:37] [RPC TRACE][UID 0][port 60793] rpc_calibration step timeout=534.1ms (overhead=19.1ms cpu_factor=1.00x)
+[06:57:37] [RPC TRACE][UID 0][port 60793] seed 12/18 map_seed=2917594737 type=4 step=1 t_sim=0.00s act_ok=2.1ms timeout=2000ms
+[06:57:37] [RPC TRACE][UID 0][port 42633] seed 2/18 map_seed=3467621001 type=1 step=250 t_sim=4.98s act_ok=11.0ms timeout=534ms
+[06:57:37] [RPC TRACE][UID 0][port 45053] rpc_calibration step timeout=534.4ms (overhead=19.4ms cpu_factor=1.00x)
+[06:57:37] [RPC TRACE][UID 0][port 45053] seed 11/18 map_seed=3892085651 type=4 step=1 t_sim=0.00s act_ok=2.0ms timeout=2000ms
+[06:57:37] [RPC TRACE][Worker 11][UID 0] container cleaned up
+[06:57:37] Worker 11 complete | batch 5 | seeds=1 | elapsed=11.5s | startup=6.1s
+[06:57:37] Dispatch batch 6/18 | worker=queued | group=type2_open | seeds=1 | first_seed=253647362 | last_seed=253647362 | active_limit=12
+[06:57:37] [RPC TRACE][Worker 11][UID 0] prepare container=swarm_eval_0_w11_1775545057606 host_port=60069 seeds=1
+[06:57:37] [RPC TRACE][UID 0][port 34555] seed 1/18 map_seed=414518074 type=1 step=500 t_sim=9.98s act_ok=7.1ms timeout=541ms
+[06:57:38] [RPC TRACE][Worker 11][UID 0] container started successfully
+[06:57:38] [RPC TRACE][Worker 11][UID 0] no pip install required
+[06:57:38] [RPC TRACE][Worker 11][UID 0] applying network lockdown pid=2726376 validator_ip=172.17.0.1
+[06:57:38] [RPC TRACE][Worker 11][UID 0] network lockdown applied
+[06:57:38] [RPC TRACE][Worker 11][UID 0] submission main.py launched
+[06:57:38] [RPC TRACE][Worker 11][UID 0] waiting for rpc readiness (max_wait=30s)
+[06:57:38] [RPC TRACE][UID 0][port 34555] seed 1/18 map_seed=414518074 type=1 terminated=True truncated=False success=False t_sim=11.32s strikes=0
+[06:57:38] [RPC TRACE][UID 0][port 34555] seed 1/18 map_seed=414518074 type=1 result success=False score=0.0100 t_sim=11.32s
+[06:57:38] [RPC TRACE][UID 0][port 39127] seed 4/18 map_seed=3366584449 type=2 step=750 t_sim=14.98s act_ok=2.5ms timeout=536ms
+Seed progress:  11%|█         | 2/18 [00:12<01:28,  5.56s/seed, done=1/18, elapsed=0.2m, eta=3.1m][06:57:38] [RPC TRACE][Worker 7][UID 0] batch complete (1 result(s))
+[06:57:39] [RPC TRACE][Worker 7][UID 0] container cleaned up
+[06:57:39] Worker 7 complete | batch 1 | seeds=1 | elapsed=13.5s | startup=5.5s
+[06:57:39] Dispatch batch 8/18 | worker=queued | group=type3_mountain | seeds=1 | first_seed=671668121 | last_seed=671668121 | active_limit=12
+[06:57:39] [RPC TRACE][UID 0][port 48001] seed 3/18 map_seed=2960088080 type=1 step=750 t_sim=14.98s act_ok=36.6ms timeout=535ms
+[06:57:39] [RPC TRACE][Worker 7][UID 0] prepare container=swarm_eval_0_w7_1775545059591 host_port=43625 seeds=1
+[06:57:39] [RPC TRACE][UID 0][port 48001] seed 3/18 map_seed=2960088080 type=1 terminated=True truncated=False success=True t_sim=15.22s strikes=0
+[06:57:39] [RPC TRACE][UID 0][port 48001] seed 3/18 map_seed=2960088080 type=1 result success=True score=0.9230 t_sim=15.22s
+Seed progress:  17%|█▋        | 3/18 [00:13<00:53,  3.57s/seed, done=2/18, elapsed=0.2m, eta=1.7m][06:57:39] [RPC TRACE][Worker 7][UID 0] container started successfully
+[06:57:39] [RPC TRACE][Worker 7][UID 0] no pip install required
+[06:57:40] [RPC TRACE][UID 0][port 42633] seed 2/18 map_seed=3467621001 type=1 step=500 t_sim=9.98s act_ok=3.6ms timeout=534ms
+[06:57:40] [RPC TRACE][Worker 7][UID 0] applying network lockdown pid=2726594 validator_ip=172.17.0.1
+[06:57:40] [RPC TRACE][Worker 7][UID 0] network lockdown applied
+[06:57:40] [RPC TRACE][Worker 7][UID 0] submission main.py launched
+[06:57:40] [RPC TRACE][Worker 7][UID 0] waiting for rpc readiness (max_wait=30s)
+[06:57:40] [RPC TRACE][Worker 9][UID 0] batch complete (1 result(s))
+[06:57:40] [RPC TRACE][UID 0][port 45845] seed 13/18 map_seed=1204407027 type=5 env built in 9.84s
+[06:57:40] [RPC TRACE][UID 0][port 45845] seed 13/18 map_seed=1204407027 type=5 env.reset() start
+[06:57:40] [RPC TRACE][UID 0][port 39127] seed 4/18 map_seed=3366584449 type=2 step=1000 t_sim=19.98s act_ok=3.7ms timeout=536ms
+[06:57:40] [RPC TRACE][Worker 9][UID 0] container cleaned up
+[06:57:40] Worker 9 complete | batch 3 | seeds=1 | elapsed=14.8s | startup=5.6s
+[06:57:40] Dispatch batch 9/18 | worker=queued | group=type3_mountain | seeds=1 | first_seed=2433593901 | last_seed=2433593901 | active_limit=12
+[06:57:40] [RPC TRACE][Worker 9][UID 0] prepare container=swarm_eval_0_w9_1775545060845 host_port=43953 seeds=1
+[06:57:40] Heartbeat: 3/18 done | elapsed 0.3m | last completion 1s ago | ETA 1.3m
+[06:57:41] [RPC TRACE][Worker 9][UID 0] container started successfully
+[06:57:41] [RPC TRACE][Worker 9][UID 0] no pip install required
+[06:57:41] [RPC TRACE][Worker 9][UID 0] applying network lockdown pid=2726780 validator_ip=172.17.0.1
+[06:57:41] [RPC TRACE][Worker 9][UID 0] network lockdown applied
+[06:57:41] [RPC TRACE][Worker 9][UID 0] submission main.py launched
+[06:57:41] [RPC TRACE][Worker 9][UID 0] waiting for rpc readiness (max_wait=30s)
+[06:57:41] [RPC TRACE][UID 0][port 47537] seed 7/18 map_seed=818260060 type=3 env.reset() done in 4.93s
+[06:57:41] [RPC TRACE][UID 0][port 47537] seed 7/18 map_seed=818260060 type=3 reset ok in 0.9ms
+[06:57:41] [RPC TRACE][UID 0][port 47537] rpc_calibration step timeout=532.2ms (overhead=17.2ms cpu_factor=1.00x)
+[06:57:41] [RPC TRACE][UID 0][port 47537] seed 7/18 map_seed=818260060 type=3 step=1 t_sim=0.00s act_ok=1.5ms timeout=2000ms
+[06:57:42] [RPC TRACE][UID 0][port 45053] seed 11/18 map_seed=3892085651 type=4 step=250 t_sim=4.98s act_ok=1.5ms timeout=534ms
+[06:57:42] [RPC TRACE][UID 0][port 39127] seed 4/18 map_seed=3366584449 type=2 step=1250 t_sim=24.98s act_ok=1.6ms timeout=536ms
+[06:57:42] [RPC TRACE][UID 0][port 45951] seed 10/18 map_seed=3216651070 type=4 step=250 t_sim=4.98s act_ok=1.2ms timeout=534ms
+[06:57:42] [RPC TRACE][Worker 11][UID 0] rpc ready after 4.0s
+[06:57:42] [RPC TRACE][Worker 11][UID 0] starting rpc batch with timeout=240.0s (base=240.0s x 1.00 hard_cap=300.0s)
+[06:57:42] [RPC TRACE][Worker 11][UID 0] progress timeout extension enabled: +30.0s when stale<=3.0s and sim advances>=0.020s (max_total=1800.0s)
+[06:57:42] [RPC TRACE][UID 0][port 60069] rpc phase heartbeat enabled every 120.0s
+[06:57:42] [RPC TRACE][UID 0][port 60069] connect attempt 1/6
+[06:57:42] [RPC TRACE][UID 0][port 60069] ping ok (attempt 1) response=pong
+[06:57:42] [RPC TRACE][UID 0][port 60069] seed 6/18 map_seed=253647362 type=2 start horizon=60.0s
+[06:57:42] [RPC TRACE][UID 0][port 60069] seed 6/18 map_seed=253647362 type=2 building env
+[06:57:42] [RPC TRACE][UID 0][port 60069] seed 6/18 map_seed=253647362 type=2 env built in 0.18s
+[06:57:42] [RPC TRACE][UID 0][port 60069] seed 6/18 map_seed=253647362 type=2 env.reset() start
+[06:57:42] [RPC TRACE][UID 0][port 60069] seed 6/18 map_seed=253647362 type=2 env.reset() done in 0.11s
+[06:57:42] [RPC TRACE][UID 0][port 60069] seed 6/18 map_seed=253647362 type=2 reset ok in 0.8ms
+[06:57:43] [RPC TRACE][UID 0][port 60069] rpc_calibration step timeout=533.5ms (overhead=18.5ms cpu_factor=1.00x)
+[06:57:43] [RPC TRACE][UID 0][port 60069] seed 6/18 map_seed=253647362 type=2 step=1 t_sim=0.00s act_ok=2.4ms timeout=2000ms
+[06:57:43] [RPC TRACE][UID 0][port 60793] seed 12/18 map_seed=2917594737 type=4 step=250 t_sim=4.98s act_ok=1.1ms timeout=534ms
+[06:57:43] [RPC TRACE][UID 0][port 42633] seed 2/18 map_seed=3467621001 type=1 terminated=True truncated=False success=True t_sim=14.02s strikes=0
+[06:57:43] [RPC TRACE][UID 0][port 42633] seed 2/18 map_seed=3467621001 type=1 result success=True score=0.9261 t_sim=14.02s
+Seed progress:  22%|██▏       | 4/18 [00:17<00:50,  3.62s/seed, done=3/18, elapsed=0.2m, eta=1.2m][06:57:43] [RPC TRACE][UID 0][port 47537] seed 7/18 map_seed=818260060 type=3 terminated=True truncated=False success=False t_sim=1.32s strikes=0
+[06:57:43] [RPC TRACE][UID 0][port 47537] seed 7/18 map_seed=818260060 type=3 result success=False score=0.0100 t_sim=1.32s
+[06:57:43] [RPC TRACE][Worker 8][UID 0] batch complete (1 result(s))
+[06:57:43] [RPC TRACE][Worker 0][UID 0] batch complete (1 result(s))
+[06:57:44] [RPC TRACE][Worker 7][UID 0] rpc ready after 4.0s
+[06:57:44] [RPC TRACE][Worker 7][UID 0] starting rpc batch with timeout=240.0s (base=240.0s x 1.00 hard_cap=300.0s)
+[06:57:44] [RPC TRACE][Worker 7][UID 0] progress timeout extension enabled: +30.0s when stale<=3.0s and sim advances>=0.020s (max_total=1800.0s)
+[06:57:44] [RPC TRACE][UID 0][port 43625] rpc phase heartbeat enabled every 120.0s
+[06:57:44] [RPC TRACE][UID 0][port 43625] connect attempt 1/6
+[06:57:44] [RPC TRACE][UID 0][port 43625] ping ok (attempt 1) response=pong
+[06:57:44] [RPC TRACE][UID 0][port 43625] seed 8/18 map_seed=671668121 type=3 start horizon=60.0s
+[06:57:44] [RPC TRACE][UID 0][port 43625] seed 8/18 map_seed=671668121 type=3 building env
+[06:57:44] [RPC TRACE][UID 0][port 39127] seed 4/18 map_seed=3366584449 type=2 step=1500 t_sim=29.98s act_ok=1.8ms timeout=536ms
+[06:57:44] [RPC TRACE][Worker 8][UID 0] container cleaned up
+[06:57:44] Worker 8 complete | batch 2 | seeds=1 | elapsed=18.4s | startup=6.1s
+[06:57:44] Dispatch batch 14/18 | worker=queued | group=type5_warehouse | seeds=1 | first_seed=2073101257 | last_seed=2073101257 | active_limit=12
+[06:57:44] [RPC TRACE][Worker 8][UID 0] prepare container=swarm_eval_0_w8_1775545064463 host_port=39643 seeds=1
+[06:57:44] [RPC TRACE][Worker 0][UID 0] container cleaned up
+[06:57:44] Worker 0 complete | batch 7 | seeds=1 | elapsed=18.5s | startup=5.6s
+[06:57:44] Dispatch batch 15/18 | worker=queued | group=type5_warehouse | seeds=1 | first_seed=2890245683 | last_seed=2890245683 | active_limit=12
+[06:57:44] [RPC TRACE][Worker 0][UID 0] prepare container=swarm_eval_0_w0_1775545064610 host_port=51053 seeds=1
+[06:57:44] [RPC TRACE][Worker 8][UID 0] container started successfully
+[06:57:44] [RPC TRACE][Worker 8][UID 0] no pip install required
+[06:57:44] [RPC TRACE][Worker 8][UID 0] applying network lockdown pid=2727108 validator_ip=172.17.0.1
+[06:57:44] [RPC TRACE][Worker 8][UID 0] network lockdown applied
+[06:57:44] [RPC TRACE][Worker 8][UID 0] submission main.py launched
+[06:57:44] [RPC TRACE][Worker 8][UID 0] waiting for rpc readiness (max_wait=30s)
+[06:57:44] [RPC TRACE][UID 0][port 60069] seed 6/18 map_seed=253647362 type=2 step=250 t_sim=4.98s act_ok=2.5ms timeout=533ms
+[06:57:44] [RPC TRACE][Worker 0][UID 0] container started successfully
+[06:57:44] [RPC TRACE][Worker 0][UID 0] no pip install required
+[06:57:45] [RPC TRACE][Worker 0][UID 0] applying network lockdown pid=2727185 validator_ip=172.17.0.1
+[06:57:45] [RPC TRACE][Worker 0][UID 0] network lockdown applied
+[06:57:45] [RPC TRACE][Worker 0][UID 0] submission main.py launched
+[06:57:45] [RPC TRACE][Worker 0][UID 0] waiting for rpc readiness (max_wait=30s)
+[06:57:45] [RPC TRACE][UID 0][port 60793] seed 12/18 map_seed=2917594737 type=4 step=500 t_sim=9.98s act_ok=1.6ms timeout=534ms
+[06:57:45] [RPC TRACE][Worker 9][UID 0] rpc ready after 4.1s
+[06:57:45] [RPC TRACE][Worker 9][UID 0] starting rpc batch with timeout=240.0s (base=240.0s x 1.00 hard_cap=300.0s)
+[06:57:45] [RPC TRACE][Worker 9][UID 0] progress timeout extension enabled: +30.0s when stale<=3.0s and sim advances>=0.020s (max_total=1800.0s)
+[06:57:45] [RPC TRACE][UID 0][port 43953] rpc phase heartbeat enabled every 120.0s
+[06:57:45] [RPC TRACE][UID 0][port 43953] connect attempt 1/6
+[06:57:45] [RPC TRACE][UID 0][port 43953] ping ok (attempt 1) response=pong
+[06:57:45] [RPC TRACE][UID 0][port 43953] seed 9/18 map_seed=2433593901 type=3 start horizon=60.0s
+[06:57:45] [RPC TRACE][UID 0][port 43953] seed 9/18 map_seed=2433593901 type=3 building env
+[06:57:45] [RPC TRACE][UID 0][port 34713] seed 17/18 map_seed=1024745464 type=6 step=250 t_sim=4.98s act_ok=20.3ms timeout=536ms
+[06:57:45] [RPC TRACE][UID 0][port 45053] seed 11/18 map_seed=3892085651 type=4 step=500 t_sim=9.98s act_ok=1.7ms timeout=534ms
+[06:57:46] [RPC TRACE][UID 0][port 39127] seed 4/18 map_seed=3366584449 type=2 step=1750 t_sim=34.98s act_ok=2.6ms timeout=536ms
+[06:57:46] [RPC TRACE][UID 0][port 60793] seed 12/18 map_seed=2917594737 type=4 step=750 t_sim=14.98s act_ok=1.9ms timeout=534ms
+[06:57:46] [RPC TRACE][UID 0][port 60069] seed 6/18 map_seed=253647362 type=2 step=500 t_sim=9.98s act_ok=2.2ms timeout=533ms
+[06:57:48] [RPC TRACE][UID 0][port 60069] seed 6/18 map_seed=253647362 type=2 terminated=True truncated=False success=True t_sim=12.48s strikes=0
+[06:57:48] [RPC TRACE][UID 0][port 60069] seed 6/18 map_seed=253647362 type=2 result success=True score=0.8979 t_sim=12.48s
+Seed progress:  33%|███▎      | 6/18 [00:22<00:35,  2.97s/seed, done=5/18, elapsed=0.3m, eta=0.8m][06:57:48] [RPC TRACE][Worker 11][UID 0] batch complete (1 result(s))
+[06:57:48] [RPC TRACE][UID 0][port 39127] seed 4/18 map_seed=3366584449 type=2 step=2000 t_sim=39.98s act_ok=2.2ms timeout=536ms
+[06:57:48] [RPC TRACE][Worker 11][UID 0] container cleaned up
+[06:57:48] [RPC TRACE][UID 0][port 45845] seed 13/18 map_seed=1204407027 type=5 env.reset() done in 8.48s
+[06:57:48] [RPC TRACE][UID 0][port 45845] seed 13/18 map_seed=1204407027 type=5 reset ok in 1.8ms
+[06:57:49] [RPC TRACE][Worker 8][UID 0] rpc ready after 4.1s
+[06:57:49] Worker 11 complete | batch 6 | seeds=1 | elapsed=11.4s | startup=5.7s
+[06:57:49] Dispatch batch 18/18 | worker=queued | group=type6_forest | seeds=1 | first_seed=3719621908 | last_seed=3719621908 | active_limit=12
+[06:57:49] [RPC TRACE][Worker 11][UID 0] prepare container=swarm_eval_0_w11_1775545069027 host_port=57957 seeds=1
+[06:57:49] [RPC TRACE][Worker 8][UID 0] starting rpc batch with timeout=240.0s (base=240.0s x 1.00 hard_cap=300.0s)
+[06:57:49] [RPC TRACE][Worker 8][UID 0] progress timeout extension enabled: +30.0s when stale<=3.0s and sim advances>=0.020s (max_total=1800.0s)
+[06:57:49] [RPC TRACE][UID 0][port 39643] rpc phase heartbeat enabled every 120.0s
+[06:57:49] [RPC TRACE][UID 0][port 39643] connect attempt 1/6
+[06:57:49] [RPC TRACE][UID 0][port 39643] ping ok (attempt 1) response=pong
+[06:57:49] [RPC TRACE][UID 0][port 39643] seed 14/18 map_seed=2073101257 type=5 start horizon=60.0s
+[06:57:49] [RPC TRACE][UID 0][port 39643] seed 14/18 map_seed=2073101257 type=5 building env
+[06:57:49] [RPC TRACE][Worker 0][UID 0] rpc ready after 4.1s
+[06:57:49] [RPC TRACE][Worker 0][UID 0] starting rpc batch with timeout=240.0s (base=240.0s x 1.00 hard_cap=300.0s)
+[06:57:49] [RPC TRACE][Worker 0][UID 0] progress timeout extension enabled: +30.0s when stale<=3.0s and sim advances>=0.020s (max_total=1800.0s)
+[06:57:49] [RPC TRACE][UID 0][port 51053] rpc phase heartbeat enabled every 120.0s
+[06:57:49] [RPC TRACE][UID 0][port 51053] connect attempt 1/6
+[06:57:49] [RPC TRACE][UID 0][port 51053] ping ok (attempt 1) response=pong
+[06:57:49] [RPC TRACE][UID 0][port 51053] seed 15/18 map_seed=2890245683 type=5 start horizon=60.0s
+[06:57:49] [RPC TRACE][UID 0][port 51053] seed 15/18 map_seed=2890245683 type=5 building env
+[06:57:49] [RPC TRACE][UID 0][port 45845] rpc_calibration step timeout=549.3ms (overhead=21.2ms cpu_factor=1.03x)
+[06:57:49] [RPC TRACE][UID 0][port 45845] seed 13/18 map_seed=1204407027 type=5 step=1 t_sim=0.00s act_ok=33.6ms timeout=2000ms
+[06:57:49] [RPC TRACE][Worker 11][UID 0] container started successfully
+[06:57:49] [RPC TRACE][Worker 11][UID 0] no pip install required
+[06:57:49] [RPC TRACE][Worker 11][UID 0] applying network lockdown pid=2727497 validator_ip=172.17.0.1
+[06:57:49] [RPC TRACE][Worker 11][UID 0] network lockdown applied
+[06:57:49] [RPC TRACE][UID 0][port 43625] seed 8/18 map_seed=671668121 type=3 env built in 5.37s
+[06:57:49] [RPC TRACE][UID 0][port 43625] seed 8/18 map_seed=671668121 type=3 env.reset() start
+[06:57:49] [RPC TRACE][Worker 11][UID 0] submission main.py launched
+[06:57:49] [RPC TRACE][Worker 11][UID 0] waiting for rpc readiness (max_wait=30s)
+[06:57:49] [RPC TRACE][UID 0][port 60793] seed 12/18 map_seed=2917594737 type=4 step=1000 t_sim=19.98s act_ok=1.6ms timeout=534ms
+[06:57:50] [RPC TRACE][UID 0][port 45053] seed 11/18 map_seed=3892085651 type=4 step=750 t_sim=14.98s act_ok=2.0ms timeout=534ms
+[06:57:50] [RPC TRACE][UID 0][port 43953] seed 9/18 map_seed=2433593901 type=3 env built in 5.27s
+[06:57:50] [RPC TRACE][UID 0][port 43953] seed 9/18 map_seed=2433593901 type=3 env.reset() start
+[06:57:50] [RPC TRACE][UID 0][port 39127] seed 4/18 map_seed=3366584449 type=2 step=2250 t_sim=44.98s act_ok=2.0ms timeout=536ms
+[06:57:51] [RPC TRACE][UID 0][port 45951] seed 10/18 map_seed=3216651070 type=4 step=500 t_sim=9.98s act_ok=2.4ms timeout=534ms
+[06:57:52] [RPC TRACE][UID 0][port 45845] seed 13/18 map_seed=1204407027 type=5 terminated=False truncated=True success=False t_sim=1.14s strikes=0
+[06:57:52] [RPC TRACE][UID 0][port 45845] seed 13/18 map_seed=1204407027 type=5 result success=False score=0.0100 t_sim=1.14s
+[06:57:53] [RPC TRACE][Worker 1][UID 0] batch complete (1 result(s))
+[06:57:53] [RPC TRACE][UID 0][port 39643] seed 14/18 map_seed=2073101257 type=5 env built in 4.02s
+[06:57:53] [RPC TRACE][UID 0][port 39643] seed 14/18 map_seed=2073101257 type=5 env.reset() start
+Seed progress:  39%|███▉      | 7/18 [00:27<00:37,  3.44s/seed, done=6/18, elapsed=0.4m, eta=0.7m][06:57:53] [RPC TRACE][UID 0][port 39127] seed 4/18 map_seed=3366584449 type=2 step=2500 t_sim=49.98s act_ok=2.9ms timeout=536ms
+[06:57:53] [RPC TRACE][Worker 1][UID 0] container cleaned up
+[06:57:53] Worker 1 complete | batch 13 | seeds=1 | elapsed=27.7s | startup=5.4s
+[06:57:53] [RPC TRACE][Worker 11][UID 0] rpc ready after 4.1s
+[06:57:53] [RPC TRACE][Worker 11][UID 0] starting rpc batch with timeout=240.0s (base=240.0s x 1.00 hard_cap=300.0s)
+[06:57:53] [RPC TRACE][Worker 11][UID 0] progress timeout extension enabled: +30.0s when stale<=3.0s and sim advances>=0.020s (max_total=1800.0s)
+[06:57:53] [RPC TRACE][UID 0][port 57957] rpc phase heartbeat enabled every 120.0s
+[06:57:53] [RPC TRACE][UID 0][port 57957] connect attempt 1/6
+[06:57:53] [RPC TRACE][UID 0][port 57957] ping ok (attempt 1) response=pong
+[06:57:53] [RPC TRACE][UID 0][port 57957] seed 18/18 map_seed=3719621908 type=6 start horizon=60.0s
+[06:57:53] [RPC TRACE][UID 0][port 57957] seed 18/18 map_seed=3719621908 type=6 building env
+[06:57:54] [RPC TRACE][UID 0][port 60793] seed 12/18 map_seed=2917594737 type=4 step=1250 t_sim=24.98s act_ok=1.8ms timeout=534ms
+[06:57:55] [RPC TRACE][UID 0][port 43625] seed 8/18 map_seed=671668121 type=3 env.reset() done in 5.49s
+[06:57:55] [RPC TRACE][UID 0][port 43625] seed 8/18 map_seed=671668121 type=3 reset ok in 1.0ms
+[06:57:55] [RPC TRACE][UID 0][port 39127] seed 4/18 map_seed=3366584449 type=2 step=2750 t_sim=54.98s act_ok=33.4ms timeout=536ms
+[06:57:55] [RPC TRACE][UID 0][port 43953] seed 9/18 map_seed=2433593901 type=3 env.reset() done in 4.73s
+[06:57:55] [RPC TRACE][UID 0][port 43953] seed 9/18 map_seed=2433593901 type=3 reset ok in 1.2ms
+[06:57:55] [RPC TRACE][UID 0][port 43625] rpc_calibration step timeout=535.5ms (overhead=20.5ms cpu_factor=1.00x)
+[06:57:55] [RPC TRACE][UID 0][port 43625] seed 8/18 map_seed=671668121 type=3 step=1 t_sim=0.00s act_ok=1.9ms timeout=2000ms
+[06:57:55] [RPC TRACE][UID 0][port 43953] rpc_calibration step timeout=536.0ms (overhead=21.0ms cpu_factor=1.00x)
+[06:57:55] [RPC TRACE][UID 0][port 43953] seed 9/18 map_seed=2433593901 type=3 step=1 t_sim=0.00s act_ok=2.2ms timeout=2000ms
+[06:57:55] [RPC TRACE][UID 0][port 45951] seed 10/18 map_seed=3216651070 type=4 step=750 t_sim=14.98s act_ok=1.9ms timeout=534ms
+[06:57:55] [RPC TRACE][UID 0][port 57957] seed 18/18 map_seed=3719621908 type=6 env built in 2.09s
+[06:57:55] [RPC TRACE][UID 0][port 57957] seed 18/18 map_seed=3719621908 type=6 env.reset() start
+[06:57:55] Heartbeat: 7/18 done | elapsed 0.5m | last completion 3s ago | ETA 0.8m
+[06:57:56] [RPC TRACE][UID 0][port 39643] seed 14/18 map_seed=2073101257 type=5 env.reset() done in 3.57s
+[06:57:56] [RPC TRACE][UID 0][port 39643] seed 14/18 map_seed=2073101257 type=5 reset ok in 0.9ms
+[06:57:56] [RPC TRACE][UID 0][port 39643] rpc_calibration step timeout=534.6ms (overhead=19.6ms cpu_factor=1.00x)
+[06:57:56] [RPC TRACE][UID 0][port 39643] seed 14/18 map_seed=2073101257 type=5 step=1 t_sim=0.00s act_ok=11.8ms timeout=2000ms
+[06:57:57] [RPC TRACE][UID 0][port 57957] seed 18/18 map_seed=3719621908 type=6 env.reset() done in 1.36s
+[06:57:57] [RPC TRACE][UID 0][port 57957] seed 18/18 map_seed=3719621908 type=6 reset ok in 1.0ms
+[06:57:57] [RPC TRACE][UID 0][port 43625] seed 8/18 map_seed=671668121 type=3 terminated=True truncated=False success=False t_sim=1.86s strikes=0
+[06:57:57] [RPC TRACE][UID 0][port 43625] seed 8/18 map_seed=671668121 type=3 result success=False score=0.0100 t_sim=1.86s
+[06:57:57] [RPC TRACE][Worker 7][UID 0] batch complete (1 result(s))
+[06:57:57] [RPC TRACE][UID 0][port 39127] seed 4/18 map_seed=3366584449 type=2 step=3000 t_sim=59.98s act_ok=3.1ms timeout=536ms
+[06:57:57] [RPC TRACE][UID 0][port 39127] seed 4/18 map_seed=3366584449 type=2 terminated=False truncated=True success=False t_sim=60.00s strikes=0
+[06:57:57] [RPC TRACE][UID 0][port 39127] seed 4/18 map_seed=3366584449 type=2 result success=False score=0.0100 t_sim=60.00s
+Seed progress:  44%|████▍     | 8/18 [00:31<00:37,  3.72s/seed, done=7/18, elapsed=0.5m, eta=0.7m][06:57:57] [RPC TRACE][UID 0][port 57957] rpc_calibration step timeout=535.8ms (overhead=20.8ms cpu_factor=1.00x)
+[06:57:57] [RPC TRACE][UID 0][port 57957] seed 18/18 map_seed=3719621908 type=6 step=1 t_sim=0.00s act_ok=14.0ms timeout=2000ms
+[06:57:57] [RPC TRACE][Worker 10][UID 0] batch complete (1 result(s))
+[06:57:58] [RPC TRACE][Worker 7][UID 0] container cleaned up
+[06:57:58] Worker 7 complete | batch 8 | seeds=1 | elapsed=18.5s | startup=5.4s
+[06:57:58] [RPC TRACE][UID 0][port 48231] seed 16/18 map_seed=931686137 type=6 step=250 t_sim=4.98s act_ok=55.0ms timeout=542ms
+[06:57:58] [RPC TRACE][Worker 10][UID 0] container cleaned up
+[06:57:58] Worker 10 complete | batch 4 | seeds=1 | elapsed=32.2s | startup=5.7s
+[06:57:58] [RPC TRACE][UID 0][port 43953] seed 9/18 map_seed=2433593901 type=3 terminated=True truncated=False success=False t_sim=1.72s strikes=0
+[06:57:58] [RPC TRACE][UID 0][port 43953] seed 9/18 map_seed=2433593901 type=3 result success=False score=0.0100 t_sim=1.72s
+[06:57:58] [RPC TRACE][Worker 9][UID 0] batch complete (1 result(s))
+Seed progress:  56%|█████▌    | 10/18 [00:32<00:18,  2.35s/seed, done=9/18, elapsed=0.5m, eta=0.5m][06:57:58] [RPC TRACE][UID 0][port 60793] seed 12/18 map_seed=2917594737 type=4 step=1500 t_sim=29.98s act_ok=1.7ms timeout=534ms
+[06:57:59] [RPC TRACE][Worker 9][UID 0] container cleaned up
+[06:57:59] Worker 9 complete | batch 9 | seeds=1 | elapsed=18.5s | startup=5.3s
+[06:57:59] [RPC TRACE][UID 0][port 34713] seed 17/18 map_seed=1024745464 type=6 step=500 t_sim=9.98s act_ok=11.9ms timeout=536ms
+[06:57:59] [RPC TRACE][UID 0][port 45053] seed 11/18 map_seed=3892085651 type=4 step=1000 t_sim=19.98s act_ok=52.0ms timeout=534ms
+[06:58:02] [RPC TRACE][UID 0][port 60793] seed 12/18 map_seed=2917594737 type=4 step=1750 t_sim=34.98s act_ok=1.3ms timeout=534ms
+[06:58:03] [RPC TRACE][UID 0][port 51053] seed 15/18 map_seed=2890245683 type=5 env built in 13.87s
+[06:58:03] [RPC TRACE][UID 0][port 51053] seed 15/18 map_seed=2890245683 type=5 env.reset() start
+[06:58:03] [RPC TRACE][UID 0][port 39643] seed 14/18 map_seed=2073101257 type=5 step=250 t_sim=4.98s act_ok=22.6ms timeout=535ms
+[06:58:03] [RPC TRACE][UID 0][port 39643] seed 14/18 map_seed=2073101257 type=5 terminated=True truncated=False success=True t_sim=5.14s strikes=0
+[06:58:03] [RPC TRACE][UID 0][port 39643] seed 14/18 map_seed=2073101257 type=5 result success=True score=0.9885 t_sim=5.14s
+[06:58:03] [RPC TRACE][UID 0][port 45951] seed 10/18 map_seed=3216651070 type=4 terminated=True truncated=False success=False t_sim=18.84s strikes=0
+[06:58:03] [RPC TRACE][UID 0][port 45951] seed 10/18 map_seed=3216651070 type=4 result success=False score=0.0100 t_sim=18.84s
+Seed progress:  61%|██████    | 11/18 [00:37<00:21,  3.03s/seed, done=10/18, elapsed=0.5m, eta=0.4m][06:58:04] [RPC TRACE][Worker 8][UID 0] batch complete (1 result(s))
+[06:58:04] [RPC TRACE][Worker 2][UID 0] batch complete (1 result(s))
+[06:58:04] [RPC TRACE][Worker 8][UID 0] container cleaned up
+[06:58:04] Worker 8 complete | batch 14 | seeds=1 | elapsed=20.1s | startup=5.3s
+[06:58:04] [RPC TRACE][Worker 2][UID 0] container cleaned up
+[06:58:04] Worker 2 complete | batch 10 | seeds=1 | elapsed=38.7s | startup=5.7s
+[06:58:05] [RPC TRACE][UID 0][port 60793] seed 12/18 map_seed=2917594737 type=4 step=2000 t_sim=39.98s act_ok=46.0ms timeout=534ms
+[06:58:06] [RPC TRACE][UID 0][port 45053] seed 11/18 map_seed=3892085651 type=4 step=1250 t_sim=24.98s act_ok=1.0ms timeout=534ms
+[06:58:07] [RPC TRACE][UID 0][port 57957] seed 18/18 map_seed=3719621908 type=6 step=250 t_sim=4.98s act_ok=5.3ms timeout=536ms
+[06:58:09] [RPC TRACE][UID 0][port 60793] seed 12/18 map_seed=2917594737 type=4 step=2250 t_sim=44.98s act_ok=1.3ms timeout=534ms
+[06:58:10] [RPC TRACE][UID 0][port 45053] seed 11/18 map_seed=3892085651 type=4 step=1500 t_sim=29.98s act_ok=1.0ms timeout=534ms
+[06:58:10] Heartbeat: 12/18 done | elapsed 0.8m | last completion 7s ago | ETA 0.4m
+[06:58:11] [RPC TRACE][UID 0][port 48231] seed 16/18 map_seed=931686137 type=6 step=500 t_sim=9.98s act_ok=11.4ms timeout=542ms
+[06:58:12] [RPC TRACE][UID 0][port 51053] seed 15/18 map_seed=2890245683 type=5 env.reset() done in 9.10s
+[06:58:12] [RPC TRACE][UID 0][port 51053] seed 15/18 map_seed=2890245683 type=5 reset ok in 0.8ms
+[06:58:12] [RPC TRACE][UID 0][port 51053] rpc_calibration step timeout=527.7ms (overhead=12.7ms cpu_factor=1.00x)
+[06:58:12] [RPC TRACE][UID 0][port 51053] seed 15/18 map_seed=2890245683 type=5 step=1 t_sim=0.00s act_ok=7.7ms timeout=2000ms
+[06:58:13] [RPC TRACE][UID 0][port 60793] seed 12/18 map_seed=2917594737 type=4 step=2500 t_sim=49.98s act_ok=2.0ms timeout=534ms
+[06:58:14] [RPC TRACE][UID 0][port 45053] seed 11/18 map_seed=3892085651 type=4 step=1750 t_sim=34.98s act_ok=1.1ms timeout=534ms
+[06:58:14] [RPC TRACE][UID 0][port 34713] seed 17/18 map_seed=1024745464 type=6 terminated=True truncated=False success=True t_sim=12.50s strikes=0
+[06:58:14] [RPC TRACE][UID 0][port 34713] seed 17/18 map_seed=1024745464 type=6 result success=True score=0.8693 t_sim=12.50s
+[06:58:14] [RPC TRACE][Worker 6][UID 0] batch complete (1 result(s))
+Seed progress:  72%|███████▏  | 13/18 [00:48<00:19,  3.87s/seed, done=12/18, elapsed=0.6m, eta=0.3m][06:58:14] [RPC TRACE][Worker 6][UID 0] container cleaned up
+[06:58:14] Worker 6 complete | batch 17 | seeds=1 | elapsed=48.6s | startup=5.3s
+[06:58:17] [RPC TRACE][UID 0][port 60793] seed 12/18 map_seed=2917594737 type=4 step=2750 t_sim=54.98s act_ok=1.1ms timeout=534ms
+[06:58:17] [RPC TRACE][UID 0][port 45053] seed 11/18 map_seed=3892085651 type=4 step=2000 t_sim=39.98s act_ok=1.2ms timeout=534ms
+[06:58:18] [RPC TRACE][UID 0][port 45053] seed 11/18 map_seed=3892085651 type=4 terminated=True truncated=False success=False t_sim=41.76s strikes=0
+[06:58:18] [RPC TRACE][UID 0][port 45053] seed 11/18 map_seed=3892085651 type=4 result success=False score=0.0100 t_sim=41.76s
+Seed progress:  78%|███████▊  | 14/18 [00:52<00:16,  4.04s/seed, done=13/18, elapsed=0.8m, eta=0.3m][06:58:18] [RPC TRACE][Worker 3][UID 0] batch complete (1 result(s))
+[06:58:19] [RPC TRACE][UID 0][port 57957] seed 18/18 map_seed=3719621908 type=6 terminated=True truncated=False success=True t_sim=9.40s strikes=0
+[06:58:19] [RPC TRACE][UID 0][port 57957] seed 18/18 map_seed=3719621908 type=6 result success=True score=0.9655 t_sim=9.40s
+[06:58:19] [RPC TRACE][Worker 3][UID 0] container cleaned up
+[06:58:19] [RPC TRACE][Worker 11][UID 0] batch complete (1 result(s))
+[06:58:19] Worker 3 complete | batch 11 | seeds=1 | elapsed=53.2s | startup=5.9s
+[06:58:19] [RPC TRACE][UID 0][port 60793] seed 12/18 map_seed=2917594737 type=4 step=3000 t_sim=59.98s act_ok=1.1ms timeout=534ms
+[06:58:19] [RPC TRACE][UID 0][port 60793] seed 12/18 map_seed=2917594737 type=4 terminated=False truncated=True success=False t_sim=60.00s strikes=0
+[06:58:19] [RPC TRACE][UID 0][port 60793] seed 12/18 map_seed=2917594737 type=4 result success=False score=0.0100 t_sim=60.00s
+[06:58:19] [RPC TRACE][Worker 11][UID 0] container cleaned up
+Seed progress:  89%|████████▉ | 16/18 [00:53<00:05,  2.63s/seed, done=15/18, elapsed=0.9m, eta=0.2m][06:58:19] Worker 11 complete | batch 18 | seeds=1 | elapsed=30.6s | startup=5.3s
+[06:58:19] [RPC TRACE][Worker 4][UID 0] batch complete (1 result(s))
+[06:58:20] [RPC TRACE][Worker 4][UID 0] container cleaned up
+[06:58:20] Worker 4 complete | batch 12 | seeds=1 | elapsed=54.2s | startup=5.5s
+[06:58:20] [RPC TRACE][UID 0][port 51053] seed 15/18 map_seed=2890245683 type=5 step=250 t_sim=4.98s act_ok=3.3ms timeout=528ms
+[06:58:21] [RPC TRACE][UID 0][port 48231] seed 16/18 map_seed=931686137 type=6 terminated=False truncated=True success=False t_sim=14.64s strikes=0
+[06:58:21] [RPC TRACE][UID 0][port 48231] seed 16/18 map_seed=931686137 type=6 result success=False score=0.0100 t_sim=14.64s
+Seed progress:  94%|█████████▍| 17/18 [00:55<00:02,  2.52s/seed, done=16/18, elapsed=0.9m, eta=0.1m][06:58:21] [RPC TRACE][Worker 5][UID 0] batch complete (1 result(s))
+[06:58:22] [RPC TRACE][Worker 5][UID 0] container cleaned up
+[06:58:22] Worker 5 complete | batch 16 | seeds=1 | elapsed=56.3s | startup=5.5s
+[06:58:23] [RPC TRACE][UID 0][port 51053] seed 15/18 map_seed=2890245683 type=5 step=500 t_sim=9.98s act_ok=0.9ms timeout=528ms
+[06:58:24] [RPC TRACE][UID 0][port 51053] seed 15/18 map_seed=2890245683 type=5 step=750 t_sim=14.98s act_ok=0.9ms timeout=528ms
+[06:58:25] Heartbeat: 17/18 done | elapsed 1.0m | last completion 4s ago | ETA 0.1m
+[06:58:26] [RPC TRACE][UID 0][port 51053] seed 15/18 map_seed=2890245683 type=5 step=1000 t_sim=19.98s act_ok=0.9ms timeout=528ms
+[06:58:27] [RPC TRACE][UID 0][port 51053] seed 15/18 map_seed=2890245683 type=5 step=1250 t_sim=24.98s act_ok=0.9ms timeout=528ms
+[06:58:29] [RPC TRACE][UID 0][port 51053] seed 15/18 map_seed=2890245683 type=5 step=1500 t_sim=29.98s act_ok=0.9ms timeout=528ms
+[06:58:30] [RPC TRACE][UID 0][port 51053] seed 15/18 map_seed=2890245683 type=5 step=1750 t_sim=34.98s act_ok=0.9ms timeout=528ms
+[06:58:32] [RPC TRACE][UID 0][port 51053] seed 15/18 map_seed=2890245683 type=5 step=2000 t_sim=39.98s act_ok=0.9ms timeout=528ms
+[06:58:34] [RPC TRACE][UID 0][port 51053] seed 15/18 map_seed=2890245683 type=5 step=2250 t_sim=44.98s act_ok=1.0ms timeout=528ms
+[06:58:35] [RPC TRACE][UID 0][port 51053] seed 15/18 map_seed=2890245683 type=5 step=2500 t_sim=49.98s act_ok=1.0ms timeout=528ms
+[06:58:37] [RPC TRACE][UID 0][port 51053] seed 15/18 map_seed=2890245683 type=5 step=2750 t_sim=54.98s act_ok=1.0ms timeout=528ms
+[06:58:38] [RPC TRACE][UID 0][port 51053] seed 15/18 map_seed=2890245683 type=5 step=3000 t_sim=59.98s act_ok=0.9ms timeout=528ms
+[06:58:38] [RPC TRACE][UID 0][port 51053] seed 15/18 map_seed=2890245683 type=5 terminated=False truncated=True success=False t_sim=60.00s strikes=0
+[06:58:38] [RPC TRACE][UID 0][port 51053] seed 15/18 map_seed=2890245683 type=5 result success=False score=0.0100 t_sim=60.00s
+Seed progress: 100%|██████████| 18/18 [01:12<00:00,  5.97s/seed, done=17/18, elapsed=0.9m, eta=0.1m][06:58:38] [RPC TRACE][Worker 0][UID 0] batch complete (1 result(s))
+[06:58:39] [RPC TRACE][Worker 0][UID 0] container cleaned up
+[06:58:39] Worker 0 complete | batch 15 | seeds=1 | elapsed=54.7s | startup=5.3s
+Seed progress: 100%|██████████| 18/18 [01:13<00:00,  4.08s/seed, done=18/18, elapsed=1.2m, eta=0.0m]
+
+[06:58:39] === RESULTS ===
+
+  Group                  Seed   Score   OK?    SimT   WallT
+  ------------------ -------- ------- ----- ------- -------
+  type1_city         414518074  0.0100     N  11.32s   13.5s
+  type1_city         3467621001  0.9261     Y  14.02s   18.4s
+  type1_city         2960088080  0.9230     Y  15.22s   14.8s
+    -> AVG                     0.6197                15.6s
+
+  type2_open         3366584449  0.0100     N  60.00s   32.2s
+  type2_open         1871954199  0.8739     Y   8.60s   11.5s
+  type2_open         253647362  0.8979     Y  12.48s   11.4s
+    -> AVG                     0.5939                18.4s
+
+  type3_mountain     818260060  0.0100     N   1.32s   18.5s
+  type3_mountain     671668121  0.0100     N   1.86s   18.5s
+  type3_mountain     2433593901  0.0100     N   1.72s   18.5s
+    -> AVG                     0.0100                18.5s
+
+  type4_village      3216651070  0.0100     N  18.84s   38.7s
+  type4_village      3892085651  0.0100     N  41.76s   53.2s
+  type4_village      2917594737  0.0100     N  60.00s   54.2s
+    -> AVG                     0.0100                48.7s
+
+  type5_warehouse    1204407027  0.0100     N   1.14s   27.7s
+  type5_warehouse    2073101257  0.9885     Y   5.14s   20.1s
+  type5_warehouse    2890245683  0.0100     N  60.00s   54.7s
+    -> AVG                     0.3362                34.1s
+
+  type6_forest       931686137  0.0100     N  14.64s   56.3s
+  type6_forest       1024745464  0.8693     Y  12.50s   48.6s
+  type6_forest       3719621908  0.9655     Y   9.40s   30.6s
+    -> AVG                     0.6149                45.2s
+
+  Run summary:
+    Seeds evaluated:           18
+    Success rate:              7/18 (38.9%)
+    Clean execution rate:      18/18 (100.0%)
+    Total wall-clock:          73.5s (1.2 min)
+    Avg wall / seed:           30.07s
+    Median wall / seed:        23.87s
+    P90 wall / seed:           54.67s
+    Avg sim time / seed:       19.44s
+    Total seed-worker time:    541.3s
+    Throughput:                14.70 seeds/min
+    Throughput per worker:     1.23 seeds/min/worker
+    Effective parallelism:     7.37x (utilization 61.4% of 12 workers)
+    Batches run:               18
+    Avg seeds / container:     1.00
+    Total startup overhead:    100.1s
+    Avg startup / container:   5.6s
+
+  Extrapolation to 1,000 seeds (using measured per-seed worker time):
+    type1_city          167 seeds x 15.56s = 2598s (observed)
+    type2_open          167 seeds x 18.35s = 3065s (observed)
+    type3_mountain      167 seeds x 18.53s = 3095s (observed)
+    type4_village       167 seeds x 48.70s = 8133s (observed)
+    type5_warehouse     166 seeds x 34.14s = 5667s (observed)
+    type6_forest        166 seeds x 45.16s = 7497s (observed)
+
+    Workers used:              12
+    Estimated worker-time:     30054s
+    Estimated wall-clock:      2505s (41.7 min)
+    Estimated avg wall / seed: 2.50s
+    Estimated throughput:      23.96 seeds/min
+
+[06:58:39] === BENCHMARK COMPLETE ===

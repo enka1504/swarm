@@ -22,6 +22,16 @@ Examples
     python3 scripts/generate_video.py --model UID_178.zip --seed 42 --type 1 --mode chase
     python3 scripts/generate_video.py --model UID_178.zip --seed 42 --type 5 --mode all --out ./videos
     python3 scripts/generate_video.py --model UID_178.zip --seed 42 --type 1 --mode depth,fpv --width 1920 --height 1080
+
+After swarm benchmark writes summary + seed JSON, render only successful seeds::
+
+    python3 scripts/generate_video.py --model submission.zip --seed-file seeds.json \\
+      --summary-json summary.json --only-success --backend benchmark --mode chase --out ./videos
+
+City (type 1) seeds only from a full benchmark seed file::
+
+    python3 scripts/generate_video.py --model submission.zip --seed-file seeds.json \\
+      --filter-types 1 --backend benchmark --mode chase --out ./videos/city
 """
 from __future__ import annotations
 
@@ -460,6 +470,31 @@ def build_task(seed: int, challenge_type: int) -> FlightTask:
             platform_rng.random() < MOVING_PLATFORM_PROB.get(challenge_type, 0.0)
         ),
     )
+
+
+def _parse_filter_types(raw: Optional[str]) -> Optional[set[int]]:
+    """Parse ``--filter-types 1,3`` into a set of challenge types; ``None`` means no filter."""
+    if raw is None:
+        return None
+    s = raw.strip()
+    if not s:
+        return None
+    out: set[int] = set()
+    for part in s.split(","):
+        part = part.strip()
+        if not part:
+            continue
+        t = int(part)
+        if t not in (1, 2, 3, 4, 5, 6):
+            raise ValueError(f"Invalid challenge type in --filter-types: {t} (use 1–6)")
+        out.add(t)
+    if not out:
+        return None
+    return out
+
+
+def _filter_jobs_by_challenge_types(jobs: List[VideoJob], types: set[int]) -> List[VideoJob]:
+    return [j for j in jobs if j.challenge_type in types]
 
 
 def _load_seed_jobs(seed_file: Path) -> List[VideoJob]:
@@ -1051,6 +1086,20 @@ def _load_benchmark_expectations(summary_json: Path) -> Dict[Tuple[int, int], Be
     return expectations
 
 
+def _filter_jobs_benchmark_success_only(
+    jobs: List[VideoJob], summary_json: Path
+) -> List[VideoJob]:
+    """Keep only jobs whose benchmark summary row has ``success: true``."""
+    expectations = _load_benchmark_expectations(summary_json)
+    out: List[VideoJob] = []
+    for job in jobs:
+        key = (job.seed, job.challenge_type)
+        exp = expectations.get(key)
+        if exp is not None and exp.success:
+            out.append(job)
+    return out
+
+
 def _assert_replay_matches_expected(
     *,
     job: VideoJob,
@@ -1547,6 +1596,19 @@ def _build_parser() -> argparse.ArgumentParser:
         metavar="JSON",
         help="Benchmark summary JSON from swarm benchmark --summary-json-out; replay results must match when provided.",
     )
+    vid.add_argument(
+        "--only-success",
+        action="store_true",
+        help="With --summary-json, render only seeds that succeeded in that benchmark (skip failures).",
+    )
+    vid.add_argument(
+        "--filter-types",
+        type=str,
+        default=None,
+        metavar="TYPES",
+        help="With --seed-file, include only these challenge types (comma-separated). "
+        "Example: 1 = city only, 3,5 = mountain and warehouse.",
+    )
 
     cam = ap.add_argument_group("camera tuning")
     cam.add_argument(
@@ -1635,6 +1697,21 @@ def _resolve_jobs(args: argparse.Namespace) -> List[VideoJob]:
     return [VideoJob(seed=int(args.seed), challenge_type=int(args.type))]
 
 
+def _apply_seed_file_filters(args: argparse.Namespace, jobs: List[VideoJob]) -> List[VideoJob]:
+    """Apply --filter-types (requires --seed-file)."""
+    ft = _parse_filter_types(args.filter_types)
+    if ft is None:
+        return jobs
+    if args.seed_file is None:
+        raise ValueError("--filter-types requires --seed-file")
+    filtered = _filter_jobs_by_challenge_types(jobs, ft)
+    if not filtered:
+        raise ValueError(
+            "No jobs left after --filter-types: none of the seeds match the requested types."
+        )
+    return filtered
+
+
 def _expected_output_paths(
     out_dir: Path,
     jobs: Iterable[VideoJob],
@@ -1662,6 +1739,16 @@ def main(argv: Optional[List[str]] = None) -> None:
 
     modes = _resolve_modes(args.mode)
     jobs = _resolve_jobs(args)
+    jobs = _apply_seed_file_filters(args, jobs)
+    if args.only_success:
+        if args.summary_json is None:
+            raise ValueError("--only-success requires --summary-json")
+        jobs = _filter_jobs_benchmark_success_only(jobs, args.summary_json)
+        if not jobs:
+            raise ValueError(
+                "No successful benchmark seeds to render: none of the selected jobs "
+                "have success=true in the summary JSON."
+            )
     out_dir = args.out or (_SCRIPT_DIR / "videos")
     expected_paths = _expected_output_paths(out_dir, jobs, modes)
 
@@ -1684,6 +1771,10 @@ def main(argv: Optional[List[str]] = None) -> None:
         print("  Skip exists yes")
     if args.summary_json is not None:
         print(f"  Summary     {args.summary_json}")
+    if args.only_success:
+        print(f"  Success-only yes ({len(jobs)} job(s))")
+    if args.filter_types:
+        print(f"  Filter types {args.filter_types!r} ({len(jobs)} job(s))")
     print("=" * 64)
     print()
 

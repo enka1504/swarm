@@ -122,6 +122,9 @@ def main(argv: Optional[List[str]] = None) -> None:
             print(f"  {group}: {seeds}")
         print(f"  Total: {total_seeds}")
         print()
+        if getattr(args, "force_moving_platform", False):
+            print(f"[{_ts()}] Forcing moving goal platform on every seed (--force-moving-platform)")
+            print()
 
         (
             task_meta,

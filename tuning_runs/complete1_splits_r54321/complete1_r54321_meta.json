@@ -1,0 +1,78 @@
+{
+  "rng": 54321,
+  "source": "tuning_runs/complete-1_bench_seeds.json",
+  "splits": [
+    {
+      "file": "tuning_runs/complete1_splits_r54321/complete1_r54321_18.json",
+      "n": 18,
+      "per_group": {
+        "type1_city": 3,
+        "type2_open": 3,
+        "type3_mountain": 3,
+        "type4_village": 3,
+        "type5_warehouse": 3,
+        "type6_forest": 3
+      }
+    },
+    {
+      "file": "tuning_runs/complete1_splits_r54321/complete1_r54321_50a.json",
+      "n": 50,
+      "per_group": {
+        "type1_city": 9,
+        "type2_open": 9,
+        "type3_mountain": 8,
+        "type4_village": 8,
+        "type5_warehouse": 8,
+        "type6_forest": 8
+      }
+    },
+    {
+      "file": "tuning_runs/complete1_splits_r54321/complete1_r54321_50b.json",
+      "n": 50,
+      "per_group": {
+        "type1_city": 9,
+        "type2_open": 9,
+        "type3_mountain": 8,
+        "type4_village": 8,
+        "type5_warehouse": 8,
+        "type6_forest": 8
+      }
+    },
+    {
+      "file": "tuning_runs/complete1_splits_r54321/complete1_r54321_50c.json",
+      "n": 50,
+      "per_group": {
+        "type1_city": 9,
+        "type2_open": 9,
+        "type3_mountain": 8,
+        "type4_village": 8,
+        "type5_warehouse": 8,
+        "type6_forest": 8
+      }
+    },
+    {
+      "file": "tuning_runs/complete1_splits_r54321/complete1_r54321_100.json",
+      "n": 100,
+      "per_group": {
+        "type1_city": 17,
+        "type2_open": 17,
+        "type3_mountain": 17,
+        "type4_village": 17,
+        "type5_warehouse": 16,
+        "type6_forest": 16
+      }
+    },
+    {
+      "file": "tuning_runs/complete1_splits_r54321/complete1_r54321_200.json",
+      "n": 200,
+      "per_group": {
+        "type1_city": 34,
+        "type2_open": 34,
+        "type3_mountain": 33,
+        "type4_village": 33,
+        "type5_warehouse": 33,
+        "type6_forest": 33
+      }
+    }
+  ]
+}

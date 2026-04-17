@@ -1,7 +1,10 @@
 # syntax=docker/dockerfile:1
-FROM python:3.11-slim
+# Pin bookworm: python:3.11-slim tracks latest Debian (e.g. trixie), where apt mirrors
+# are slower/flakier during development and builds can stall or fail on apt-get update.
+FROM python:3.11-slim-bookworm
 
-ENV PYTHONUNBUFFERED=1 \
+ENV DEBIAN_FRONTEND=noninteractive \
+    PYTHONUNBUFFERED=1 \
     PYTHONPATH=/app \
     OPENBLAS_NUM_THREADS=1 \
     MKL_NUM_THREADS=1 \
@@ -15,8 +18,11 @@ RUN useradd -m -u 1000 evaluator && \
 RUN --mount=type=cache,target=/var/cache/apt,sharing=locked \
     --mount=type=cache,target=/var/lib/apt,sharing=locked \
     apt-get update && apt-get install -y --no-install-recommends \
+    ca-certificates \
     git gcc g++ iptables libgl1-mesa-dri libglib2.0-0 libsm6 \
-    libxext6 libxrender-dev libgomp1
+    libxext6 libxrender-dev libgomp1 \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
 
 RUN pip install --upgrade pip setuptools wheel
 

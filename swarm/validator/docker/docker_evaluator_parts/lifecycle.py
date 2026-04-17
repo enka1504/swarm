@@ -1,6 +1,7 @@
 import hashlib
 import os
 import subprocess
+import sys
 from pathlib import Path
 from typing import Optional
 
@@ -209,6 +210,7 @@ def _setup_base_container(self):
         cmd = [
             "docker",
             "build",
+            "--progress=plain",
             "--label",
             f"swarm.code_hash={current_hash}",
             "-t",
@@ -217,6 +219,13 @@ def _setup_base_container(self):
             str(dockerfile_path),
             str(build_context),
         ]
+        # Use the host network for `docker build` so apt can resolve Debian mirrors when
+        # the default Docker bridge DNS is broken (common with VPNs / resolv.conf issues).
+        # Default on Linux; set SWARM_DOCKER_BUILD_HOST_NETWORK=0 to disable. Docker
+        # Desktop may ignore or reject --network=host; disable there if build fails.
+        _linux = sys.platform.startswith("linux")
+        if env_bool("SWARM_DOCKER_BUILD_HOST_NETWORK", default=_linux):
+            cmd.insert(2, "--network=host")
 
         bt.logging.info(f"Building base Docker image (hash: {current_hash})...")
         bt.logging.debug(f"Docker build command: {' '.join(cmd)}")
@@ -252,6 +261,20 @@ def _setup_base_container(self):
         else:
             bt.logging.error(
                 f"❌ Docker build failed with return code: {result.returncode}"
+            )
+            # Single string: bittensor logging does not apply %-format args to extra
+            # tuple arguments the way stdlib logging does.
+            net_flag = " --network=host" if "--network=host" in cmd else ""
+            manual_cmd = (
+                f"cd {build_context} && DOCKER_BUILDKIT=1 docker build --progress=plain"
+                f"{net_flag} -t {self.base_image} -f {dockerfile_path} ."
+            )
+            bt.logging.error(f"To inspect manually: {manual_cmd}")
+            bt.logging.error(
+                "If apt failed with 'Temporary failure resolving deb.debian.org', "
+                "fix Docker DNS (e.g. /etc/docker/daemon.json dns) or ensure "
+                "SWARM_DOCKER_BUILD_HOST_NETWORK=1 (default on Linux) so the build uses "
+                "the host network stack."
             )
             self.base_ready = False
             evaluator_cls._base_ready = False

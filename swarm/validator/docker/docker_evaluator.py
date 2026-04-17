@@ -45,15 +45,11 @@ class DockerSecureEvaluator:
 DockerSecureEvaluator.__init__ = lifecycle.__init__
 DockerSecureEvaluator._check_docker_available = lifecycle._check_docker_available
 DockerSecureEvaluator._env_truthy = staticmethod(lifecycle._env_truthy)
-DockerSecureEvaluator._docker_env_overrides = classmethod(
-    lifecycle._docker_env_overrides
-)
+DockerSecureEvaluator._docker_env_overrides = lifecycle._docker_env_overrides
 DockerSecureEvaluator._split_worker_cpuset_map = staticmethod(
     lifecycle._split_worker_cpuset_map
 )
-DockerSecureEvaluator._resolve_worker_limits = classmethod(
-    lifecycle._resolve_worker_limits
-)
+DockerSecureEvaluator._resolve_worker_limits = lifecycle._resolve_worker_limits
 DockerSecureEvaluator._calculate_docker_hash = lifecycle._calculate_docker_hash
 DockerSecureEvaluator._get_image_hash_label = lifecycle._get_image_hash_label
 DockerSecureEvaluator._should_rebuild_base_image = lifecycle._should_rebuild_base_image

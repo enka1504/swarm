@@ -444,22 +444,28 @@ async def _run_benchmark(
 ) -> tuple:
     from swarm.constants import SIM_DT
     from swarm.validator.docker.docker_evaluator import DockerSecureEvaluator
-    from swarm.validator.task_gen import random_task
+    from swarm.validator.task_gen import task_for_seed_and_type
 
     all_tasks = []
     task_meta: List[Dict[str, Any]] = []
+    force_mp = bool(getattr(run_opts, "force_moving_platform", False))
     for group_name, seeds in type_seeds.items():
+        bench_type = int(BENCH_GROUP_TO_TYPE.get(group_name, 1))
         for s in seeds:
-            task = random_task(sim_dt=SIM_DT, seed=s)
+            task = task_for_seed_and_type(
+                SIM_DT,
+                seed=int(s),
+                challenge_type=bench_type,
+                moving_platform=True if force_mp else None,
+            )
             all_tasks.append(task)
-            bench_type = BENCH_GROUP_TO_TYPE.get(group_name, int(task.challenge_type))
             task_meta.append({
                 "group": group_name,
                 "bench_type": bench_type,
-                "seed": s,
-                "challenge_type": task.challenge_type,
+                "seed": int(s),
+                "challenge_type": int(task.challenge_type),
                 "horizon": task.horizon,
-                "moving_platform": getattr(task, "moving_platform", False),
+                "moving_platform": bool(getattr(task, "moving_platform", False)),
             })
 
     print(f"[{_ts()}] Initializing DockerSecureEvaluator...")

@@ -200,7 +200,46 @@ def _print_results(
             f"({source})"
         )
 
+    # SN124-style running-average checkpoints (evaluation order = task_meta index order).
+    screening_thresholds = ((50, 0.1554), (100, 0.2072), (150, 0.2331), (200, 0.2509))
+    ordered_scores: List[float] = []
+    for i, meta in enumerate(task_meta):
+        result = results[i] if i < len(results) else None
+        ordered_scores.append(float(result.score) if result else 0.0)
+    screening_checkpoints: Dict[str, Any] = {}
+    for n_need, thresh in screening_thresholds:
+        key = f"first_{n_need}_seeds"
+        if len(ordered_scores) >= n_need:
+            sub = ordered_scores[:n_need]
+            m = float(sum(sub) / n_need)
+            screening_checkpoints[key] = {
+                "n": n_need,
+                "threshold": thresh,
+                "mean_score": m,
+                "pass": m > thresh,
+            }
+        else:
+            screening_checkpoints[key] = {
+                "n": n_need,
+                "threshold": thresh,
+                "mean_score": None,
+                "pass": None,
+                "note": f"need at least {n_need} seeds",
+            }
+
+    print("  SN124 screening checkpoints (mean of first N seeds in bench order):")
+    for n_need, thresh in screening_thresholds:
+        key = f"first_{n_need}_seeds"
+        row = screening_checkpoints[key]
+        if row.get("mean_score") is None:
+            print(f"    {key}: skipped ({row.get('note', '')})")
+        else:
+            pf = "PASS" if row["pass"] else "FAIL"
+            print(
+                f"    {key}: mean={row['mean_score']:.4f} (need >{thresh:.4f}) -> {pf}"
+            )
     print()
+
     est_wall_1000 = total_extrap_worker_sec / workers_used
     est_avg_seed_1000 = est_wall_1000 / 1000.0
     est_tput_1000 = (1000.0 / est_wall_1000 * 60.0) if est_wall_1000 > 0 else 0.0
@@ -216,6 +255,8 @@ def _print_results(
         "num_workers": workers_used,
         "host_parallelism": host_parallelism,
         "total_seeds": len(task_meta),
+        "scores_in_evaluation_order": ordered_scores,
+        "screening_checkpoints": screening_checkpoints,
         "wall_clock_sec": elapsed,
         "startup_overhead_sec": total_startup_overhead_sec,
         "seed_timings_note": "wall_time includes equal share of per-container startup overhead",

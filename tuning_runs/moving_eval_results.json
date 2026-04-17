@@ -1,0 +1,30 @@
+{
+  "moving_50": {
+    "n": 50,
+    "workers": 12,
+    "seed": 20260450,
+    "avg_score": 0.11084475967715188,
+    "success_count": 6,
+    "success_rate": 0.12,
+    "type_counts": {
+      "2": 29,
+      "3": 5,
+      "4": 10,
+      "1": 6
+    }
+  },
+  "moving_100": {
+    "n": 100,
+    "workers": 12,
+    "seed": 20260500,
+    "avg_score": 0.21640108071747174,
+    "success_count": 25,
+    "success_rate": 0.25,
+    "type_counts": {
+      "3": 10,
+      "1": 23,
+      "2": 52,
+      "4": 15
+    }
+  }
+}

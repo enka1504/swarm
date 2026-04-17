@@ -7,7 +7,10 @@ bench_logs/
 __pycache__/
 *.py[cod]
 *$py.class
-
+swarm/*
+1/*
+my_agent/*
+tuning_runs/*
 validator_env
 validator_env/
 validator_env/*
@@ -19,6 +22,7 @@ swarm_env_updated/*
 runs/
 ~
 ~/*
+!!!!!!!!!!!!!!!!!!!!/*
 output.png
 .vscode/*
 flightplans/*

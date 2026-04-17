@@ -205,6 +205,15 @@ def _parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         default=None,
         help="Write benchmark summary JSON to this path.",
     )
+    parser.add_argument(
+        "--force-moving-platform",
+        action="store_true",
+        default=False,
+        help=(
+            "Force moving goal platform on every seed (overrides per-type probability). "
+            "Use with --seed-file for a fixed moving-platform championship bench."
+        ),
+    )
     return parser.parse_args(argv)
 
 
@@ -222,6 +231,7 @@ def _resolve_run_options(args: argparse.Namespace) -> _RunOptions:
         opts.rpc_trace = True
         opts.rpc_trace_every = 25
         opts.rpc_heartbeat_sec = 30.0
+    opts.force_moving_platform = bool(getattr(args, "force_moving_platform", False))
     return opts
 
 

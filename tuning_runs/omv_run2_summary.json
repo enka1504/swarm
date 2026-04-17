@@ -1,0 +1,4701 @@
+{
+  "batch_stats": [
+    {
+      "batch_index": 141,
+      "elapsed_sec": 21.77279543876648,
+      "seed_count": 1,
+      "seed_processing_sec": 15.073542833328247,
+      "seeds": [
+        770549
+      ],
+      "startup_overhead_sec": 6.699252605438232,
+      "worker_id": 8
+    },
+    {
+      "batch_index": 67,
+      "elapsed_sec": 24.04141092300415,
+      "seed_count": 1,
+      "seed_processing_sec": 17.539621829986572,
+      "seeds": [
+        770487
+      ],
+      "startup_overhead_sec": 6.501789093017578,
+      "worker_id": 0
+    },
+    {
+      "batch_index": 142,
+      "elapsed_sec": 29.550578832626343,
+      "seed_count": 1,
+      "seed_processing_sec": 22.813997745513916,
+      "seeds": [
+        770555
+      ],
+      "startup_overhead_sec": 6.736581087112427,
+      "worker_id": 9
+    },
+    {
+      "batch_index": 144,
+      "elapsed_sec": 30.38874912261963,
+      "seed_count": 1,
+      "seed_processing_sec": 23.886834383010864,
+      "seeds": [
+        770586
+      ],
+      "startup_overhead_sec": 6.501914739608765,
+      "worker_id": 11
+    },
+    {
+      "batch_index": 140,
+      "elapsed_sec": 33.31520485877991,
+      "seed_count": 1,
+      "seed_processing_sec": 27.406493663787842,
+      "seeds": [
+        770543
+      ],
+      "startup_overhead_sec": 5.908711194992065,
+      "worker_id": 7
+    },
+    {
+      "batch_index": 134,
+      "elapsed_sec": 35.245086908340454,
+      "seed_count": 1,
+      "seed_processing_sec": 28.65999150276184,
+      "seeds": [
+        770506
+      ],
+      "startup_overhead_sec": 6.585095405578613,
+      "worker_id": 1
+    },
+    {
+      "batch_index": 139,
+      "elapsed_sec": 36.624611377716064,
+      "seed_count": 1,
+      "seed_processing_sec": 30.00452423095703,
+      "seeds": [
+        770541
+      ],
+      "startup_overhead_sec": 6.620087146759033,
+      "worker_id": 6
+    },
+    {
+      "batch_index": 135,
+      "elapsed_sec": 41.28353500366211,
+      "seed_count": 1,
+      "seed_processing_sec": 34.81811261177063,
+      "seeds": [
+        770520
+      ],
+      "startup_overhead_sec": 6.4654223918914795,
+      "worker_id": 2
+    },
+    {
+      "batch_index": 68,
+      "elapsed_sec": 17.46245813369751,
+      "seed_count": 1,
+      "seed_processing_sec": 11.867541074752808,
+      "seeds": [
+        770490
+      ],
+      "startup_overhead_sec": 5.594917058944702,
+      "worker_id": 0
+    },
+    {
+      "batch_index": 137,
+      "elapsed_sec": 43.15590167045593,
+      "seed_count": 1,
+      "seed_processing_sec": 37.00422787666321,
+      "seeds": [
+        770531
+      ],
+      "startup_overhead_sec": 6.151673793792725,
+      "worker_id": 4
+    },
+    {
+      "batch_index": 136,
+      "elapsed_sec": 47.026795864105225,
+      "seed_count": 1,
+      "seed_processing_sec": 41.063493967056274,
+      "seeds": [
+        770521
+      ],
+      "startup_overhead_sec": 5.96330189704895,
+      "worker_id": 3
+    },
+    {
+      "batch_index": 149,
+      "elapsed_sec": 28.183096885681152,
+      "seed_count": 1,
+      "seed_processing_sec": 22.582905530929565,
+      "seeds": [
+        770607
+      ],
+      "startup_overhead_sec": 5.600191354751587,
+      "worker_id": 1
+    },
+    {
+      "batch_index": 138,
+      "elapsed_sec": 63.67406249046326,
+      "seed_count": 1,
+      "seed_processing_sec": 57.39538931846619,
+      "seeds": [
+        770539
+      ],
+      "startup_overhead_sec": 6.27867317199707,
+      "worker_id": 5
+    },
+    {
+      "batch_index": 145,
+      "elapsed_sec": 42.32450842857361,
+      "seed_count": 1,
+      "seed_processing_sec": 36.611388206481934,
+      "seeds": [
+        770591
+      ],
+      "startup_overhead_sec": 5.713120222091675,
+      "worker_id": 8
+    },
+    {
+      "batch_index": 150,
+      "elapsed_sec": 31.465436458587646,
+      "seed_count": 1,
+      "seed_processing_sec": 26.142332553863525,
+      "seeds": [
+        770611
+      ],
+      "startup_overhead_sec": 5.323103904724121,
+      "worker_id": 6
+    },
+    {
+      "batch_index": 151,
+      "elapsed_sec": 28.575817346572876,
+      "seed_count": 1,
+      "seed_processing_sec": 22.997827291488647,
+      "seeds": [
+        770612
+      ],
+      "startup_overhead_sec": 5.5779900550842285,
+      "worker_id": 2
+    },
+    {
+      "batch_index": 146,
+      "elapsed_sec": 52.21371269226074,
+      "seed_count": 1,
+      "seed_processing_sec": 46.5917546749115,
+      "seeds": [
+        770595
+      ],
+      "startup_overhead_sec": 5.621958017349243,
+      "worker_id": 9
+    },
+    {
+      "batch_index": 152,
+      "elapsed_sec": 45.022260427474976,
+      "seed_count": 1,
+      "seed_processing_sec": 39.6542763710022,
+      "seeds": [
+        770614
+      ],
+      "startup_overhead_sec": 5.367984056472778,
+      "worker_id": 4
+    },
+    {
+      "batch_index": 154,
+      "elapsed_sec": 25.584906101226807,
+      "seed_count": 1,
+      "seed_processing_sec": 19.448530912399292,
+      "seeds": [
+        770622
+      ],
+      "startup_overhead_sec": 6.136375188827515,
+      "worker_id": 1
+    },
+    {
+      "batch_index": 158,
+      "elapsed_sec": 23.67982792854309,
+      "seed_count": 1,
+      "seed_processing_sec": 18.233314275741577,
+      "seeds": [
+        770647
+      ],
+      "startup_overhead_sec": 5.446513652801514,
+      "worker_id": 2
+    },
+    {
+      "batch_index": 161,
+      "elapsed_sec": 16.476872205734253,
+      "seed_count": 1,
+      "seed_processing_sec": 10.812145471572876,
+      "seeds": [
+        770664
+      ],
+      "startup_overhead_sec": 5.664726734161377,
+      "worker_id": 1
+    },
+    {
+      "batch_index": 148,
+      "elapsed_sec": 74.96122479438782,
+      "seed_count": 1,
+      "seed_processing_sec": 69.4423177242279,
+      "seeds": [
+        770606
+      ],
+      "startup_overhead_sec": 5.518907070159912,
+      "worker_id": 7
+    },
+    {
+      "batch_index": 147,
+      "elapsed_sec": 79.13510513305664,
+      "seed_count": 1,
+      "seed_processing_sec": 73.6195752620697,
+      "seeds": [
+        770596
+      ],
+      "startup_overhead_sec": 5.5155298709869385,
+      "worker_id": 11
+    },
+    {
+      "batch_index": 156,
+      "elapsed_sec": 45.75111794471741,
+      "seed_count": 1,
+      "seed_processing_sec": 40.10491967201233,
+      "seeds": [
+        770630
+      ],
+      "startup_overhead_sec": 5.646198272705078,
+      "worker_id": 8
+    },
+    {
+      "batch_index": 143,
+      "elapsed_sec": 112.81858801841736,
+      "seed_count": 1,
+      "seed_processing_sec": 106.80606937408447,
+      "seeds": [
+        770585
+      ],
+      "startup_overhead_sec": 6.012518644332886,
+      "worker_id": 10
+    },
+    {
+      "batch_index": 159,
+      "elapsed_sec": 33.21778345108032,
+      "seed_count": 1,
+      "seed_processing_sec": 27.550967931747437,
+      "seeds": [
+        770648
+      ],
+      "startup_overhead_sec": 5.666815519332886,
+      "worker_id": 9
+    },
+    {
+      "batch_index": 166,
+      "elapsed_sec": 23.89548921585083,
+      "seed_count": 1,
+      "seed_processing_sec": 18.472761392593384,
+      "seeds": [
+        770693
+      ],
+      "startup_overhead_sec": 5.422727823257446,
+      "worker_id": 8
+    },
+    {
+      "batch_index": 155,
+      "elapsed_sec": 70.57776713371277,
+      "seed_count": 1,
+      "seed_processing_sec": 64.7399263381958,
+      "seeds": [
+        770628
+      ],
+      "startup_overhead_sec": 5.837840795516968,
+      "worker_id": 5
+    },
+    {
+      "batch_index": 163,
+      "elapsed_sec": 30.227437019348145,
+      "seed_count": 1,
+      "seed_processing_sec": 24.74396514892578,
+      "seeds": [
+        770681
+      ],
+      "startup_overhead_sec": 5.483471870422363,
+      "worker_id": 1
+    },
+    {
+      "batch_index": 157,
+      "elapsed_sec": 69.58656024932861,
+      "seed_count": 1,
+      "seed_processing_sec": 64.32778978347778,
+      "seeds": [
+        770642
+      ],
+      "startup_overhead_sec": 5.25877046585083,
+      "worker_id": 6
+    },
+    {
+      "batch_index": 167,
+      "elapsed_sec": 25.288206338882446,
+      "seed_count": 1,
+      "seed_processing_sec": 19.98456072807312,
+      "seeds": [
+        770695
+      ],
+      "startup_overhead_sec": 5.303645610809326,
+      "worker_id": 10
+    },
+    {
+      "batch_index": 173,
+      "elapsed_sec": 13.658986330032349,
+      "seed_count": 1,
+      "seed_processing_sec": 8.197901725769043,
+      "seeds": [
+        770738
+      ],
+      "startup_overhead_sec": 5.461084604263306,
+      "worker_id": 10
+    },
+    {
+      "batch_index": 153,
+      "elapsed_sec": 105.21732950210571,
+      "seed_count": 1,
+      "seed_processing_sec": 99.70750761032104,
+      "seeds": [
+        770619
+      ],
+      "startup_overhead_sec": 5.509821891784668,
+      "worker_id": 3
+    },
+    {
+      "batch_index": 169,
+      "elapsed_sec": 23.359631776809692,
+      "seed_count": 1,
+      "seed_processing_sec": 17.553330898284912,
+      "seeds": [
+        770704
+      ],
+      "startup_overhead_sec": 5.80630087852478,
+      "worker_id": 8
+    },
+    {
+      "batch_index": 172,
+      "elapsed_sec": 21.940613985061646,
+      "seed_count": 1,
+      "seed_processing_sec": 16.12874698638916,
+      "seeds": [
+        770727
+      ],
+      "startup_overhead_sec": 5.811866998672485,
+      "worker_id": 6
+    },
+    {
+      "batch_index": 171,
+      "elapsed_sec": 24.72841715812683,
+      "seed_count": 1,
+      "seed_processing_sec": 18.971031665802002,
+      "seeds": [
+        770709
+      ],
+      "startup_overhead_sec": 5.757385492324829,
+      "worker_id": 1
+    },
+    {
+      "batch_index": 170,
+      "elapsed_sec": 40.17188286781311,
+      "seed_count": 1,
+      "seed_processing_sec": 33.977198362350464,
+      "seeds": [
+        770708
+      ],
+      "startup_overhead_sec": 6.1946845054626465,
+      "worker_id": 5
+    },
+    {
+      "batch_index": 165,
+      "elapsed_sec": 68.2628026008606,
+      "seed_count": 1,
+      "seed_processing_sec": 62.52756142616272,
+      "seeds": [
+        770688
+      ],
+      "startup_overhead_sec": 5.735241174697876,
+      "worker_id": 11
+    },
+    {
+      "batch_index": 164,
+      "elapsed_sec": 71.95705914497375,
+      "seed_count": 1,
+      "seed_processing_sec": 66.3217191696167,
+      "seeds": [
+        770683
+      ],
+      "startup_overhead_sec": 5.635339975357056,
+      "worker_id": 7
+    },
+    {
+      "batch_index": 175,
+      "elapsed_sec": 29.909210443496704,
+      "seed_count": 1,
+      "seed_processing_sec": 23.885472536087036,
+      "seeds": [
+        770742
+      ],
+      "startup_overhead_sec": 6.023737907409668,
+      "worker_id": 3
+    },
+    {
+      "batch_index": 168,
+      "elapsed_sec": 67.22222113609314,
+      "seed_count": 1,
+      "seed_processing_sec": 61.39307999610901,
+      "seeds": [
+        770697
+      ],
+      "startup_overhead_sec": 5.829141139984131,
+      "worker_id": 9
+    },
+    {
+      "batch_index": 178,
+      "elapsed_sec": 22.054965019226074,
+      "seed_count": 1,
+      "seed_processing_sec": 16.22620964050293,
+      "seeds": [
+        770761
+      ],
+      "startup_overhead_sec": 5.8287553787231445,
+      "worker_id": 1
+    },
+    {
+      "batch_index": 160,
+      "elapsed_sec": 95.84971928596497,
+      "seed_count": 1,
+      "seed_processing_sec": 90.20670247077942,
+      "seeds": [
+        770656
+      ],
+      "startup_overhead_sec": 5.643016815185547,
+      "worker_id": 4
+    },
+    {
+      "batch_index": 162,
+      "elapsed_sec": 93.07354187965393,
+      "seed_count": 1,
+      "seed_processing_sec": 87.73094272613525,
+      "seeds": [
+        770671
+      ],
+      "startup_overhead_sec": 5.342599153518677,
+      "worker_id": 2
+    },
+    {
+      "batch_index": 174,
+      "elapsed_sec": 40.5442111492157,
+      "seed_count": 1,
+      "seed_processing_sec": 34.862770557403564,
+      "seeds": [
+        770739
+      ],
+      "startup_overhead_sec": 5.681440591812134,
+      "worker_id": 10
+    },
+    {
+      "batch_index": 183,
+      "elapsed_sec": 16.029279947280884,
+      "seed_count": 1,
+      "seed_processing_sec": 10.301445960998535,
+      "seeds": [
+        770801
+      ],
+      "startup_overhead_sec": 5.727833986282349,
+      "worker_id": 9
+    },
+    {
+      "batch_index": 179,
+      "elapsed_sec": 41.94496536254883,
+      "seed_count": 1,
+      "seed_processing_sec": 35.243367195129395,
+      "seeds": [
+        770773
+      ],
+      "startup_overhead_sec": 6.701598167419434,
+      "worker_id": 5
+    },
+    {
+      "batch_index": 182,
+      "elapsed_sec": 38.34261512756348,
+      "seed_count": 1,
+      "seed_processing_sec": 32.7706458568573,
+      "seeds": [
+        770797
+      ],
+      "startup_overhead_sec": 5.571969270706177,
+      "worker_id": 3
+    },
+    {
+      "batch_index": 69,
+      "elapsed_sec": 181.3892126083374,
+      "seed_count": 1,
+      "seed_processing_sec": 175.8142442703247,
+      "seeds": [
+        770495
+      ],
+      "startup_overhead_sec": 5.574968338012695,
+      "worker_id": 0
+    },
+    {
+      "batch_index": 181,
+      "elapsed_sec": 46.99670910835266,
+      "seed_count": 1,
+      "seed_processing_sec": 41.198203802108765,
+      "seeds": [
+        770792
+      ],
+      "startup_overhead_sec": 5.7985053062438965,
+      "worker_id": 7
+    },
+    {
+      "batch_index": 177,
+      "elapsed_sec": 71.04133987426758,
+      "seed_count": 1,
+      "seed_processing_sec": 65.15290808677673,
+      "seeds": [
+        770759
+      ],
+      "startup_overhead_sec": 5.888431787490845,
+      "worker_id": 6
+    },
+    {
+      "batch_index": 190,
+      "elapsed_sec": 15.641304016113281,
+      "seed_count": 1,
+      "seed_processing_sec": 10.009974002838135,
+      "seeds": [
+        770882
+      ],
+      "startup_overhead_sec": 5.6313300132751465,
+      "worker_id": 3
+    },
+    {
+      "batch_index": 187,
+      "elapsed_sec": 45.75375580787659,
+      "seed_count": 1,
+      "seed_processing_sec": 40.29317235946655,
+      "seeds": [
+        770838
+      ],
+      "startup_overhead_sec": 5.460583448410034,
+      "worker_id": 10
+    },
+    {
+      "batch_index": 70,
+      "elapsed_sec": 20.0810329914093,
+      "seed_count": 1,
+      "seed_processing_sec": 14.548222780227661,
+      "seeds": [
+        770496
+      ],
+      "startup_overhead_sec": 5.532810211181641,
+      "worker_id": 0
+    },
+    {
+      "batch_index": 188,
+      "elapsed_sec": 51.1449511051178,
+      "seed_count": 1,
+      "seed_processing_sec": 45.11472749710083,
+      "seeds": [
+        770842
+      ],
+      "startup_overhead_sec": 6.030223608016968,
+      "worker_id": 9
+    },
+    {
+      "batch_index": 71,
+      "elapsed_sec": 24.950038194656372,
+      "seed_count": 1,
+      "seed_processing_sec": 19.305379390716553,
+      "seeds": [
+        770497
+      ],
+      "startup_overhead_sec": 5.644658803939819,
+      "worker_id": 0
+    },
+    {
+      "batch_index": 176,
+      "elapsed_sec": 112.71435618400574,
+      "seed_count": 1,
+      "seed_processing_sec": 106.2067232131958,
+      "seeds": [
+        770754
+      ],
+      "startup_overhead_sec": 6.5076329708099365,
+      "worker_id": 8
+    },
+    {
+      "batch_index": 180,
+      "elapsed_sec": 93.40415239334106,
+      "seed_count": 1,
+      "seed_processing_sec": 87.6330394744873,
+      "seeds": [
+        770777
+      ],
+      "startup_overhead_sec": 5.77111291885376,
+      "worker_id": 11
+    },
+    {
+      "batch_index": 194,
+      "elapsed_sec": 37.56036877632141,
+      "seed_count": 1,
+      "seed_processing_sec": 31.891521215438843,
+      "seeds": [
+        770900
+      ],
+      "startup_overhead_sec": 5.668847560882568,
+      "worker_id": 10
+    },
+    {
+      "batch_index": 192,
+      "elapsed_sec": 53.80733942985535,
+      "seed_count": 1,
+      "seed_processing_sec": 48.37221956253052,
+      "seeds": [
+        770892
+      ],
+      "startup_overhead_sec": 5.435119867324829,
+      "worker_id": 6
+    },
+    {
+      "batch_index": 186,
+      "elapsed_sec": 107.89764380455017,
+      "seed_count": 1,
+      "seed_processing_sec": 102.57344150543213,
+      "seeds": [
+        770824
+      ],
+      "startup_overhead_sec": 5.324202299118042,
+      "worker_id": 2
+    },
+    {
+      "batch_index": 184,
+      "elapsed_sec": 115.20919489860535,
+      "seed_count": 1,
+      "seed_processing_sec": 109.64217805862427,
+      "seeds": [
+        770805
+      ],
+      "startup_overhead_sec": 5.567016839981079,
+      "worker_id": 1
+    },
+    {
+      "batch_index": 189,
+      "elapsed_sec": 82.11565613746643,
+      "seed_count": 1,
+      "seed_processing_sec": 76.57245755195618,
+      "seeds": [
+        770844
+      ],
+      "startup_overhead_sec": 5.543198585510254,
+      "worker_id": 5
+    },
+    {
+      "batch_index": 197,
+      "elapsed_sec": 29.867949724197388,
+      "seed_count": 1,
+      "seed_processing_sec": 24.632206439971924,
+      "seeds": [
+        770915
+      ],
+      "startup_overhead_sec": 5.235743284225464,
+      "worker_id": 11
+    },
+    {
+      "batch_index": 198,
+      "elapsed_sec": 26.34471893310547,
+      "seed_count": 1,
+      "seed_processing_sec": 20.91019868850708,
+      "seeds": [
+        770924
+      ],
+      "startup_overhead_sec": 5.434520244598389,
+      "worker_id": 10
+    },
+    {
+      "batch_index": 191,
+      "elapsed_sec": 76.16608214378357,
+      "seed_count": 1,
+      "seed_processing_sec": 70.63580918312073,
+      "seeds": [
+        770887
+      ],
+      "startup_overhead_sec": 5.530272960662842,
+      "worker_id": 7
+    },
+    {
+      "batch_index": 185,
+      "elapsed_sec": 125.29453492164612,
+      "seed_count": 1,
+      "seed_processing_sec": 119.69652485847473,
+      "seeds": [
+        770815
+      ],
+      "startup_overhead_sec": 5.598010063171387,
+      "worker_id": 4
+    },
+    {
+      "batch_index": 0,
+      "elapsed_sec": 20.493739128112793,
+      "seed_count": 1,
+      "seed_processing_sec": 14.739578485488892,
+      "seeds": [
+        770494
+      ],
+      "startup_overhead_sec": 5.754160642623901,
+      "worker_id": 2
+    },
+    {
+      "batch_index": 3,
+      "elapsed_sec": 15.069942712783813,
+      "seed_count": 1,
+      "seed_processing_sec": 9.417969465255737,
+      "seeds": [
+        770504
+      ],
+      "startup_overhead_sec": 5.651973247528076,
+      "worker_id": 11
+    },
+    {
+      "batch_index": 5,
+      "elapsed_sec": 19.12445640563965,
+      "seed_count": 1,
+      "seed_processing_sec": 13.823514938354492,
+      "seeds": [
+        770519
+      ],
+      "startup_overhead_sec": 5.300941467285156,
+      "worker_id": 7
+    },
+    {
+      "batch_index": 196,
+      "elapsed_sec": 53.06657600402832,
+      "seed_count": 1,
+      "seed_processing_sec": 47.341203451156616,
+      "seeds": [
+        770903
+      ],
+      "startup_overhead_sec": 5.725372552871704,
+      "worker_id": 8
+    },
+    {
+      "batch_index": 8,
+      "elapsed_sec": 8.751349687576294,
+      "seed_count": 1,
+      "seed_processing_sec": 3.144937038421631,
+      "seeds": [
+        770540
+      ],
+      "startup_overhead_sec": 5.606412649154663,
+      "worker_id": 11
+    },
+    {
+      "batch_index": 7,
+      "elapsed_sec": 10.39009690284729,
+      "seed_count": 1,
+      "seed_processing_sec": 4.590113401412964,
+      "seeds": [
+        770538
+      ],
+      "startup_overhead_sec": 5.799983501434326,
+      "worker_id": 2
+    },
+    {
+      "batch_index": 193,
+      "elapsed_sec": 90.3830497264862,
+      "seed_count": 1,
+      "seed_processing_sec": 84.80128574371338,
+      "seeds": [
+        770895
+      ],
+      "startup_overhead_sec": 5.581763982772827,
+      "worker_id": 3
+    },
+    {
+      "batch_index": 1,
+      "elapsed_sec": 29.303845167160034,
+      "seed_count": 1,
+      "seed_processing_sec": 24.026426076889038,
+      "seeds": [
+        770499
+      ],
+      "startup_overhead_sec": 5.277419090270996,
+      "worker_id": 1
+    },
+    {
+      "batch_index": 2,
+      "elapsed_sec": 29.665409803390503,
+      "seed_count": 1,
+      "seed_processing_sec": 24.362532377243042,
+      "seeds": [
+        770503
+      ],
+      "startup_overhead_sec": 5.302877426147461,
+      "worker_id": 5
+    },
+    {
+      "batch_index": 4,
+      "elapsed_sec": 28.346761226654053,
+      "seed_count": 1,
+      "seed_processing_sec": 23.141971349716187,
+      "seeds": [
+        770513
+      ],
+      "startup_overhead_sec": 5.204789876937866,
+      "worker_id": 10
+    },
+    {
+      "batch_index": 195,
+      "elapsed_sec": 81.0478081703186,
+      "seed_count": 1,
+      "seed_processing_sec": 75.55803298950195,
+      "seeds": [
+        770902
+      ],
+      "startup_overhead_sec": 5.48977518081665,
+      "worker_id": 9
+    },
+    {
+      "batch_index": 10,
+      "elapsed_sec": 9.393006801605225,
+      "seed_count": 1,
+      "seed_processing_sec": 3.760305404663086,
+      "seeds": [
+        770550
+      ],
+      "startup_overhead_sec": 5.632701396942139,
+      "worker_id": 8
+    },
+    {
+      "batch_index": 9,
+      "elapsed_sec": 10.633532047271729,
+      "seed_count": 1,
+      "seed_processing_sec": 5.05493950843811,
+      "seeds": [
+        770546
+      ],
+      "startup_overhead_sec": 5.578592538833618,
+      "worker_id": 7
+    },
+    {
+      "batch_index": 11,
+      "elapsed_sec": 8.573105812072754,
+      "seed_count": 1,
+      "seed_processing_sec": 3.0456204414367676,
+      "seeds": [
+        770558
+      ],
+      "startup_overhead_sec": 5.527485370635986,
+      "worker_id": 11
+    },
+    {
+      "batch_index": 12,
+      "elapsed_sec": 8.446652889251709,
+      "seed_count": 1,
+      "seed_processing_sec": 3.3008503913879395,
+      "seeds": [
+        770567
+      ],
+      "startup_overhead_sec": 5.1458024978637695,
+      "worker_id": 2
+    },
+    {
+      "batch_index": 13,
+      "elapsed_sec": 7.739245653152466,
+      "seed_count": 1,
+      "seed_processing_sec": 2.3858070373535156,
+      "seeds": [
+        770572
+      ],
+      "startup_overhead_sec": 5.35343861579895,
+      "worker_id": 3
+    },
+    {
+      "batch_index": 15,
+      "elapsed_sec": 8.725887060165405,
+      "seed_count": 1,
+      "seed_processing_sec": 3.630976438522339,
+      "seeds": [
+        770578
+      ],
+      "startup_overhead_sec": 5.094910621643066,
+      "worker_id": 5
+    },
+    {
+      "batch_index": 199,
+      "elapsed_sec": 53.14017057418823,
+      "seed_count": 1,
+      "seed_processing_sec": 47.57922124862671,
+      "seeds": [
+        770930
+      ],
+      "startup_overhead_sec": 5.560949325561523,
+      "worker_id": 6
+    },
+    {
+      "batch_index": 6,
+      "elapsed_sec": 28.588483333587646,
+      "seed_count": 1,
+      "seed_processing_sec": 22.760050773620605,
+      "seeds": [
+        770526
+      ],
+      "startup_overhead_sec": 5.828432559967041,
+      "worker_id": 4
+    },
+    {
+      "batch_index": 22,
+      "elapsed_sec": 8.632870435714722,
+      "seed_count": 1,
+      "seed_processing_sec": 3.334385633468628,
+      "seeds": [
+        770629
+      ],
+      "startup_overhead_sec": 5.298484802246094,
+      "worker_id": 3
+    },
+    {
+      "batch_index": 20,
+      "elapsed_sec": 9.999073028564453,
+      "seed_count": 1,
+      "seed_processing_sec": 4.240900039672852,
+      "seeds": [
+        770610
+      ],
+      "startup_overhead_sec": 5.758172988891602,
+      "worker_id": 11
+    },
+    {
+      "batch_index": 18,
+      "elapsed_sec": 11.436097383499146,
+      "seed_count": 1,
+      "seed_processing_sec": 5.702969074249268,
+      "seeds": [
+        770603
+      ],
+      "startup_overhead_sec": 5.733128309249878,
+      "worker_id": 8
+    },
+    {
+      "batch_index": 21,
+      "elapsed_sec": 11.264670848846436,
+      "seed_count": 1,
+      "seed_processing_sec": 5.814639091491699,
+      "seeds": [
+        770625
+      ],
+      "startup_overhead_sec": 5.450031757354736,
+      "worker_id": 2
+    },
+    {
+      "batch_index": 17,
+      "elapsed_sec": 15.266034126281738,
+      "seed_count": 1,
+      "seed_processing_sec": 9.895386695861816,
+      "seeds": [
+        770594
+      ],
+      "startup_overhead_sec": 5.370647430419922,
+      "worker_id": 9
+    },
+    {
+      "batch_index": 19,
+      "elapsed_sec": 12.815418004989624,
+      "seed_count": 1,
+      "seed_processing_sec": 7.065598964691162,
+      "seeds": [
+        770605
+      ],
+      "startup_overhead_sec": 5.749819040298462,
+      "worker_id": 7
+    },
+    {
+      "batch_index": 25,
+      "elapsed_sec": 8.601065635681152,
+      "seed_count": 1,
+      "seed_processing_sec": 3.2448761463165283,
+      "seeds": [
+        770652
+      ],
+      "startup_overhead_sec": 5.356189489364624,
+      "worker_id": 4
+    },
+    {
+      "batch_index": 16,
+      "elapsed_sec": 16.459582567214966,
+      "seed_count": 1,
+      "seed_processing_sec": 10.937897443771362,
+      "seeds": [
+        770592
+      ],
+      "startup_overhead_sec": 5.5216851234436035,
+      "worker_id": 10
+    },
+    {
+      "batch_index": 23,
+      "elapsed_sec": 10.554830074310303,
+      "seed_count": 1,
+      "seed_processing_sec": 5.023963689804077,
+      "seeds": [
+        770632
+      ],
+      "startup_overhead_sec": 5.530866384506226,
+      "worker_id": 5
+    },
+    {
+      "batch_index": 28,
+      "elapsed_sec": 8.176807880401611,
+      "seed_count": 1,
+      "seed_processing_sec": 2.5958008766174316,
+      "seeds": [
+        770665
+      ],
+      "startup_overhead_sec": 5.58100700378418,
+      "worker_id": 8
+    },
+    {
+      "batch_index": 27,
+      "elapsed_sec": 11.475289344787598,
+      "seed_count": 1,
+      "seed_processing_sec": 5.720964431762695,
+      "seeds": [
+        770661
+      ],
+      "startup_overhead_sec": 5.754324913024902,
+      "worker_id": 11
+    },
+    {
+      "batch_index": 14,
+      "elapsed_sec": 29.147264003753662,
+      "seed_count": 1,
+      "seed_processing_sec": 23.792739629745483,
+      "seeds": [
+        770577
+      ],
+      "startup_overhead_sec": 5.354524374008179,
+      "worker_id": 1
+    },
+    {
+      "batch_index": 31,
+      "elapsed_sec": 11.906898736953735,
+      "seed_count": 1,
+      "seed_processing_sec": 6.35412073135376,
+      "seeds": [
+        770703
+      ],
+      "startup_overhead_sec": 5.552778005599976,
+      "worker_id": 7
+    },
+    {
+      "batch_index": 34,
+      "elapsed_sec": 10.857833623886108,
+      "seed_count": 1,
+      "seed_processing_sec": 5.711369037628174,
+      "seeds": [
+        770750
+      ],
+      "startup_overhead_sec": 5.146464586257935,
+      "worker_id": 5
+    },
+    {
+      "batch_index": 30,
+      "elapsed_sec": 16.868107318878174,
+      "seed_count": 1,
+      "seed_processing_sec": 11.264981269836426,
+      "seeds": [
+        770701
+      ],
+      "startup_overhead_sec": 5.603126049041748,
+      "worker_id": 9
+    },
+    {
+      "batch_index": 35,
+      "elapsed_sec": 10.939759254455566,
+      "seed_count": 1,
+      "seed_processing_sec": 4.85690450668335,
+      "seeds": [
+        770751
+      ],
+      "startup_overhead_sec": 6.082854747772217,
+      "worker_id": 8
+    },
+    {
+      "batch_index": 32,
+      "elapsed_sec": 16.687512159347534,
+      "seed_count": 1,
+      "seed_processing_sec": 11.40657639503479,
+      "seeds": [
+        770725
+      ],
+      "startup_overhead_sec": 5.280935764312744,
+      "worker_id": 4
+    },
+    {
+      "batch_index": 33,
+      "elapsed_sec": 18.12722134590149,
+      "seed_count": 1,
+      "seed_processing_sec": 12.836014032363892,
+      "seeds": [
+        770728
+      ],
+      "startup_overhead_sec": 5.291207313537598,
+      "worker_id": 10
+    },
+    {
+      "batch_index": 39,
+      "elapsed_sec": 8.238070249557495,
+      "seed_count": 1,
+      "seed_processing_sec": 2.9281814098358154,
+      "seeds": [
+        770793
+      ],
+      "startup_overhead_sec": 5.30988883972168,
+      "worker_id": 5
+    },
+    {
+      "batch_index": 37,
+      "elapsed_sec": 11.443819522857666,
+      "seed_count": 1,
+      "seed_processing_sec": 6.067772150039673,
+      "seeds": [
+        770776
+      ],
+      "startup_overhead_sec": 5.376047372817993,
+      "worker_id": 1
+    },
+    {
+      "batch_index": 72,
+      "elapsed_sec": 100.19583988189697,
+      "seed_count": 1,
+      "seed_processing_sec": 94.66899824142456,
+      "seeds": [
+        770508
+      ],
+      "startup_overhead_sec": 5.526841640472412,
+      "worker_id": 0
+    },
+    {
+      "batch_index": 24,
+      "elapsed_sec": 32.03701639175415,
+      "seed_count": 1,
+      "seed_processing_sec": 26.606446266174316,
+      "seeds": [
+        770651
+      ],
+      "startup_overhead_sec": 5.430570125579834,
+      "worker_id": 6
+    },
+    {
+      "batch_index": 26,
+      "elapsed_sec": 27.50500726699829,
+      "seed_count": 1,
+      "seed_processing_sec": 21.805748462677002,
+      "seeds": [
+        770657
+      ],
+      "startup_overhead_sec": 5.699258804321289,
+      "worker_id": 3
+    },
+    {
+      "batch_index": 40,
+      "elapsed_sec": 10.17138671875,
+      "seed_count": 1,
+      "seed_processing_sec": 4.4133617877960205,
+      "seeds": [
+        770800
+      ],
+      "startup_overhead_sec": 5.7580249309539795,
+      "worker_id": 9
+    },
+    {
+      "batch_index": 41,
+      "elapsed_sec": 10.56788682937622,
+      "seed_count": 1,
+      "seed_processing_sec": 4.817366600036621,
+      "seeds": [
+        770802
+      ],
+      "startup_overhead_sec": 5.7505202293396,
+      "worker_id": 8
+    },
+    {
+      "batch_index": 45,
+      "elapsed_sec": 7.711333274841309,
+      "seed_count": 1,
+      "seed_processing_sec": 2.367082357406616,
+      "seeds": [
+        770814
+      ],
+      "startup_overhead_sec": 5.344250917434692,
+      "worker_id": 1
+    },
+    {
+      "batch_index": 43,
+      "elapsed_sec": 11.012931108474731,
+      "seed_count": 1,
+      "seed_processing_sec": 5.785459995269775,
+      "seeds": [
+        770809
+      ],
+      "startup_overhead_sec": 5.227471113204956,
+      "worker_id": 10
+    },
+    {
+      "batch_index": 29,
+      "elapsed_sec": 33.80522131919861,
+      "seed_count": 1,
+      "seed_processing_sec": 28.179502487182617,
+      "seeds": [
+        770700
+      ],
+      "startup_overhead_sec": 5.625718832015991,
+      "worker_id": 2
+    },
+    {
+      "batch_index": 46,
+      "elapsed_sec": 9.67820405960083,
+      "seed_count": 1,
+      "seed_processing_sec": 4.154712915420532,
+      "seeds": [
+        770821
+      ],
+      "startup_overhead_sec": 5.523491144180298,
+      "worker_id": 6
+    },
+    {
+      "batch_index": 48,
+      "elapsed_sec": 9.177832126617432,
+      "seed_count": 1,
+      "seed_processing_sec": 3.70878005027771,
+      "seeds": [
+        770829
+      ],
+      "startup_overhead_sec": 5.469052076339722,
+      "worker_id": 9
+    },
+    {
+      "batch_index": 44,
+      "elapsed_sec": 17.693108797073364,
+      "seed_count": 1,
+      "seed_processing_sec": 12.448847532272339,
+      "seeds": [
+        770811
+      ],
+      "startup_overhead_sec": 5.244261264801025,
+      "worker_id": 5
+    },
+    {
+      "batch_index": 36,
+      "elapsed_sec": 29.39925503730774,
+      "seed_count": 1,
+      "seed_processing_sec": 23.879091262817383,
+      "seeds": [
+        770764
+      ],
+      "startup_overhead_sec": 5.5201637744903564,
+      "worker_id": 11
+    },
+    {
+      "batch_index": 49,
+      "elapsed_sec": 12.201202154159546,
+      "seed_count": 1,
+      "seed_processing_sec": 6.538027286529541,
+      "seeds": [
+        770841
+      ],
+      "startup_overhead_sec": 5.663174867630005,
+      "worker_id": 8
+    },
+    {
+      "batch_index": 38,
+      "elapsed_sec": 28.207521438598633,
+      "seed_count": 1,
+      "seed_processing_sec": 22.454749584197998,
+      "seeds": [
+        770789
+      ],
+      "startup_overhead_sec": 5.752771854400635,
+      "worker_id": 7
+    },
+    {
+      "batch_index": 42,
+      "elapsed_sec": 23.24310541152954,
+      "seed_count": 1,
+      "seed_processing_sec": 17.424914121627808,
+      "seeds": [
+        770806
+      ],
+      "startup_overhead_sec": 5.818191289901733,
+      "worker_id": 4
+    },
+    {
+      "batch_index": 51,
+      "elapsed_sec": 11.17968487739563,
+      "seed_count": 1,
+      "seed_processing_sec": 5.771804571151733,
+      "seeds": [
+        770852
+      ],
+      "startup_overhead_sec": 5.4078803062438965,
+      "worker_id": 10
+    },
+    {
+      "batch_index": 53,
+      "elapsed_sec": 8.559712171554565,
+      "seed_count": 1,
+      "seed_processing_sec": 3.1820240020751953,
+      "seeds": [
+        770864
+      ],
+      "startup_overhead_sec": 5.37768816947937,
+      "worker_id": 6
+    },
+    {
+      "batch_index": 47,
+      "elapsed_sec": 18.987664222717285,
+      "seed_count": 1,
+      "seed_processing_sec": 13.87026309967041,
+      "seeds": [
+        770825
+      ],
+      "startup_overhead_sec": 5.117401123046875,
+      "worker_id": 3
+    },
+    {
+      "batch_index": 50,
+      "elapsed_sec": 15.68971300125122,
+      "seed_count": 1,
+      "seed_processing_sec": 10.328656435012817,
+      "seeds": [
+        770850
+      ],
+      "startup_overhead_sec": 5.361056566238403,
+      "worker_id": 1
+    },
+    {
+      "batch_index": 54,
+      "elapsed_sec": 10.525281190872192,
+      "seed_count": 1,
+      "seed_processing_sec": 5.118686199188232,
+      "seeds": [
+        770878
+      ],
+      "startup_overhead_sec": 5.40659499168396,
+      "worker_id": 9
+    },
+    {
+      "batch_index": 57,
+      "elapsed_sec": 9.950139284133911,
+      "seed_count": 1,
+      "seed_processing_sec": 4.394615650177002,
+      "seeds": [
+        770898
+      ],
+      "startup_overhead_sec": 5.555523633956909,
+      "worker_id": 8
+    },
+    {
+      "batch_index": 59,
+      "elapsed_sec": 10.957778930664062,
+      "seed_count": 1,
+      "seed_processing_sec": 5.608643531799316,
+      "seeds": [
+        770906
+      ],
+      "startup_overhead_sec": 5.349135398864746,
+      "worker_id": 4
+    },
+    {
+      "batch_index": 55,
+      "elapsed_sec": 13.806684732437134,
+      "seed_count": 1,
+      "seed_processing_sec": 8.11110782623291,
+      "seeds": [
+        770885
+      ],
+      "startup_overhead_sec": 5.695576906204224,
+      "worker_id": 5
+    },
+    {
+      "batch_index": 61,
+      "elapsed_sec": 10.933561086654663,
+      "seed_count": 1,
+      "seed_processing_sec": 5.525518894195557,
+      "seeds": [
+        770914
+      ],
+      "startup_overhead_sec": 5.4080421924591064,
+      "worker_id": 6
+    },
+    {
+      "batch_index": 64,
+      "elapsed_sec": 8.474597454071045,
+      "seed_count": 1,
+      "seed_processing_sec": 3.0796172618865967,
+      "seeds": [
+        770937
+      ],
+      "startup_overhead_sec": 5.394980192184448,
+      "worker_id": 9
+    },
+    {
+      "batch_index": 63,
+      "elapsed_sec": 10.247579097747803,
+      "seed_count": 1,
+      "seed_processing_sec": 4.798703908920288,
+      "seeds": [
+        770925
+      ],
+      "startup_overhead_sec": 5.448875188827515,
+      "worker_id": 1
+    },
+    {
+      "batch_index": 58,
+      "elapsed_sec": 16.32615566253662,
+      "seed_count": 1,
+      "seed_processing_sec": 10.91479754447937,
+      "seeds": [
+        770899
+      ],
+      "startup_overhead_sec": 5.411358118057251,
+      "worker_id": 7
+    },
+    {
+      "batch_index": 60,
+      "elapsed_sec": 15.270686149597168,
+      "seed_count": 1,
+      "seed_processing_sec": 9.84975290298462,
+      "seeds": [
+        770910
+      ],
+      "startup_overhead_sec": 5.420933246612549,
+      "worker_id": 10
+    },
+    {
+      "batch_index": 62,
+      "elapsed_sec": 14.405333757400513,
+      "seed_count": 1,
+      "seed_processing_sec": 9.217683792114258,
+      "seeds": [
+        770919
+      ],
+      "startup_overhead_sec": 5.187649965286255,
+      "worker_id": 3
+    },
+    {
+      "batch_index": 56,
+      "elapsed_sec": 20.672159671783447,
+      "seed_count": 1,
+      "seed_processing_sec": 15.231628656387329,
+      "seeds": [
+        770891
+      ],
+      "startup_overhead_sec": 5.440531015396118,
+      "worker_id": 11
+    },
+    {
+      "batch_index": 66,
+      "elapsed_sec": 8.132614135742188,
+      "seed_count": 1,
+      "seed_processing_sec": 2.756112813949585,
+      "seeds": [
+        770949
+      ],
+      "startup_overhead_sec": 5.3765013217926025,
+      "worker_id": 4
+    },
+    {
+      "batch_index": 52,
+      "elapsed_sec": 29.237426042556763,
+      "seed_count": 1,
+      "seed_processing_sec": 23.74198007583618,
+      "seeds": [
+        770859
+      ],
+      "startup_overhead_sec": 5.495445966720581,
+      "worker_id": 2
+    },
+    {
+      "batch_index": 73,
+      "elapsed_sec": 44.98691201210022,
+      "seed_count": 1,
+      "seed_processing_sec": 39.418534994125366,
+      "seeds": [
+        770509
+      ],
+      "startup_overhead_sec": 5.5683770179748535,
+      "worker_id": 0
+    },
+    {
+      "batch_index": 76,
+      "elapsed_sec": 18.951048374176025,
+      "seed_count": 1,
+      "seed_processing_sec": 13.23234248161316,
+      "seeds": [
+        770522
+      ],
+      "startup_overhead_sec": 5.718705892562866,
+      "worker_id": 9
+    },
+    {
+      "batch_index": 78,
+      "elapsed_sec": 21.946431875228882,
+      "seed_count": 1,
+      "seed_processing_sec": 16.0479953289032,
+      "seeds": [
+        770532
+      ],
+      "startup_overhead_sec": 5.898436546325684,
+      "worker_id": 7
+    },
+    {
+      "batch_index": 82,
+      "elapsed_sec": 19.121511459350586,
+      "seed_count": 1,
+      "seed_processing_sec": 13.384333848953247,
+      "seeds": [
+        770544
+      ],
+      "startup_overhead_sec": 5.737177610397339,
+      "worker_id": 4
+    },
+    {
+      "batch_index": 65,
+      "elapsed_sec": 30.795185089111328,
+      "seed_count": 1,
+      "seed_processing_sec": 25.086536169052124,
+      "seeds": [
+        770939
+      ],
+      "startup_overhead_sec": 5.708648920059204,
+      "worker_id": 8
+    },
+    {
+      "batch_index": 81,
+      "elapsed_sec": 22.305541038513184,
+      "seed_count": 1,
+      "seed_processing_sec": 16.571504592895508,
+      "seeds": [
+        770537
+      ],
+      "startup_overhead_sec": 5.734036445617676,
+      "worker_id": 11
+    },
+    {
+      "batch_index": 83,
+      "elapsed_sec": 20.64643907546997,
+      "seed_count": 1,
+      "seed_processing_sec": 15.103710889816284,
+      "seeds": [
+        770552
+      ],
+      "startup_overhead_sec": 5.5427281856536865,
+      "worker_id": 2
+    },
+    {
+      "batch_index": 79,
+      "elapsed_sec": 34.04659414291382,
+      "seed_count": 1,
+      "seed_processing_sec": 28.416340351104736,
+      "seeds": [
+        770534
+      ],
+      "startup_overhead_sec": 5.630253791809082,
+      "worker_id": 10
+    },
+    {
+      "batch_index": 86,
+      "elapsed_sec": 18.143597841262817,
+      "seed_count": 1,
+      "seed_processing_sec": 12.2261643409729,
+      "seeds": [
+        770561
+      ],
+      "startup_overhead_sec": 5.917433500289917,
+      "worker_id": 7
+    },
+    {
+      "batch_index": 87,
+      "elapsed_sec": 20.44570279121399,
+      "seed_count": 1,
+      "seed_processing_sec": 14.727215051651001,
+      "seeds": [
+        770579
+      ],
+      "startup_overhead_sec": 5.718487739562988,
+      "worker_id": 4
+    },
+    {
+      "batch_index": 88,
+      "elapsed_sec": 20.660832405090332,
+      "seed_count": 1,
+      "seed_processing_sec": 14.79596471786499,
+      "seeds": [
+        770580
+      ],
+      "startup_overhead_sec": 5.864867687225342,
+      "worker_id": 8
+    },
+    {
+      "batch_index": 89,
+      "elapsed_sec": 21.357794523239136,
+      "seed_count": 1,
+      "seed_processing_sec": 15.832567930221558,
+      "seeds": [
+        770582
+      ],
+      "startup_overhead_sec": 5.525226593017578,
+      "worker_id": 11
+    },
+    {
+      "batch_index": 90,
+      "elapsed_sec": 20.95152521133423,
+      "seed_count": 1,
+      "seed_processing_sec": 15.107752799987793,
+      "seeds": [
+        770584
+      ],
+      "startup_overhead_sec": 5.8437724113464355,
+      "worker_id": 2
+    },
+    {
+      "batch_index": 75,
+      "elapsed_sec": 53.2329638004303,
+      "seed_count": 1,
+      "seed_processing_sec": 47.691683292388916,
+      "seeds": [
+        770517
+      ],
+      "startup_overhead_sec": 5.541280508041382,
+      "worker_id": 6
+    },
+    {
+      "batch_index": 80,
+      "elapsed_sec": 64.21268630027771,
+      "seed_count": 1,
+      "seed_processing_sec": 58.54532217979431,
+      "seeds": [
+        770536
+      ],
+      "startup_overhead_sec": 5.667364120483398,
+      "worker_id": 3
+    },
+    {
+      "batch_index": 95,
+      "elapsed_sec": 21.19222402572632,
+      "seed_count": 1,
+      "seed_processing_sec": 15.423399686813354,
+      "seeds": [
+        770617
+      ],
+      "startup_overhead_sec": 5.768824338912964,
+      "worker_id": 11
+    },
+    {
+      "batch_index": 97,
+      "elapsed_sec": 19.761364936828613,
+      "seed_count": 1,
+      "seed_processing_sec": 14.358635663986206,
+      "seeds": [
+        770634
+      ],
+      "startup_overhead_sec": 5.402729272842407,
+      "worker_id": 6
+    },
+    {
+      "batch_index": 85,
+      "elapsed_sec": 52.249614238739014,
+      "seed_count": 1,
+      "seed_processing_sec": 46.258421659469604,
+      "seeds": [
+        770559
+      ],
+      "startup_overhead_sec": 5.991192579269409,
+      "worker_id": 9
+    },
+    {
+      "batch_index": 98,
+      "elapsed_sec": 21.311577320098877,
+      "seed_count": 1,
+      "seed_processing_sec": 15.411916494369507,
+      "seeds": [
+        770638
+      ],
+      "startup_overhead_sec": 5.89966082572937,
+      "worker_id": 3
+    },
+    {
+      "batch_index": 99,
+      "elapsed_sec": 19.58478879928589,
+      "seed_count": 1,
+      "seed_processing_sec": 13.793823719024658,
+      "seeds": [
+        770650
+      ],
+      "startup_overhead_sec": 5.7909650802612305,
+      "worker_id": 11
+    },
+    {
+      "batch_index": 94,
+      "elapsed_sec": 42.73530173301697,
+      "seed_count": 1,
+      "seed_processing_sec": 36.815248012542725,
+      "seeds": [
+        770604
+      ],
+      "startup_overhead_sec": 5.920053720474243,
+      "worker_id": 8
+    },
+    {
+      "batch_index": 84,
+      "elapsed_sec": 78.3626856803894,
+      "seed_count": 1,
+      "seed_processing_sec": 72.41557478904724,
+      "seeds": [
+        770556
+      ],
+      "startup_overhead_sec": 5.947110891342163,
+      "worker_id": 0
+    },
+    {
+      "batch_index": 92,
+      "elapsed_sec": 55.36226272583008,
+      "seed_count": 1,
+      "seed_processing_sec": 49.03864502906799,
+      "seeds": [
+        770600
+      ],
+      "startup_overhead_sec": 6.323617696762085,
+      "worker_id": 7
+    },
+    {
+      "batch_index": 93,
+      "elapsed_sec": 58.20718216896057,
+      "seed_count": 1,
+      "seed_processing_sec": 52.538960456848145,
+      "seeds": [
+        770601
+      ],
+      "startup_overhead_sec": 5.668221712112427,
+      "worker_id": 4
+    },
+    {
+      "batch_index": 91,
+      "elapsed_sec": 71.74245405197144,
+      "seed_count": 1,
+      "seed_processing_sec": 65.78259348869324,
+      "seeds": [
+        770589
+      ],
+      "startup_overhead_sec": 5.959860563278198,
+      "worker_id": 10
+    },
+    {
+      "batch_index": 103,
+      "elapsed_sec": 20.64117193222046,
+      "seed_count": 1,
+      "seed_processing_sec": 14.855202436447144,
+      "seeds": [
+        770673
+      ],
+      "startup_overhead_sec": 5.785969495773315,
+      "worker_id": 11
+    },
+    {
+      "batch_index": 104,
+      "elapsed_sec": 21.26874804496765,
+      "seed_count": 1,
+      "seed_processing_sec": 15.319579124450684,
+      "seeds": [
+        770682
+      ],
+      "startup_overhead_sec": 5.949168920516968,
+      "worker_id": 8
+    },
+    {
+      "batch_index": 107,
+      "elapsed_sec": 17.660690784454346,
+      "seed_count": 1,
+      "seed_processing_sec": 11.737198829650879,
+      "seeds": [
+        770719
+      ],
+      "startup_overhead_sec": 5.923491954803467,
+      "worker_id": 4
+    },
+    {
+      "batch_index": 105,
+      "elapsed_sec": 35.239664793014526,
+      "seed_count": 1,
+      "seed_processing_sec": 29.691505193710327,
+      "seeds": [
+        770705
+      ],
+      "startup_overhead_sec": 5.548159599304199,
+      "worker_id": 0
+    },
+    {
+      "batch_index": 109,
+      "elapsed_sec": 20.014923334121704,
+      "seed_count": 1,
+      "seed_processing_sec": 14.343345880508423,
+      "seeds": [
+        770733
+      ],
+      "startup_overhead_sec": 5.671577453613281,
+      "worker_id": 11
+    },
+    {
+      "batch_index": 110,
+      "elapsed_sec": 19.24009609222412,
+      "seed_count": 1,
+      "seed_processing_sec": 13.583616018295288,
+      "seeds": [
+        770741
+      ],
+      "startup_overhead_sec": 5.656480073928833,
+      "worker_id": 8
+    },
+    {
+      "batch_index": 101,
+      "elapsed_sec": 64.75920510292053,
+      "seed_count": 1,
+      "seed_processing_sec": 59.12860298156738,
+      "seeds": [
+        770663
+      ],
+      "startup_overhead_sec": 5.630602121353149,
+      "worker_id": 9
+    },
+    {
+      "batch_index": 111,
+      "elapsed_sec": 19.7807035446167,
+      "seed_count": 1,
+      "seed_processing_sec": 14.265654563903809,
+      "seeds": [
+        770747
+      ],
+      "startup_overhead_sec": 5.515048980712891,
+      "worker_id": 4
+    },
+    {
+      "batch_index": 108,
+      "elapsed_sec": 35.380149126052856,
+      "seed_count": 1,
+      "seed_processing_sec": 29.6107497215271,
+      "seeds": [
+        770731
+      ],
+      "startup_overhead_sec": 5.769399404525757,
+      "worker_id": 10
+    },
+    {
+      "batch_index": 112,
+      "elapsed_sec": 20.114362239837646,
+      "seed_count": 1,
+      "seed_processing_sec": 14.402880907058716,
+      "seeds": [
+        770748
+      ],
+      "startup_overhead_sec": 5.711481332778931,
+      "worker_id": 0
+    },
+    {
+      "batch_index": 100,
+      "elapsed_sec": 75.16217875480652,
+      "seed_count": 1,
+      "seed_processing_sec": 69.53307628631592,
+      "seeds": [
+        770658
+      ],
+      "startup_overhead_sec": 5.629102468490601,
+      "worker_id": 6
+    },
+    {
+      "batch_index": 114,
+      "elapsed_sec": 18.43893575668335,
+      "seed_count": 1,
+      "seed_processing_sec": 12.93320894241333,
+      "seeds": [
+        770755
+      ],
+      "startup_overhead_sec": 5.5057268142700195,
+      "worker_id": 8
+    },
+    {
+      "batch_index": 113,
+      "elapsed_sec": 19.477071523666382,
+      "seed_count": 1,
+      "seed_processing_sec": 13.877480506896973,
+      "seeds": [
+        770753
+      ],
+      "startup_overhead_sec": 5.599591016769409,
+      "worker_id": 11
+    },
+    {
+      "batch_index": 77,
+      "elapsed_sec": 155.4214732646942,
+      "seed_count": 1,
+      "seed_processing_sec": 149.7678985595703,
+      "seeds": [
+        770530
+      ],
+      "startup_overhead_sec": 5.653574705123901,
+      "worker_id": 1
+    },
+    {
+      "batch_index": 119,
+      "elapsed_sec": 20.189241409301758,
+      "seed_count": 1,
+      "seed_processing_sec": 14.672898054122925,
+      "seeds": [
+        770784
+      ],
+      "startup_overhead_sec": 5.516343355178833,
+      "worker_id": 6
+    },
+    {
+      "batch_index": 115,
+      "elapsed_sec": 34.833319664001465,
+      "seed_count": 1,
+      "seed_processing_sec": 29.035066604614258,
+      "seeds": [
+        770756
+      ],
+      "startup_overhead_sec": 5.798253059387207,
+      "worker_id": 9
+    },
+    {
+      "batch_index": 102,
+      "elapsed_sec": 86.56272912025452,
+      "seed_count": 1,
+      "seed_processing_sec": 80.65888571739197,
+      "seeds": [
+        770672
+      ],
+      "startup_overhead_sec": 5.903843402862549,
+      "worker_id": 3
+    },
+    {
+      "batch_index": 117,
+      "elapsed_sec": 38.66045570373535,
+      "seed_count": 1,
+      "seed_processing_sec": 33.22945713996887,
+      "seeds": [
+        770768
+      ],
+      "startup_overhead_sec": 5.4309985637664795,
+      "worker_id": 10
+    },
+    {
+      "batch_index": 124,
+      "elapsed_sec": 18.2090163230896,
+      "seed_count": 1,
+      "seed_processing_sec": 12.106481790542603,
+      "seeds": [
+        770808
+      ],
+      "startup_overhead_sec": 6.102534532546997,
+      "worker_id": 9
+    },
+    {
+      "batch_index": 120,
+      "elapsed_sec": 42.790122270584106,
+      "seed_count": 1,
+      "seed_processing_sec": 37.147557973861694,
+      "seeds": [
+        770790
+      ],
+      "startup_overhead_sec": 5.642564296722412,
+      "worker_id": 8
+    },
+    {
+      "batch_index": 125,
+      "elapsed_sec": 19.314584255218506,
+      "seed_count": 1,
+      "seed_processing_sec": 13.655349731445312,
+      "seeds": [
+        770822
+      ],
+      "startup_overhead_sec": 5.659234523773193,
+      "worker_id": 3
+    },
+    {
+      "batch_index": 123,
+      "elapsed_sec": 33.007269620895386,
+      "seed_count": 1,
+      "seed_processing_sec": 27.54190421104431,
+      "seeds": [
+        770807
+      ],
+      "startup_overhead_sec": 5.465365409851074,
+      "worker_id": 6
+    },
+    {
+      "batch_index": 121,
+      "elapsed_sec": 57.36911153793335,
+      "seed_count": 1,
+      "seed_processing_sec": 52.064473152160645,
+      "seeds": [
+        770791
+      ],
+      "startup_overhead_sec": 5.304638385772705,
+      "worker_id": 11
+    },
+    {
+      "batch_index": 116,
+      "elapsed_sec": 67.776780128479,
+      "seed_count": 1,
+      "seed_processing_sec": 62.3884494304657,
+      "seeds": [
+        770765
+      ],
+      "startup_overhead_sec": 5.388330698013306,
+      "worker_id": 4
+    },
+    {
+      "batch_index": 128,
+      "elapsed_sec": 20.233736753463745,
+      "seed_count": 1,
+      "seed_processing_sec": 14.903815746307373,
+      "seeds": [
+        770853
+      ],
+      "startup_overhead_sec": 5.329921007156372,
+      "worker_id": 8
+    },
+    {
+      "batch_index": 126,
+      "elapsed_sec": 36.20208287239075,
+      "seed_count": 1,
+      "seed_processing_sec": 30.501225471496582,
+      "seeds": [
+        770828
+      ],
+      "startup_overhead_sec": 5.700857400894165,
+      "worker_id": 10
+    },
+    {
+      "batch_index": 132,
+      "elapsed_sec": 17.68694019317627,
+      "seed_count": 1,
+      "seed_processing_sec": 12.396383285522461,
+      "seeds": [
+        770866
+      ],
+      "startup_overhead_sec": 5.290556907653809,
+      "worker_id": 4
+    },
+    {
+      "batch_index": 131,
+      "elapsed_sec": 19.7358455657959,
+      "seed_count": 1,
+      "seed_processing_sec": 14.35948133468628,
+      "seeds": [
+        770865
+      ],
+      "startup_overhead_sec": 5.376364231109619,
+      "worker_id": 11
+    },
+    {
+      "batch_index": 133,
+      "elapsed_sec": 16.76813793182373,
+      "seed_count": 1,
+      "seed_processing_sec": 11.36555528640747,
+      "seeds": [
+        770875
+      ],
+      "startup_overhead_sec": 5.40258264541626,
+      "worker_id": 8
+    },
+    {
+      "batch_index": 106,
+      "elapsed_sec": 135.93052792549133,
+      "seed_count": 1,
+      "seed_processing_sec": 130.4053192138672,
+      "seeds": [
+        770718
+      ],
+      "startup_overhead_sec": 5.5252087116241455,
+      "worker_id": 7
+    },
+    {
+      "batch_index": 74,
+      "elapsed_sec": 236.01744484901428,
+      "seed_count": 1,
+      "seed_processing_sec": 230.32993292808533,
+      "seeds": [
+        770516
+      ],
+      "startup_overhead_sec": 5.687511920928955,
+      "worker_id": 5
+    },
+    {
+      "batch_index": 129,
+      "elapsed_sec": 45.68613123893738,
+      "seed_count": 1,
+      "seed_processing_sec": 40.38826584815979,
+      "seeds": [
+        770856
+      ],
+      "startup_overhead_sec": 5.297865390777588,
+      "worker_id": 3
+    },
+    {
+      "batch_index": 127,
+      "elapsed_sec": 61.49884223937988,
+      "seed_count": 1,
+      "seed_processing_sec": 56.03758692741394,
+      "seeds": [
+        770836
+      ],
+      "startup_overhead_sec": 5.461255311965942,
+      "worker_id": 9
+    },
+    {
+      "batch_index": 122,
+      "elapsed_sec": 99.93772530555725,
+      "seed_count": 1,
+      "seed_processing_sec": 94.57118678092957,
+      "seeds": [
+        770803
+      ],
+      "startup_overhead_sec": 5.3665385246276855,
+      "worker_id": 1
+    },
+    {
+      "batch_index": 96,
+      "elapsed_sec": 230.70039772987366,
+      "seed_count": 1,
+      "seed_processing_sec": 225.12743020057678,
+      "seeds": [
+        770626
+      ],
+      "startup_overhead_sec": 5.572967529296875,
+      "worker_id": 2
+    },
+    {
+      "batch_index": 118,
+      "elapsed_sec": 142.9508183002472,
+      "seed_count": 1,
+      "seed_processing_sec": 137.84174728393555,
+      "seeds": [
+        770783
+      ],
+      "startup_overhead_sec": 5.1090710163116455,
+      "worker_id": 0
+    },
+    {
+      "batch_index": 130,
+      "elapsed_sec": 93.02558422088623,
+      "seed_count": 1,
+      "seed_processing_sec": 87.57910680770874,
+      "seeds": [
+        770862
+      ],
+      "startup_overhead_sec": 5.44647741317749,
+      "worker_id": 6
+    }
+  ],
+  "execution_status_counts": {
+    "seed_done": 200
+  },
+  "extrapolation_1000_seeds": {
+    "estimated_avg_wall_per_seed_sec": 3.2443289533870714,
+    "estimated_throughput_seeds_per_min": 18.49380900089066,
+    "estimated_wall_clock_sec": 3244.3289533870716,
+    "total_seed_worker_sec": 38931.94744064486,
+    "workers_used": 12
+  },
+  "group_results": {
+    "type2_open": [
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 14.739578485488892,
+        "score": 0.6609256466209441,
+        "seed": 770494,
+        "sim_time": 35.25999999999991,
+        "success": true,
+        "timeout_zero": false,
+        "wall_time": 20.493739128112793
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 24.026426076889038,
+        "score": 0.01,
+        "seed": 770499,
+        "sim_time": 60.00000000000378,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 29.303845167160034
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 24.362532377243042,
+        "score": 0.01,
+        "seed": 770503,
+        "sim_time": 52.220000000002564,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 29.665409803390503
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 9.417969465255737,
+        "score": 0.7979603392543485,
+        "seed": 770504,
+        "sim_time": 21.759999999999625,
+        "success": true,
+        "timeout_zero": false,
+        "wall_time": 15.069942712783813
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 23.141971349716187,
+        "score": 0.01,
+        "seed": 770513,
+        "sim_time": 60.00000000000378,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 28.346761226654053
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 13.823514938354492,
+        "score": 0.01,
+        "seed": 770519,
+        "sim_time": 33.39999999999962,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 19.12445640563965
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 22.760050773620605,
+        "score": 0.01,
+        "seed": 770526,
+        "sim_time": 60.00000000000378,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 28.588483333587646
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 4.590113401412964,
+        "score": 0.01,
+        "seed": 770538,
+        "sim_time": 7.699999999999924,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 10.39009690284729
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 3.144937038421631,
+        "score": 0.01,
+        "seed": 770540,
+        "sim_time": 4.559999999999991,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 8.751349687576294
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 5.05493950843811,
+        "score": 0.01,
+        "seed": 770546,
+        "sim_time": 12.539999999999822,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 10.633532047271729
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 3.760305404663086,
+        "score": 0.938910703259138,
+        "seed": 770550,
+        "sim_time": 7.1999999999999345,
+        "success": true,
+        "timeout_zero": false,
+        "wall_time": 9.393006801605225
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 3.0456204414367676,
+        "score": 0.01,
+        "seed": 770558,
+        "sim_time": 6.299999999999954,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 8.573105812072754
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 3.3008503913879395,
+        "score": 0.01,
+        "seed": 770567,
+        "sim_time": 6.8199999999999426,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 8.446652889251709
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 2.3858070373535156,
+        "score": 0.01,
+        "seed": 770572,
+        "sim_time": 4.499999999999992,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 7.739245653152466
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 23.792739629745483,
+        "score": 0.01,
+        "seed": 770577,
+        "sim_time": 60.00000000000378,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 29.147264003753662
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 3.630976438522339,
+        "score": 0.01,
+        "seed": 770578,
+        "sim_time": 7.7599999999999225,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 8.725887060165405
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 10.937897443771362,
+        "score": 0.72077254934195,
+        "seed": 770592,
+        "sim_time": 28.819999999999474,
+        "success": true,
+        "timeout_zero": false,
+        "wall_time": 16.459582567214966
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 9.895386695861816,
+        "score": 0.01,
+        "seed": 770594,
+        "sim_time": 23.739999999999583,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 15.266034126281738
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 5.702969074249268,
+        "score": 0.01,
+        "seed": 770603,
+        "sim_time": 14.679999999999776,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 11.436097383499146
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 7.065598964691162,
+        "score": 0.01,
+        "seed": 770605,
+        "sim_time": 14.119999999999788,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 12.815418004989624
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 4.240900039672852,
+        "score": 0.01,
+        "seed": 770610,
+        "sim_time": 9.199999999999893,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 9.999073028564453
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 5.814639091491699,
+        "score": 0.01,
+        "seed": 770625,
+        "sim_time": 12.979999999999812,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 11.264670848846436
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 3.334385633468628,
+        "score": 0.01,
+        "seed": 770629,
+        "sim_time": 6.179999999999956,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 8.632870435714722
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 5.023963689804077,
+        "score": 0.01,
+        "seed": 770632,
+        "sim_time": 11.319999999999848,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 10.554830074310303
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 26.606446266174316,
+        "score": 0.01,
+        "seed": 770651,
+        "sim_time": 60.00000000000378,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 32.03701639175415
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 3.2448761463165283,
+        "score": 0.01,
+        "seed": 770652,
+        "sim_time": 5.959999999999961,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 8.601065635681152
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 21.805748462677002,
+        "score": 0.01,
+        "seed": 770657,
+        "sim_time": 60.00000000000378,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 27.50500726699829
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 5.720964431762695,
+        "score": 0.01,
+        "seed": 770661,
+        "sim_time": 11.739999999999839,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 11.475289344787598
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 2.5958008766174316,
+        "score": 0.9183687488100251,
+        "seed": 770665,
+        "sim_time": 5.1799999999999775,
+        "success": true,
+        "timeout_zero": false,
+        "wall_time": 8.176807880401611
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 28.179502487182617,
+        "score": 0.01,
+        "seed": 770700,
+        "sim_time": 60.00000000000378,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 33.80522131919861
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 11.264981269836426,
+        "score": 0.7531791277397117,
+        "seed": 770701,
+        "sim_time": 24.559999999999565,
+        "success": true,
+        "timeout_zero": false,
+        "wall_time": 16.868107318878174
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 6.35412073135376,
+        "score": 0.01,
+        "seed": 770703,
+        "sim_time": 12.019999999999833,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 11.906898736953735
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 11.40657639503479,
+        "score": 0.01,
+        "seed": 770725,
+        "sim_time": 28.199999999999488,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 16.687512159347534
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 12.836014032363892,
+        "score": 0.01,
+        "seed": 770728,
+        "sim_time": 31.079999999999426,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 18.12722134590149
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 5.711369037628174,
+        "score": 0.01,
+        "seed": 770750,
+        "sim_time": 11.359999999999847,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 10.857833623886108
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 4.85690450668335,
+        "score": 0.8583527045391989,
+        "seed": 770751,
+        "sim_time": 10.639999999999862,
+        "success": true,
+        "timeout_zero": false,
+        "wall_time": 10.939759254455566
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 23.879091262817383,
+        "score": 0.01,
+        "seed": 770764,
+        "sim_time": 60.00000000000378,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 29.39925503730774
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 6.067772150039673,
+        "score": 0.8641398096981472,
+        "seed": 770776,
+        "sim_time": 12.57999999999982,
+        "success": true,
+        "timeout_zero": false,
+        "wall_time": 11.443819522857666
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 22.454749584197998,
+        "score": 0.01,
+        "seed": 770789,
+        "sim_time": 60.00000000000378,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 28.207521438598633
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 2.9281814098358154,
+        "score": 0.01,
+        "seed": 770793,
+        "sim_time": 4.479999999999992,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 8.238070249557495
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 4.4133617877960205,
+        "score": 0.01,
+        "seed": 770800,
+        "sim_time": 9.619999999999884,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 10.17138671875
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 4.817366600036621,
+        "score": 0.8571268740260298,
+        "seed": 770802,
+        "sim_time": 10.819999999999858,
+        "success": true,
+        "timeout_zero": false,
+        "wall_time": 10.56788682937622
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 17.424914121627808,
+        "score": 0.01,
+        "seed": 770806,
+        "sim_time": 42.560000000001054,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 23.24310541152954
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 5.785459995269775,
+        "score": 0.8759438206263372,
+        "seed": 770809,
+        "sim_time": 12.11999999999983,
+        "success": true,
+        "timeout_zero": false,
+        "wall_time": 11.012931108474731
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 12.448847532272339,
+        "score": 0.7002106193375586,
+        "seed": 770811,
+        "sim_time": 29.93999999999945,
+        "success": true,
+        "timeout_zero": false,
+        "wall_time": 17.693108797073364
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 2.367082357406616,
+        "score": 0.01,
+        "seed": 770814,
+        "sim_time": 3.940000000000003,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 7.711333274841309
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 4.154712915420532,
+        "score": 0.01,
+        "seed": 770821,
+        "sim_time": 7.8999999999999195,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 9.67820405960083
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 13.87026309967041,
+        "score": 0.01,
+        "seed": 770825,
+        "sim_time": 33.9199999999997,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 18.987664222717285
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 3.70878005027771,
+        "score": 0.01,
+        "seed": 770829,
+        "sim_time": 7.439999999999929,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 9.177832126617432
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 6.538027286529541,
+        "score": 0.9162086826904055,
+        "seed": 770841,
+        "sim_time": 11.579999999999842,
+        "success": true,
+        "timeout_zero": false,
+        "wall_time": 12.201202154159546
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 10.328656435012817,
+        "score": 0.01,
+        "seed": 770850,
+        "sim_time": 27.879999999999495,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 15.68971300125122
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 5.771804571151733,
+        "score": 0.8783711259017768,
+        "seed": 770852,
+        "sim_time": 11.279999999999848,
+        "success": true,
+        "timeout_zero": false,
+        "wall_time": 11.17968487739563
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 23.74198007583618,
+        "score": 0.01,
+        "seed": 770859,
+        "sim_time": 60.00000000000378,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 29.237426042556763
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 3.1820240020751953,
+        "score": 0.01,
+        "seed": 770864,
+        "sim_time": 6.039999999999959,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 8.559712171554565
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 5.118686199188232,
+        "score": 0.01,
+        "seed": 770878,
+        "sim_time": 12.759999999999817,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 10.525281190872192
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 8.11110782623291,
+        "score": 0.8460490735585107,
+        "seed": 770885,
+        "sim_time": 19.339999999999677,
+        "success": true,
+        "timeout_zero": false,
+        "wall_time": 13.806684732437134
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 15.231628656387329,
+        "score": 0.01,
+        "seed": 770891,
+        "sim_time": 36.360000000000085,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 20.672159671783447
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 4.394615650177002,
+        "score": 0.9201225935037716,
+        "seed": 770898,
+        "sim_time": 7.159999999999935,
+        "success": true,
+        "timeout_zero": false,
+        "wall_time": 9.950139284133911
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 10.91479754447937,
+        "score": 0.7670903433840305,
+        "seed": 770899,
+        "sim_time": 26.979999999999514,
+        "success": true,
+        "timeout_zero": false,
+        "wall_time": 16.32615566253662
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 5.608643531799316,
+        "score": 0.01,
+        "seed": 770906,
+        "sim_time": 12.239999999999828,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 10.957778930664062
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 9.84975290298462,
+        "score": 0.01,
+        "seed": 770910,
+        "sim_time": 24.159999999999574,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 15.270686149597168
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 5.525518894195557,
+        "score": 0.9245653338969563,
+        "seed": 770914,
+        "sim_time": 10.479999999999865,
+        "success": true,
+        "timeout_zero": false,
+        "wall_time": 10.933561086654663
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 9.217683792114258,
+        "score": 0.01,
+        "seed": 770919,
+        "sim_time": 21.11999999999964,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 14.405333757400513
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 4.798703908920288,
+        "score": 0.8777821994836237,
+        "seed": 770925,
+        "sim_time": 9.79999999999988,
+        "success": true,
+        "timeout_zero": false,
+        "wall_time": 10.247579097747803
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 3.0796172618865967,
+        "score": 0.01,
+        "seed": 770937,
+        "sim_time": 4.879999999999984,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 8.474597454071045
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 25.086536169052124,
+        "score": 0.01,
+        "seed": 770939,
+        "sim_time": 60.00000000000378,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 30.795185089111328
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 2.756112813949585,
+        "score": 0.01,
+        "seed": 770949,
+        "sim_time": 5.439999999999972,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 8.132614135742188
+      }
+    ],
+    "type3_mountain": [
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 17.539621829986572,
+        "score": 0.01,
+        "seed": 770487,
+        "sim_time": 1.7600000000000011,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 24.04141092300415
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 11.867541074752808,
+        "score": 0.01,
+        "seed": 770490,
+        "sim_time": 1.2800000000000007,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 17.46245813369751
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 175.8142442703247,
+        "score": 0.6592662565303886,
+        "seed": 770495,
+        "sim_time": 51.32000000000242,
+        "success": true,
+        "timeout_zero": false,
+        "wall_time": 181.3892126083374
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 14.548222780227661,
+        "score": 0.01,
+        "seed": 770496,
+        "sim_time": 1.7600000000000011,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 20.0810329914093
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 19.305379390716553,
+        "score": 0.01,
+        "seed": 770497,
+        "sim_time": 4.2399999999999975,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 24.950038194656372
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 94.66899824142456,
+        "score": 0.01,
+        "seed": 770508,
+        "sim_time": 36.58000000000012,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 100.19583988189697
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 39.418534994125366,
+        "score": 0.01,
+        "seed": 770509,
+        "sim_time": 18.399999999999697,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 44.98691201210022
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 230.32993292808533,
+        "score": 0.01,
+        "seed": 770516,
+        "sim_time": 49.18000000000209,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 236.01744484901428
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 47.691683292388916,
+        "score": 0.01,
+        "seed": 770517,
+        "sim_time": 13.5599999999998,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 53.2329638004303
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 13.23234248161316,
+        "score": 0.01,
+        "seed": 770522,
+        "sim_time": 1.660000000000001,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 18.951048374176025
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 149.7678985595703,
+        "score": 0.01,
+        "seed": 770530,
+        "sim_time": 34.77999999999984,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 155.4214732646942
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 16.0479953289032,
+        "score": 0.01,
+        "seed": 770532,
+        "sim_time": 1.720000000000001,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 21.946431875228882
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 28.416340351104736,
+        "score": 0.01,
+        "seed": 770534,
+        "sim_time": 8.919999999999899,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 34.04659414291382
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 58.54532217979431,
+        "score": 0.01,
+        "seed": 770536,
+        "sim_time": 27.5799999999995,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 64.21268630027771
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 16.571504592895508,
+        "score": 0.01,
+        "seed": 770537,
+        "sim_time": 1.5000000000000009,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 22.305541038513184
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 13.384333848953247,
+        "score": 0.01,
+        "seed": 770544,
+        "sim_time": 1.1400000000000006,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 19.121511459350586
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 15.103710889816284,
+        "score": 0.01,
+        "seed": 770552,
+        "sim_time": 0.8000000000000004,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 20.64643907546997
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 72.41557478904724,
+        "score": 0.846186127582431,
+        "seed": 770556,
+        "sim_time": 30.639999999999436,
+        "success": true,
+        "timeout_zero": false,
+        "wall_time": 78.3626856803894
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 46.258421659469604,
+        "score": 0.01,
+        "seed": 770559,
+        "sim_time": 12.019999999999833,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 52.249614238739014
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 12.2261643409729,
+        "score": 0.01,
+        "seed": 770561,
+        "sim_time": 0.4200000000000001,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 18.143597841262817
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 14.727215051651001,
+        "score": 0.01,
+        "seed": 770579,
+        "sim_time": 1.740000000000001,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 20.44570279121399
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 14.79596471786499,
+        "score": 0.01,
+        "seed": 770580,
+        "sim_time": 1.7600000000000011,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 20.660832405090332
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 15.832567930221558,
+        "score": 0.01,
+        "seed": 770582,
+        "sim_time": 1.600000000000001,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 21.357794523239136
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 15.107752799987793,
+        "score": 0.01,
+        "seed": 770584,
+        "sim_time": 1.540000000000001,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 20.95152521133423
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 65.78259348869324,
+        "score": 0.8140988971560905,
+        "seed": 770589,
+        "sim_time": 20.739999999999647,
+        "success": true,
+        "timeout_zero": false,
+        "wall_time": 71.74245405197144
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 49.03864502906799,
+        "score": 0.8275931668212153,
+        "seed": 770600,
+        "sim_time": 16.719999999999732,
+        "success": true,
+        "timeout_zero": false,
+        "wall_time": 55.36226272583008
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 52.538960456848145,
+        "score": 0.01,
+        "seed": 770601,
+        "sim_time": 17.099999999999724,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 58.20718216896057
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 36.815248012542725,
+        "score": 0.01,
+        "seed": 770604,
+        "sim_time": 9.519999999999886,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 42.73530173301697
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 15.423399686813354,
+        "score": 0.01,
+        "seed": 770617,
+        "sim_time": 1.2800000000000007,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 21.19222402572632
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 225.12743020057678,
+        "score": 0.01,
+        "seed": 770626,
+        "sim_time": 60.00000000000378,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 230.70039772987366
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 14.358635663986206,
+        "score": 0.01,
+        "seed": 770634,
+        "sim_time": 1.2600000000000007,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 19.761364936828613
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 15.411916494369507,
+        "score": 0.01,
+        "seed": 770638,
+        "sim_time": 1.7800000000000011,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 21.311577320098877
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 13.793823719024658,
+        "score": 0.01,
+        "seed": 770650,
+        "sim_time": 1.4400000000000008,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 19.58478879928589
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 69.53307628631592,
+        "score": 0.01,
+        "seed": 770658,
+        "sim_time": 22.319999999999613,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 75.16217875480652
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 59.12860298156738,
+        "score": 0.01,
+        "seed": 770663,
+        "sim_time": 17.37999999999972,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 64.75920510292053
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 80.65888571739197,
+        "score": 0.9111570804760085,
+        "seed": 770672,
+        "sim_time": 21.95999999999962,
+        "success": true,
+        "timeout_zero": false,
+        "wall_time": 86.56272912025452
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 14.855202436447144,
+        "score": 0.01,
+        "seed": 770673,
+        "sim_time": 1.3600000000000008,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 20.64117193222046
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 15.319579124450684,
+        "score": 0.01,
+        "seed": 770682,
+        "sim_time": 1.4400000000000008,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 21.26874804496765
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 29.691505193710327,
+        "score": 0.01,
+        "seed": 770705,
+        "sim_time": 8.619999999999905,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 35.239664793014526
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 130.4053192138672,
+        "score": 0.7571171667190894,
+        "seed": 770718,
+        "sim_time": 28.97999999999947,
+        "success": true,
+        "timeout_zero": false,
+        "wall_time": 135.93052792549133
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 11.737198829650879,
+        "score": 0.01,
+        "seed": 770719,
+        "sim_time": 1.520000000000001,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 17.660690784454346
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 29.6107497215271,
+        "score": 0.8882131531704525,
+        "seed": 770731,
+        "sim_time": 10.199999999999871,
+        "success": true,
+        "timeout_zero": false,
+        "wall_time": 35.380149126052856
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 14.343345880508423,
+        "score": 0.01,
+        "seed": 770733,
+        "sim_time": 1.720000000000001,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 20.014923334121704
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 13.583616018295288,
+        "score": 0.01,
+        "seed": 770741,
+        "sim_time": 1.1800000000000006,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 19.24009609222412
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 14.265654563903809,
+        "score": 0.01,
+        "seed": 770747,
+        "sim_time": 1.2600000000000007,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 19.7807035446167
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 14.402880907058716,
+        "score": 0.01,
+        "seed": 770748,
+        "sim_time": 1.3600000000000008,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 20.114362239837646
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 13.877480506896973,
+        "score": 0.01,
+        "seed": 770753,
+        "sim_time": 1.620000000000001,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 19.477071523666382
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 12.93320894241333,
+        "score": 0.01,
+        "seed": 770755,
+        "sim_time": 1.1000000000000005,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 18.43893575668335
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 29.035066604614258,
+        "score": 0.8685962943315186,
+        "seed": 770756,
+        "sim_time": 10.459999999999866,
+        "success": true,
+        "timeout_zero": false,
+        "wall_time": 34.833319664001465
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 62.3884494304657,
+        "score": 0.7953538751070559,
+        "seed": 770765,
+        "sim_time": 27.399999999999505,
+        "success": true,
+        "timeout_zero": false,
+        "wall_time": 67.776780128479
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 33.22945713996887,
+        "score": 0.01,
+        "seed": 770768,
+        "sim_time": 8.479999999999908,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 38.66045570373535
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 137.84174728393555,
+        "score": 0.01,
+        "seed": 770783,
+        "sim_time": 60.00000000000378,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 142.9508183002472
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 14.672898054122925,
+        "score": 0.01,
+        "seed": 770784,
+        "sim_time": 1.0200000000000005,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 20.189241409301758
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 37.147557973861694,
+        "score": 0.01,
+        "seed": 770790,
+        "sim_time": 10.25999999999987,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 42.790122270584106
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 52.064473152160645,
+        "score": 0.01,
+        "seed": 770791,
+        "sim_time": 16.539999999999736,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 57.36911153793335
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 94.57118678092957,
+        "score": 0.01,
+        "seed": 770803,
+        "sim_time": 60.00000000000378,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 99.93772530555725
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 27.54190421104431,
+        "score": 0.01,
+        "seed": 770807,
+        "sim_time": 9.159999999999894,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 33.007269620895386
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 12.106481790542603,
+        "score": 0.01,
+        "seed": 770808,
+        "sim_time": 0.8200000000000004,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 18.2090163230896
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 13.655349731445312,
+        "score": 0.01,
+        "seed": 770822,
+        "sim_time": 1.3400000000000007,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 19.314584255218506
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 30.501225471496582,
+        "score": 0.01,
+        "seed": 770828,
+        "sim_time": 6.2599999999999545,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 36.20208287239075
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 56.03758692741394,
+        "score": 0.81045925034819,
+        "seed": 770836,
+        "sim_time": 28.759999999999476,
+        "success": true,
+        "timeout_zero": false,
+        "wall_time": 61.49884223937988
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 14.903815746307373,
+        "score": 0.01,
+        "seed": 770853,
+        "sim_time": 1.740000000000001,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 20.233736753463745
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 40.38826584815979,
+        "score": 0.8700917305445449,
+        "seed": 770856,
+        "sim_time": 13.859999999999793,
+        "success": true,
+        "timeout_zero": false,
+        "wall_time": 45.68613123893738
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 87.57910680770874,
+        "score": 0.01,
+        "seed": 770862,
+        "sim_time": 60.00000000000378,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 93.02558422088623
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 14.35948133468628,
+        "score": 0.01,
+        "seed": 770865,
+        "sim_time": 1.4600000000000009,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 19.7358455657959
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 12.396383285522461,
+        "score": 0.01,
+        "seed": 770866,
+        "sim_time": 2.0000000000000013,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 17.68694019317627
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 11.36555528640747,
+        "score": 0.01,
+        "seed": 770875,
+        "sim_time": 1.0800000000000005,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 16.76813793182373
+      }
+    ],
+    "type4_village": [
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 28.65999150276184,
+        "score": 0.01,
+        "seed": 770506,
+        "sim_time": 14.03999999999979,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 35.245086908340454
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 34.81811261177063,
+        "score": 0.01,
+        "seed": 770520,
+        "sim_time": 14.679999999999776,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 41.28353500366211
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 41.063493967056274,
+        "score": 0.01,
+        "seed": 770521,
+        "sim_time": 14.899999999999771,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 47.026795864105225
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 37.00422787666321,
+        "score": 0.8668280036676482,
+        "seed": 770531,
+        "sim_time": 13.779999999999795,
+        "success": true,
+        "timeout_zero": false,
+        "wall_time": 43.15590167045593
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 57.39538931846619,
+        "score": 0.01,
+        "seed": 770539,
+        "sim_time": 35.599999999999966,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 63.67406249046326
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 30.00452423095703,
+        "score": 0.01,
+        "seed": 770541,
+        "sim_time": 8.919999999999899,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 36.624611377716064
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 27.406493663787842,
+        "score": 0.01,
+        "seed": 770543,
+        "sim_time": 8.619999999999905,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 33.31520485877991
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 15.073542833328247,
+        "score": 0.01,
+        "seed": 770549,
+        "sim_time": 2.4600000000000017,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 21.77279543876648
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 22.813997745513916,
+        "score": 0.01,
+        "seed": 770555,
+        "sim_time": 12.779999999999816,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 29.550578832626343
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 106.80606937408447,
+        "score": 0.01,
+        "seed": 770585,
+        "sim_time": 50.700000000002326,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 112.81858801841736
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 23.886834383010864,
+        "score": 0.01,
+        "seed": 770586,
+        "sim_time": 7.319999999999932,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 30.38874912261963
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 36.611388206481934,
+        "score": 0.01,
+        "seed": 770591,
+        "sim_time": 21.01999999999964,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 42.32450842857361
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 46.5917546749115,
+        "score": 0.01,
+        "seed": 770595,
+        "sim_time": 25.75999999999954,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 52.21371269226074
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 73.6195752620697,
+        "score": 0.01,
+        "seed": 770596,
+        "sim_time": 29.699999999999456,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 79.13510513305664
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 69.4423177242279,
+        "score": 0.01,
+        "seed": 770606,
+        "sim_time": 33.57999999999965,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 74.96122479438782
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 22.582905530929565,
+        "score": 0.01,
+        "seed": 770607,
+        "sim_time": 8.979999999999897,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 28.183096885681152
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 26.142332553863525,
+        "score": 0.01,
+        "seed": 770611,
+        "sim_time": 18.079999999999703,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 31.465436458587646
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 22.997827291488647,
+        "score": 0.01,
+        "seed": 770612,
+        "sim_time": 10.73999999999986,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 28.575817346572876
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 39.6542763710022,
+        "score": 0.01,
+        "seed": 770614,
+        "sim_time": 24.559999999999565,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 45.022260427474976
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 99.70750761032104,
+        "score": 0.01,
+        "seed": 770619,
+        "sim_time": 39.28000000000054,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 105.21732950210571
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 19.448530912399292,
+        "score": 0.01,
+        "seed": 770622,
+        "sim_time": 5.919999999999962,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 25.584906101226807
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 64.7399263381958,
+        "score": 0.6417798910664758,
+        "seed": 770628,
+        "sim_time": 43.460000000001195,
+        "success": true,
+        "timeout_zero": false,
+        "wall_time": 70.57776713371277
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 40.10491967201233,
+        "score": 0.01,
+        "seed": 770630,
+        "sim_time": 18.819999999999688,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 45.75111794471741
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 64.32778978347778,
+        "score": 0.01,
+        "seed": 770642,
+        "sim_time": 35.69999999999998,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 69.58656024932861
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 18.233314275741577,
+        "score": 0.01,
+        "seed": 770647,
+        "sim_time": 5.3199999999999745,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 23.67982792854309
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 27.550967931747437,
+        "score": 0.01,
+        "seed": 770648,
+        "sim_time": 8.959999999999898,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 33.21778345108032
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 90.20670247077942,
+        "score": 0.01,
+        "seed": 770656,
+        "sim_time": 60.00000000000378,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 95.84971928596497
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 10.812145471572876,
+        "score": 0.01,
+        "seed": 770664,
+        "sim_time": 1.8000000000000012,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 16.476872205734253
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 87.73094272613525,
+        "score": 0.01,
+        "seed": 770671,
+        "sim_time": 60.00000000000378,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 93.07354187965393
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 24.74396514892578,
+        "score": 0.01,
+        "seed": 770681,
+        "sim_time": 6.339999999999953,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 30.227437019348145
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 66.3217191696167,
+        "score": 0.01,
+        "seed": 770683,
+        "sim_time": 23.519999999999587,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 71.95705914497375
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 62.52756142616272,
+        "score": 0.8174221701307117,
+        "seed": 770688,
+        "sim_time": 27.979999999999492,
+        "success": true,
+        "timeout_zero": false,
+        "wall_time": 68.2628026008606
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 18.472761392593384,
+        "score": 0.01,
+        "seed": 770693,
+        "sim_time": 4.799999999999986,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 23.89548921585083
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 19.98456072807312,
+        "score": 0.01,
+        "seed": 770695,
+        "sim_time": 7.1999999999999345,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 25.288206338882446
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 61.39307999610901,
+        "score": 0.01,
+        "seed": 770697,
+        "sim_time": 19.859999999999665,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 67.22222113609314
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 17.553330898284912,
+        "score": 0.01,
+        "seed": 770704,
+        "sim_time": 6.779999999999943,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 23.359631776809692
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 33.977198362350464,
+        "score": 0.01,
+        "seed": 770708,
+        "sim_time": 13.839999999999794,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 40.17188286781311
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 18.971031665802002,
+        "score": 0.01,
+        "seed": 770709,
+        "sim_time": 5.299999999999975,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 24.72841715812683
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 16.12874698638916,
+        "score": 0.01,
+        "seed": 770727,
+        "sim_time": 4.179999999999999,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 21.940613985061646
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 8.197901725769043,
+        "score": 0.01,
+        "seed": 770738,
+        "sim_time": 0.6200000000000002,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 13.658986330032349
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 34.862770557403564,
+        "score": 0.01,
+        "seed": 770739,
+        "sim_time": 10.159999999999872,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 40.5442111492157
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 23.885472536087036,
+        "score": 0.01,
+        "seed": 770742,
+        "sim_time": 10.639999999999862,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 29.909210443496704
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 106.2067232131958,
+        "score": 0.01,
+        "seed": 770754,
+        "sim_time": 43.22000000000116,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 112.71435618400574
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 65.15290808677673,
+        "score": 0.01,
+        "seed": 770759,
+        "sim_time": 25.059999999999555,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 71.04133987426758
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 16.22620964050293,
+        "score": 0.01,
+        "seed": 770761,
+        "sim_time": 3.860000000000003,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 22.054965019226074
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 35.243367195129395,
+        "score": 0.01,
+        "seed": 770773,
+        "sim_time": 18.579999999999693,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 41.94496536254883
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 87.6330394744873,
+        "score": 0.01,
+        "seed": 770777,
+        "sim_time": 40.48000000000073,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 93.40415239334106
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 41.198203802108765,
+        "score": 0.01,
+        "seed": 770792,
+        "sim_time": 20.61999999999965,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 46.99670910835266
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 32.7706458568573,
+        "score": 0.01,
+        "seed": 770797,
+        "sim_time": 14.339999999999783,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 38.34261512756348
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 10.301445960998535,
+        "score": 0.01,
+        "seed": 770801,
+        "sim_time": 1.5000000000000009,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 16.029279947280884
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 109.64217805862427,
+        "score": 0.01,
+        "seed": 770805,
+        "sim_time": 60.00000000000378,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 115.20919489860535
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 119.69652485847473,
+        "score": 0.01,
+        "seed": 770815,
+        "sim_time": 60.00000000000378,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 125.29453492164612
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 102.57344150543213,
+        "score": 0.01,
+        "seed": 770824,
+        "sim_time": 60.00000000000378,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 107.89764380455017
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 40.29317235946655,
+        "score": 0.7734726154377363,
+        "seed": 770838,
+        "sim_time": 23.559999999999587,
+        "success": true,
+        "timeout_zero": false,
+        "wall_time": 45.75375580787659
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 45.11472749710083,
+        "score": 0.01,
+        "seed": 770842,
+        "sim_time": 21.03999999999964,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 51.1449511051178
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 76.57245755195618,
+        "score": 0.01,
+        "seed": 770844,
+        "sim_time": 33.13999999999958,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 82.11565613746643
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 10.009974002838135,
+        "score": 0.01,
+        "seed": 770882,
+        "sim_time": 2.800000000000002,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 15.641304016113281
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 70.63580918312073,
+        "score": 0.01,
+        "seed": 770887,
+        "sim_time": 22.299999999999613,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 76.16608214378357
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 48.37221956253052,
+        "score": 0.01,
+        "seed": 770892,
+        "sim_time": 25.579999999999544,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 53.80733942985535
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 84.80128574371338,
+        "score": 0.01,
+        "seed": 770895,
+        "sim_time": 31.479999999999418,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 90.3830497264862
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 31.891521215438843,
+        "score": 0.01,
+        "seed": 770900,
+        "sim_time": 10.899999999999856,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 37.56036877632141
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 75.55803298950195,
+        "score": 0.01,
+        "seed": 770902,
+        "sim_time": 51.580000000002464,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 81.0478081703186
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 47.341203451156616,
+        "score": 0.01,
+        "seed": 770903,
+        "sim_time": 26.63999999999952,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 53.06657600402832
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 24.632206439971924,
+        "score": 0.01,
+        "seed": 770915,
+        "sim_time": 7.6199999999999255,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 29.867949724197388
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 20.91019868850708,
+        "score": 0.01,
+        "seed": 770924,
+        "sim_time": 5.099999999999979,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 26.34471893310547
+      },
+      {
+        "execution_ok": true,
+        "execution_status": "seed_done",
+        "processing_wall_time": 47.57922124862671,
+        "score": 0.01,
+        "seed": 770930,
+        "sim_time": 22.9399999999996,
+        "success": false,
+        "timeout_zero": false,
+        "wall_time": 53.14017057418823
+      }
+    ]
+  },
+  "host_parallelism": "process",
+  "num_workers": 12,
+  "requested_checkpoints": {
+    "first_100_seeds": {
+      "mean_score": 0.19003224743762626,
+      "n": 100,
+      "pass": false,
+      "threshold": 0.21
+    },
+    "first_150_seeds": {
+      "mean_score": 0.1746069419875147,
+      "n": 150,
+      "pass": false,
+      "threshold": 0.23
+    },
+    "first_200_seeds": {
+      "mean_score": 0.144468579873811,
+      "n": 200,
+      "pass": false,
+      "threshold": 0.26
+    },
+    "first_50_seeds": {
+      "mean_score": 0.20484199251887578,
+      "n": 50,
+      "pass": true,
+      "threshold": 0.16
+    }
+  },
+  "run_metrics": {
+    "avg_seeds_per_container": 1.0,
+    "avg_sim_per_seed_sec": 19.160300000000312,
+    "avg_startup_overhead_per_container_sec": 5.6395570600032805,
+    "avg_wall_per_seed_sec": 38.89960055589676,
+    "batch_count": 200,
+    "effective_parallelism": 11.202278428015958,
+    "execution_success_count": 200,
+    "execution_success_rate": 1.0,
+    "median_wall_per_seed_sec": 25.11912226676941,
+    "p90_wall_per_seed_sec": 82.11565613746643,
+    "success_count": 33,
+    "throughput_per_worker_seeds_per_min": 1.4398963315727176,
+    "throughput_seeds_per_min": 17.27875597887261,
+    "total_seed_worker_sec": 7779.920111179352,
+    "total_startup_overhead_sec": 1127.9114120006561,
+    "worker_utilization": 0.9335232023346632
+  },
+  "scores_in_evaluation_order": [
+    0.6609256466209441,
+    0.01,
+    0.01,
+    0.7979603392543485,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.938910703259138,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.72077254934195,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.9183687488100251,
+    0.01,
+    0.7531791277397117,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.8583527045391989,
+    0.01,
+    0.8641398096981472,
+    0.01,
+    0.01,
+    0.01,
+    0.8571268740260298,
+    0.01,
+    0.8759438206263372,
+    0.7002106193375586,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.9162086826904055,
+    0.01,
+    0.8783711259017768,
+    0.01,
+    0.01,
+    0.01,
+    0.8460490735585107,
+    0.01,
+    0.9201225935037716,
+    0.7670903433840305,
+    0.01,
+    0.01,
+    0.9245653338969563,
+    0.01,
+    0.8777821994836237,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.6592662565303886,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.846186127582431,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.8140988971560905,
+    0.8275931668212153,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.9111570804760085,
+    0.01,
+    0.01,
+    0.01,
+    0.7571171667190894,
+    0.01,
+    0.8882131531704525,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.8685962943315186,
+    0.7953538751070559,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.81045925034819,
+    0.01,
+    0.8700917305445449,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.8668280036676482,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.6417798910664758,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.8174221701307117,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.7734726154377363,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01
+  ],
+  "screening_checkpoints": {
+    "first_100_seeds": {
+      "mean_score": 0.19003224743762626,
+      "n": 100,
+      "pass": false,
+      "threshold": 0.2072
+    },
+    "first_150_seeds": {
+      "mean_score": 0.1746069419875147,
+      "n": 150,
+      "pass": false,
+      "threshold": 0.2331
+    },
+    "first_200_seeds": {
+      "mean_score": 0.144468579873811,
+      "n": 200,
+      "pass": false,
+      "threshold": 0.2509
+    },
+    "first_50_seeds": {
+      "mean_score": 0.20484199251887578,
+      "n": 50,
+      "pass": true,
+      "threshold": 0.1554
+    }
+  },
+  "seed_timings_note": "wall_time includes equal share of per-container startup overhead",
+  "startup_overhead_sec": 1127.9114120006561,
+  "timestamp": "2026-04-08 22:06:46",
+  "total_seeds": 200,
+  "wall_clock_sec": 694.4944424629211
+}

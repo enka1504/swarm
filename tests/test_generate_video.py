@@ -54,6 +54,49 @@ def test_expected_output_paths_match_video_filenames(tmp_path: Path) -> None:
     ]
 
 
+def test_parse_filter_types_accepts_comma_list() -> None:
+    assert video_mod._parse_filter_types("1") == {1}
+    assert video_mod._parse_filter_types("1, 5") == {1, 5}
+    assert video_mod._parse_filter_types(None) is None
+    assert video_mod._parse_filter_types("") is None
+    assert video_mod._parse_filter_types("   ") is None
+
+
+def test_parse_filter_types_rejects_invalid_type() -> None:
+    with pytest.raises(ValueError, match="Invalid challenge type"):
+        video_mod._parse_filter_types("9")
+
+
+def test_filter_jobs_by_challenge_types() -> None:
+    jobs = [
+        video_mod.VideoJob(seed=1, challenge_type=1),
+        video_mod.VideoJob(seed=2, challenge_type=2),
+    ]
+    assert video_mod._filter_jobs_by_challenge_types(jobs, {1}) == [jobs[0]]
+
+
+def test_filter_jobs_benchmark_success_only_keeps_success_rows(tmp_path: Path) -> None:
+    summary_path = tmp_path / "summary.json"
+    summary_path.write_text(
+        """{
+  "group_results": {
+    "type1_city": [{"seed": 101, "score": 0.5, "success": true, "sim_time": 12.0}],
+    "type2_open": [{"seed": 102, "score": 0.6, "success": false, "sim_time": 8.0}],
+    "type3_mountain": [],
+    "type4_village": [],
+    "type5_warehouse": [],
+    "type6_forest": []
+  }
+}"""
+    )
+    jobs = [
+        video_mod.VideoJob(seed=101, challenge_type=1),
+        video_mod.VideoJob(seed=102, challenge_type=2),
+    ]
+    filtered = video_mod._filter_jobs_benchmark_success_only(jobs, summary_path)
+    assert filtered == [video_mod.VideoJob(seed=101, challenge_type=1)]
+
+
 def test_load_benchmark_expectations_reads_group_results(tmp_path: Path) -> None:
     summary_path = tmp_path / "summary.json"
     summary_path.write_text(

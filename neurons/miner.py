@@ -1,14 +1,19 @@
 #!/usr/bin/env python3
 """
 Swarm Miner — commit model GitHub URL to Bittensor chain.
+2-0
+3-1
+1-2
 
+4-3
+5-4
 Usage:
-    python neurons/miner.py \
-        --netuid 124 \
-        --subtensor.network finney \
-        --wallet.name miner \
-        --wallet.hotkey default \
-        --github_url https://github.com/yourname/your-model
+   python neurons/miner.py \
+     --netuid 124 \
+     --subtensor.network finney \
+     --wallet.name dosin \
+     --wallet.hotkey dh2 \
+     --github_url "https://github.com/tonybilling/swarm-1"
 
 The GitHub URL is committed on-chain. The backend reads the chain
 periodically, downloads submission.zip from your repository, verifies
@@ -81,7 +86,19 @@ def main(argv=None):
         bt.logging.error(f"Failed to connect to {args.network}: {e}")
         return 1
 
-    metagraph = subtensor.metagraph(netuid=args.netuid)
+    # Default metagraph(lite=True) uses runtime API get_neurons_lite. After some
+    # chain upgrades, older bittensor builds can fail to decode that payload
+    # (RemainingScaleBytesNotEmptyException). Full sync (lite=False) is slower
+    # but uses a different query path that usually stays compatible.
+    try:
+        metagraph = subtensor.metagraph(netuid=args.netuid, lite=True)
+    except Exception as e:
+        bt.logging.warning(
+            "Lite metagraph sync failed (%s); retrying with lite=False (slower, more RPC). "
+            "Consider: pip install -U bittensor",
+            e,
+        )
+        metagraph = subtensor.metagraph(netuid=args.netuid, lite=False)
     if hotkey not in metagraph.hotkeys:
         bt.logging.error(
             f"Hotkey {hotkey[:16]}... is not registered on subnet {args.netuid}."
@@ -130,7 +147,6 @@ def main(argv=None):
         )
         bt.logging.error("=" * 60)
         return 1
-
 
 if __name__ == "__main__":
     sys.exit(main() or 0)

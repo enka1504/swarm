@@ -65,6 +65,8 @@ class _RunOptions:
     timeout_progress_min_sim_advance: float = 0.02
     max_seed_walltime_sec: float = 0.0
     default_log_out: Optional[str] = None
+    # When True, MapTask.moving_platform is forced on for every seed (validator stress mode).
+    force_moving_platform: bool = False
 
 
 @dataclass

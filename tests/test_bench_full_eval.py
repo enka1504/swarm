@@ -480,11 +480,11 @@ def test_run_benchmark_keeps_requested_worker_count(monkeypatch, tmp_path):
     class _FakeEvaluator:
         _base_ready = True
 
-    def _fake_random_task(sim_dt, seed):
-        _ = sim_dt
+    def _fake_task_for_seed_and_type(sim_dt, *, seed, challenge_type, moving_platform=None):
+        _ = moving_platform
         return SimpleNamespace(
             map_seed=seed,
-            challenge_type=5,
+            challenge_type=challenge_type,
             horizon=60.0,
             moving_platform=False,
             start=(0.0, 0.0, 0.0),
@@ -493,7 +493,7 @@ def test_run_benchmark_keeps_requested_worker_count(monkeypatch, tmp_path):
     import swarm.validator.docker.docker_evaluator as docker_eval_mod
     import swarm.validator.task_gen as task_gen
 
-    monkeypatch.setattr(task_gen, "random_task", _fake_random_task)
+    monkeypatch.setattr(task_gen, "task_for_seed_and_type", _fake_task_for_seed_and_type)
     monkeypatch.setattr(docker_eval_mod, "DockerSecureEvaluator", _FakeEvaluator)
     async def _fake_process_mode(**kwargs):
         captured["effective_workers"] = kwargs["effective_workers"]
@@ -539,11 +539,11 @@ def test_run_benchmark_uses_process_mode_runner(monkeypatch, tmp_path):
     class _FakeEvaluator:
         _base_ready = True
 
-    def _fake_random_task(sim_dt, seed):
-        _ = sim_dt
+    def _fake_task_for_seed_and_type(sim_dt, *, seed, challenge_type, moving_platform=None):
+        _ = moving_platform
         return SimpleNamespace(
             map_seed=seed,
-            challenge_type=5,
+            challenge_type=challenge_type,
             horizon=60.0,
             moving_platform=False,
             start=(0.0, 0.0, 0.0),
@@ -571,7 +571,7 @@ def test_run_benchmark_uses_process_mode_runner(monkeypatch, tmp_path):
     import swarm.validator.docker.docker_evaluator as docker_eval_mod
     import swarm.validator.task_gen as task_gen
 
-    monkeypatch.setattr(task_gen, "random_task", _fake_random_task)
+    monkeypatch.setattr(task_gen, "task_for_seed_and_type", _fake_task_for_seed_and_type)
     monkeypatch.setattr(docker_eval_mod, "DockerSecureEvaluator", _FakeEvaluator)
     monkeypatch.setattr(
         bench_full_eval,
